@@ -1,0 +1,77 @@
+site_name: Diagnostic Robotic Optimization Platform (DROP)
+repo_url: https://github.com/Global-Health-Labs/DROP_Overview
+#site_url: 
+theme:
+  name: material
+  favicon: 'img/favicon.ico'
+  icon:
+    repo: fontawesome/brands/github
+    annotation: material/message-question-outline
+  features: 
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.indexes
+    #- navigation.sections
+    #- navigation.expand
+    - navigation.tracking
+    - navigation.path
+    - navigation.tracking
+    - content.code.copy
+    - navigation.footer
+  palette:
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: 'blue grey'
+      accent: 'amber'
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: 'blue grey'
+      accent: 'amber'
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+  logo: 'images/favicon.svg'
+extra_css:
+  - stylesheets/extra.css
+exclude_docs: |
+  /readme.md
+markdown_extensions:
+  - abbr
+  - attr_list
+  - def_list
+  - md_in_html
+  - pymdownx.blocks.caption
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - footnotes
+  - pymdownx.snippets:
+      base_path: !relative $config_dir  # Relative to the root directory with mkdocs.yml
+      auto_append:
+        - docs/abbreviations.txt
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+plugins:
+  - search
+  - awesome-nav
+  - macros
+  - table-reader
+  # - git-revision-date-localized:
+  #     enable_creation_date: true
+extra:
+  files_url: 'https://github.com/Global-Health-Labs/DROP_Overview/blob/main'
+  #name: null
+  #custom_dir: 'cinder'
+
+#markdown_extensions: 
+#  - tables 
+#  - toc:
+#      permalink: true
+
+
