@@ -7,21 +7,22 @@ The LogFile is a file that is created every single time a worklist is run, wheth
 There are a couple ways to tell if you have the correct log file, one is by looking for the most recent one (you can tell by what the date modified value is) assuming it was the most recent experiment run. Another is by opening the file and looking for the line that says "fileWorklist =". On the right side of the equation, the location and name of the worklist file loaded will be shown. This is another way to confirm you have the correct file. 
 
 
+
 ## Common Errors
 | Section           | Error | Link     |
 | :-------------- | :-------------------------- | :---------------------: |
-| `Worklist Error`             | Worklist file not found|[🗊](http://127.0.0.1:8000/common_errors/#worklist-file-not-found) |
-| `Worklist Error`             | CSV in incorrect format |[🗊](http://127.0.0.1:8000/common_errors/#csv-in-incorrect-format) |
-| `Worklist Error`             | Liquid class type mismatch |[🗊](http://127.0.0.1:8000/common_errors/#liquid-class-type-mismatch)|
-| `Worklist Error`             | Volume outside of liquid class correction curve|[🗊](http://127.0.0.1:8000/common_errors/#volume-outside-correction-curve)|
-| `Worklist Error`             | Incorrect group numbering |[🗊](http://127.0.0.1:8000/common_errors/#incorrect-group-numbering)|
-| `Worklist Error`             | Labware definitions incorrect for deck layout|[🗊](http://127.0.0.1:8000/common_errors/#labware-definitions-incorrect-for-deck-layout)|
-| `Pipette Error`             | Insufficient tips loaded (simulation or on instrument)|[💧](http://127.0.0.1:8000/common_errors/#insufficient-tips)|
-| `Pipette Error`             | No liquid detected |[💧](http://127.0.0.1:8000/common_errors/#no-liquid-detected)|
-| `Pipette Error`             | Pipette does not reach bottom of labware |[💧](http://127.0.0.1:8000/common_errors/#pipette-does-not-reach-labware-bottom)|
-| `Pipette Error`             | Incorrect pipette tip assignment|[💧](http://127.0.0.1:8000/common_errors/#incorrect-pipette-tip-assignment)|
-| `Pipette Error`             | 50uL/300uL tips swapped |[💧](http://127.0.0.1:8000/common_errors/#tip-swap)|
-| `Pipette Error`             | Pipetting channel cannot reach location on deck|[💧](http://127.0.0.1:8000/common_errors/#channel-cannot-reach-location)|
-| `Camera Error`             | Camera unable to take or save images due to incorrect library|[📷](http://127.0.0.1:8000/common_errors/#incorrect-library)|
-| `Camera Error`             | Camera unable to take or save images due to lack of space on computer |[📷](http://127.0.0.1:8000/common_errors/#lack-of-space)|
-| `Miscellaneous Error`             | Configuration file gets corrupted|[📍](http://127.0.0.1:8000/common_errors/#corrupted-cfg-file)|
+| `Worklist Error`             | Worklist file not found|[🗊](./Worklist%20Errors.md) |
+| `Worklist Error`             | CSV in incorrect format |[🗊](./Worklist%20Errors.md) |
+| `Worklist Error`             | Liquid class type mismatch |[🗊](./Worklist%20Errors.md)|
+| `Worklist Error`             | Volume outside of liquid class correction curve|[🗊](./Worklist%20Errors.md)|
+| `Worklist Error`             | Incorrect group numbering |[🗊](./Worklist%20Errors.md)|
+| `Worklist Error`             | Labware definitions incorrect for deck layout|[🗊](./Worklist%20Errors.md)|
+| `Pipette Error`             | Insufficient tips loaded (simulation or on instrument)|[💧](./Pipette%20Errors.md)|
+| `Pipette Error`             | No liquid detected |[💧](./Pipette%20Errors.md)|
+| `Pipette Error`             | Pipette does not reach bottom of labware |[💧](./Pipette%20Errors.md)|
+| `Pipette Error`             | Incorrect pipette tip assignment|[💧](./Pipette%20Errors.md)|
+| `Pipette Error`             | 50uL/300uL tips swapped |[💧](./Pipette%20Errors.md)|
+| `Pipette Error`             | Pipetting channel cannot reach location on deck|[💧](./Pipette%20Errors.md)|
+| `Camera Error`             | Camera unable to take or save images due to incorrect library|[📷](./Camera%20Errors.md)|
+| `Camera Error`             | Camera unable to take or save images due to lack of space on computer |[📷](./Camera%20Errors.md)|
+| `Miscellaneous Error`             | Configuration file gets corrupted|[📍](./Miscellaneous%20Errors.md)|

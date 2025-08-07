@@ -1,12 +1,12 @@
 ![DROP Quickstart](./images/DROP_Quickstart.png) <br>
-<small>Figure 1. High level overview of the DROP workflow. This workflow includes (1) Experimental design (2) Experiment setup (3) Experiment validation (4) Running an experiment and (%) Data analysis. In most applications, futher iteration would continue until product criteria are met.  </small>
+<small>Figure 1. High level overview of the DROP workflow. This workflow includes (1) Experimental design (2) Experiment setup (3) Experiment validation (4) Running an experiment and (5) Data analysis. In most applications, futher iteration would continue until product criteria are met.  </small>
 
 ## :material-robot-outline:  **Step 0: Equipment set up**
 
 DROP is an add on to a Hamilton STAR system that consists of hardware, software, and protocols specific to this work. Other Hamilton systems could be used with some modifications to the Method/Layout files and LFA hardware. 
 
 ![DROP STAR](./images/DROP%20system%20overview.png) <br> <br>
-<small>Figure 2.  </small>
+<small>Figure 2. Image of Hamilton STAR, base of the DROP system, with specific add ons required for the build. This includes type of pipette head (other options are 96 and 384 head, which work well for plate applications but are not flexible enough for LFA applications), VENUS software, tip and plate carriers, and on board camera. NAAT applications also require a HEPA filter and UV hood to reduce the risk of contamination. </small>
 
 **Additional capabilities recommended:**
 
@@ -30,7 +30,7 @@ Experimental design for LFAs and NAATs can take many forms. One of the major ben
 + Full factorial design to determine the best antibody pairs for a given antigen target 
 + Taguchi design for PCR optimization 
 
-More detail on each of these can be found in the respective RoboLFA and roboNAAT Modules. 
+More detail on each of these can be found in the respective roboLFA and roboNAAT Modules. 
 
 ![DROP DOE](./images/DOE_example.jpg) <br>
 <small>Figure 3. Graphical representation of experimental designs for a 3-dimensional experimental space. Image from [Prism UK](https://prismtc.co.uk/resources/blogs-and-articles/the-sequential-nature-of-classical-design-of-experiments).  </small>

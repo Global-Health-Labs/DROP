@@ -27,9 +27,9 @@
 ## VENUS installation
 1.	Download VENUS onto local machine. Also download the following supporting files that are required as described above.
 2.	Run Venus.STAR.Installer.exe and follow the prompts. This step might take a while.
-    - When you get to the "Select Features" Window, make sure to select ALL features listed. If you skip this step, the final software will not be able to run the Method correctly. <br>
-            ![VENUS Installation Wizard](./images/VENUS-installation-wizard.png) <br>
-            <small>Figure 1. Screenshot of VENUS software installation wizard. Select all features to ensure proper execution of the Method. </small> <br><br>
+    - When you get to the "Select Features" Window, make sure to select ALL features listed. If you skip this step, the final software will not be able to run the Method correctly. <br> <br>
+    ![VENUS Installation Wizard](./images/VENUS-installation-wizard.png) <br>
+    <small>Figure 1. Screenshot of VENUS software installation wizard. Select all features to ensure proper execution of the Method. </small> <br><br>
 3.	Once installation is completed, open the VENUS software. 
 
 ## Method and Library Import 
@@ -40,13 +40,13 @@
     - DROP_NAAT.pkg
     - DROP_LFA.pkg
     - STAR_Animations V1.6.0 200416.pkg 
-6.	Select "Import" in the Hamilton Method Editor. Make sure the section that is selected is Import Method/Library/Workflow. Select the "..." and navigate to the .pkg file you are installing. Select "Next". <br>
+6.	Select "Import" in the Hamilton Method Editor. Make sure the section that is selected is Import Method/Library/Workflow. Select the "..." and navigate to the .pkg file you are installing. Select "Next". <br> <br>
     ![VENUS System Tools](./images/VENUS-import-method.png) <br>
     <small> Figure 3. Pop up in Hamilton Method Editor to Import a Method file. Make sure that Import Method / Library / Workflow are selected. </small> <br><br>
-7.	Select "Import into Default Directories". Once selected, click "Next". 
+7.	Select "Import into Default Directories". Once selected, click "Next". <br><br>
     ![VENUS System Tools](./images/VENUS-import-method-2.png) <br>
     <small> Figure 4. Instructions for importing a new Method into the Hamilton Method editor. It is recommended to select "Import into Default Directories" as the best option. </small> <br><br>
-8.	The package file will be imported. There might be a popup that says that the file already exists and that the existing file is newer than the file in the package. If you get this pop up, select the option "No to all". <br>
+8.	The package file will be imported. There might be a popup that says that the file already exists and that the existing file is newer than the file in the package. If you get this pop up, select the option "No to all". <br><br>
     ![VENUS System Tools](./images/VENUS-import-method-3.png) <br>
     <small> Figure 5. Screen while the Method is being imported by the Method Editor. </small> <br><br>
     ![VENUS confirm replace file](./images/VENUS-confirm-replace-file.png) <br>
@@ -60,13 +60,13 @@
     - Follow the instructions to install the application.
 
 ## Import Liquid Classes
-11.	To load the liquid classes required to run the DROP system, navigate back to System Tools in the VENUS software. In System Tools, select the Liquid Class Editor. 
+11.	To load the liquid classes required to run the DROP system, navigate back to System Tools in the VENUS software. In System Tools, select the Liquid Class Editor. <br><br>
     ![Hamilton CO-RE Liquid Editor](./images/VENUS-liquid-editor.png) <br>
     <small> Figure 8. View of the Hamilton CO-RE Liquid Editor. This contains all the liquid classes that are imported as well as all default Hamilton liquid classes. </small> <br><br>
-12.	Under "File", select "Import Liquid Classes". <br>
+12.	Under "File", select "Import Liquid Classes". <br><br>
     ![Import Liquid Classes](./images/Liquid-class-import.png) <br>
     <small> Figure 9. User view in the Liquid class editor to import liquid classes.  </small> <br><br>
-13.	Select the file DROP_Liquid_Classes.mdb when prompted to Open File. The liquid classes in the file will load on the left hand side under "Available liquid classes". Select "Add all" to move them into the "Selected liquid classes" column. Then select "OK".
+13.	Select the file DROP_Liquid_Classes.mdb when prompted to Open File. The liquid classes in the file will load on the left hand side under "Available liquid classes". Select "Add all" to move them into the "Selected liquid classes" column. Then select "OK".<br><br>
     ![Import Liquid Classes](./images/Liquid-class-import-2.png) <br>
     <small> Figure 10. User view of the liquid class import page at the start. </small> <br><br>
 
@@ -79,12 +79,12 @@
 14.	Once complete, the new liquid classes can be found in the list of Liquid classes. Verify that is the case and close the Hamilton CO-RE Liquid Editor.  
 
 ## Import shortcuts 
-15.	Import the shortcuts by navigating to the Settings in the VENUS 6 software. Select the "Shortcuts" tab on the upper bar. Select the three lines on the far right. 
+15.	Import the shortcuts by navigating to the Settings in the VENUS 6 software. Select the "Shortcuts" tab on the upper bar. Select the three lines on the far right. <br><br>
 
     ![Import Shortcuts](./images/import-shortcuts.png) <br>
     <small> Figure 13. User view to import shortcuts into VENUS 6. </small> <br><br>
 
-16.	Select Import Items and load the VENUS-Export-Shortcuts.zip file. Once loaded, all of the shortcuts will show up in their respective groupings. Select "Import" and the software will begin importing the selected package(s).
+16.	Select Import Items and load the VENUS-Export-Shortcuts.zip file. Once loaded, all of the shortcuts will show up in their respective groupings. Select "Import" and the software will begin importing the selected package(s). <br><br>
 
     ![Import Shortcuts](./images/import-shortcuts-2.png) <br>
     <small> Figure 14. User view when shortcuts have been loaded for import. </small> <br><br>

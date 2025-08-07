@@ -35,7 +35,7 @@ Running an experiment using the DROP system requires the use of a number of tool
 RoboLFA is the DROP module that was designed to run LFA chemistries on the Hamilton STAR. This system has been used primarily for the selection and optimization of antibody pairs for a traditional LFA antibody stack. Additional applicaitons include optimization of membrane materials, blocking and running buffers, drying and spraying conditions, and conjugate chemistry optimization. More about this module can be found in the RoboLFA tab above. 
 
 ![Diagnostic Robotic Optimization Platform (DROP) for LFA](./images/DROP_LFA_Flowchart.png)
-<small>Figure 4. Flow chart describing use of DROP system for LFA applications. </small>
+<small>Figure 2. Flow chart describing use of DROP system for LFA applications. </small>
 
 RoboNAAT is the DROP module that was designed to run NAAT chemistries on the Hamilton STAR. This module has been used for the optimization and characterization of a range of nucleic acid amplification chemistries, including polymerase chain reaction (PCR), loop-mediated isothermal amplification (LAMP) and recombinase polymerase amplification (RPA). 
 
@@ -48,7 +48,7 @@ RoboNAAT is the DROP module that was designed to run NAAT chemistries on the Ham
 
 + RoboNAAT and RoboLFA designs locked and available to be shared 
 + RADA web application for simplified use of Hamilton STAR completed and available for additional deployments
-+ This technology has been transferred to partners in India (C-CAMP/InDx and MolBio/Bigtec EDGE 2.0) and the UK (GADx) 
++ This technology has been transferred to partners in India (C-CAMP/InDx) and the UK (GADx) 
 + Continued development is needed in the following areas:
     + Application of DROP to accelerate bringing diagnostic products to market
     + Experimental design for NAAT experiments – finding optimal DOE for different amplification chemistries 
