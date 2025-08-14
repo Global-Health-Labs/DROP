@@ -12,26 +12,26 @@ The objective of this document is to describe the pieces of hardware that might 
 
 **Table 1.** Assembly of Hamilton base carriers that are modified so they can provide fiducial markers when LFA or cassette holders are placed on top. 
 
-| No. | File Name       | Description    | Vendor            | Part No. | Qty   | Modified | Link |
-| :-- | :-------------- | :------------- | :---------------- | :------- | :--: |:-------- |:---: |
-| 1   | 047284.SLDASM   | Base assembly  | Hamilton Robotics |          | 3     |          |      |
-| 2   | 047283.SLDPRT   | Carrier base   | Hamilton Robotics |188039/00 | 1     |          | 1    |
-| 3   | 047279.SLDASM   | Hamilton stand | Hamilton Robotics |See above | 3     |          | 1    |
-| 4   | 047274.SLDPRT   | Top plate      | Hamilton Robotics |          | 3     | Pin holes added | 3 |
-| 5   | 047275.SLDPRT   | Leg            | Hamilton Robotics |          | 2     | No       | 3    |
-| 6   | 047281.SLDASM   | Hamilton stand | Hamilton Robotics |See above | 1     |          | 1    |
-| 7   | 047273.SLDPRT   | Top plate      | Hamilton Robotics |          | 1     | Pin and threaded holes added| 6 |
-| 8   | 047275.SLDPRT   | Leg            | Hamilton Robotics |          | 2     | No       | 6    |
-| 9   | 047282.SLDASM   | Hamilton stand | Hamilton Robotics |          | 1     | No       | 1    |
-| 10  | 047277.SLDPRT   | Top plate      | Hamilton Robotics |          | 1     | No       | 9    |
-| 11  | 047275.SLDPRT   | Leg            | Hamilton Robotics |          | 2     | No       | 9    |
+| No.| File Name       | Description    | Vendor            | Part No. | Qty   | Modified | Link |
+| :- | :-------------- | :------------- | :---------------- | :------- | :--: |:-------- |:---: |
+| 1  | 047284.SLDASM   | Base assembly  | Hamilton Robotics |          | 3     |          |      |
+| 2  | 047283.SLDPRT   | Carrier base   | Hamilton Robotics |188039/00 | 1     |          | 1    |
+| 3  | 047279.SLDASM   | Hamilton stand | Hamilton Robotics |See above | 3     |          | 1    |
+| 4  | 047274.SLDPRT   | Top plate      | Hamilton Robotics |          | 3     | Pin holes added | 3 |
+| 5  | 047275.SLDPRT   | Leg            | Hamilton Robotics |          | 2     | No       | 3    |
+| 6  | 047281.SLDASM   | Hamilton stand | Hamilton Robotics |See above | 1     |          | 1    |
+| 7  | 047273.SLDPRT   | Top plate      | Hamilton Robotics |          | 1     | Pin and threaded holes added| 6 |
+| 8  | 047275.SLDPRT   | Leg            | Hamilton Robotics |          | 2     | No       | 6    |
+| 9  | 047282.SLDASM   | Hamilton stand | Hamilton Robotics |          | 1     | No       | 1    |
+| 10 | 047277.SLDPRT   | Top plate      | Hamilton Robotics |          | 1     | No       | 9    |
+| 11 | 047275.SLDPRT   | Leg            | Hamilton Robotics |          | 2     | No       | 9    |
 
 **Table 2.** Alignment posts and spacers to enable correct assembly. A * in the No. column indicates that GH Labs will be providing this part.
 
-| No. | File Name       | Description    | Vendor            | Part No. | Qty  | Modified | Link  |
-| :-- | :-------------- | :------------- | :---------------- | :------- | :--: |:-------- |:-----: |
-| 12  | 047288.SLDPRT   | Alignment posts| Custom            | N/A      | 2    |          | 1 + 16 |
-| 13  | Hamilton_spacer.SLDPRT | Spacers | Custom            | N/A      | 2    |          | 1 + 16 |
+| No.| File Name       | Description    | Vendor            | Part No. | Qty  | Modified | Link  |
+| :- | :-------------- | :------------- | :---------------- | :------- | :--: |:-------- |:-----: |
+| 12 | 047288.SLDPRT   | Alignment posts| Custom            | N/A      | 2    |          | 1 + 16 |
+| 13 | Hamilton_spacer.SLDPRT | Spacers | Custom            | N/A      | 2    |          | 1 + 16 |
 
 Note: Hamilton_spacer.SLDPRT doesn’t correctly account for tolerances, there is a need for us to improve the file to account for tolerances if this part is 3D printed.
 
@@ -50,10 +50,10 @@ When starting a new RoboLFA effort, it is critical to understand the requirement
 
 **Table 4.** LFA Strip Holder which consist of an aluminum base onto which 3D printed pieces are screwed. Similar to the RoboLFA Cassette Holder, The size and spacing of the strips can be varied depending on the need of the specific LFA. The dimensions of the wells, pinch points, and read windows can all be modified as needed. We typically have used ABS (acrylonitrile butadiene styrene) for this part. A * in the No. column indicates that GH Labs will be providing this part.
 
-| No. | File Name       | Description    | Vendor            | Part No. | Qty  | Modified | Link  |
-| :-- | :-------------- | :------------- | :---------------- | :------- | :--: |:-------- |:-----: |
-| 14  | 047286.SLDPRT   | LFA strip holder base | Custom            | N/A      | 1-5  |          | 1 |
-| 15  | 056923.SLDPRT (LFA Holder 3)| LFA strip top+bottom frame|Custom|N/A    | 1-5  |          | 14|
+| No.| File Name       | Description    | Vendor            | Part No. | Qty  | Modified | Link  |
+| :- | :-------------- | :------------- | :---------------- | :------- | :--: |:-------- |:-----: |
+| 14 | 047286.SLDPRT   | LFA strip holder base | Custom            | N/A      | 1-5  |          | 1 |
+| 15 | 056923.SLDPRT (LFA Holder 3)| LFA strip top+bottom frame|Custom|N/A    | 1-5  |          | 14|
 
 CAD files can be found here: 
 
@@ -75,10 +75,10 @@ The cassette holder consists of:
 ![LFA Cassette Holders](./images/LFA_cassette_holder.png) <br>
 <small>Figure 3. Holder for cassetted LFAs. The designed holder consists of two parts, (1) an aluminum base plate, (2) a laser cut 1/16" acrylic sheet designed to fit cassettes with little "wiggle room".  Image from https://doi.org/10.1007/s00216-022-03897-9</small>
 
-| No. | File Name       | Description    | Vendor            | Part No. | Qty  | Modified | Link  |
-| :-- | :-------------- | :------------- | :---------------- | :------- | :--: |:-------- |:-----: |
-| 16  | 047287.SLDPRT   | LFA cassette deck| Custom            | N/A      | 1    |Holes for alignment posts and posts for cassette holder| 12 + 13 |
-| 17  | 038379_v1.SLDPRT or  038379_v2.SLDPRT (LFA Holder 4) | LFA cassette holder | Custom            | N/A      | 1    |Holes for posts and cassettes (LFA cassette dependent)| 16 |
+| No.| File Name       | Description    | Vendor            | Part No. | Qty  | Modified | Link  |
+| :- | :-------------- | :------------- | :---------------- | :------- | :--: |:-------- |:-----: |
+| 16 | 047287.SLDPRT   | LFA cassette deck| Custom            | N/A      | 1    |Holes for alignment posts and posts for cassette holder| 12 + 13 |
+| 17 | 038379_v1.SLDPRT or  038379_v2.SLDPRT (LFA Holder 4) | LFA cassette holder | Custom            | N/A      | 1    |Holes for posts and cassettes (LFA cassette dependent)| 16 |
 
 CAD link:
 
