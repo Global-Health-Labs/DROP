@@ -45,54 +45,50 @@ The LFA Image Analysis code was designed to be flexible for various LFA and RDT 
 
 ## Instructions for use
 
-### Install Jupyter Notebook: If not already installed 
-1. From Terminal: Follow the instructions described here https://www.geeksforgeeks.org/install-jupyter-notebook-in-windows/
-2. From Anaconda (recommended)
-    + Install Anaconda: Follow the instructions described here https://www.geeksforgeeks.org/how-to-install-anaconda-on-windows/
-    + Install Jupyter Notebook in Anaconda: Follow the instructions here https://www.geeksforgeeks.org/install-jupyter-notebook-in-windows/
+1. **Install Jupyter Notebook** If not already installed 
+    + From Terminal: Follow the instructions described here https://www.geeksforgeeks.org/install-jupyter-notebook-in-windows/
+    + From Anaconda (recommended)
+        + Install Anaconda: Follow the instructions described here https://www.geeksforgeeks.org/how-to-install-anaconda-on-windows/
+        + Install Jupyter Notebook in Anaconda: Follow the instructions here https://www.geeksforgeeks.org/install-jupyter-notebook-in-windows/
+2. **Copy analysis files to the experiment folder** 
+    + Jupyter Notebook: ‘Batch_files_and_run.ipynb’
+    + Python file(s): ‘backend.py’, ‘generate_batch_files_and_run.py’, ‘Hamilton_image_analysis.py’
+3. **Launch Jupyter Notebook**
+    + Option 1: Command prompt 
+        + Open your terminal or command prompt.
+        + Run the following command to start Jupyter Notebook: jupyter notebook
+    + Option 2: Anaconda 
+        + Open Anaconda
+        + Click on the Jupyter notebook icon
+    + Option 3: Programs (works only if Anaconda is installed)
+        + Navigate to Jupyter notebook in programs or by typing in the OS search bar
+4. **Open the Notebook**
+    + A new tab will open in your default web browser showing the Jupyter Notebook interface.
+    + Navigate through the file browser to find and click on ‘Batch_files_and_run.ipynb’ file.
+5. **Run each Kernel**
+    + Run one Kernel at a time by selecting the Kernel and pressing Shift + Enter or by selecting the “Run” button on the toolbar. 
+    + When a Kernel is running, a [*] will appear next to “In” on the left-hand side. Once it is complete there will be a number that appears inside the brackets. 
 
-### Copy analysis files to the experiment folder 
-3. Jupyter Notebook: ‘Batch_files_and_run.ipynb’
-4. Python file(s): ‘backend.py’, ‘generate_batch_files_and_run.py’, ‘Hamilton_image_analysis.py’
-
-### Launch Jupyter Notebook
-5. Option 1: Command prompt 
-    + Open your terminal or command prompt.
-    + Run the following command to start Jupyter Notebook: jupyter notebook
-6. Option 2: Anaconda 
-    + Open Anaconda
-    + Click on the Jupyter notebook icon
-7. Option 3: Programs (works only if Anaconda is installed)
-    + Navigate to Jupyter notebook in programs or by typing in the OS search bar
-
-### Open the Notebook
-8. A new tab will open in your default web browser showing the Jupyter Notebook interface.
-9. Navigate through the file browser to find and click on ‘Batch_files_and_run.ipynb’ file.
-
-### Run each Kernel
-10. Run one Kernel at a time by selecting the Kernel and pressing Shift + Enter or by selecting the “Run” button on the toolbar. 
-11. When a Kernel is running, a [*] will appear next to “In” on the left-hand side. Once it is complete there will be a number that appears inside the brackets. 
 *Note: Make sure to run the Kernels in order. The analysis will not complete successfully if they are run out of order.* 
 
-### Review Output
-12. In the analysis folder, the following file will be generated
-    + all_results.csv
-    + A batch file for every folder of images that is analyzed. Naming will be “Folder name”.bat
-13. In the image folder, the following files will be generated
-    + image.csv
-    + image_ROI_line.pdf
+6. **Review Output**
+    + In the analysis folder, the following file will be generated
+        + all_results.csv
+        + A batch file for every folder of images that is analyzed. Naming will be “Folder name”.bat
+    + In the image folder, the following files will be generated
+        + image.csv
+        + image_ROI_line.pdf
+7. Save and shut down 
+    + Remember to save your work frequently by clicking the save icon or pressing Ctrl + S.
+    + When you’re done, you can shut down the notebook by closing the browser tab and stopping the Jupyter server in your terminal by pressing Ctrl + C.
 
-### Save and shut down 
-14. Remember to save your work frequently by clicking the save icon or pressing Ctrl + S.
-15. When you’re done, you can shut down the notebook by closing the browser tab and stopping the Jupyter server in your terminal by pressing Ctrl + C.
-
-## Project layout after successful analysis
+### Project layout after successful analysis
 
     backend.py                          # Backend code that enables image processing and analysis. 
     generate_batch_files_and_run.ipynb  # Jupyter notebook that generates batch files and runs analysis. 
     Hamilton_image_analysis.py          
-    images.bat                          # Batch file generated for each folder of images to be analyzed.
-    all_results.csv                     # CSV file with the data generated from all images analyzed.
+    images.bat                          # Batch file  for each folder of images to be analyzed.
+    all_results.csv                     # CSV file with the data from all images analyzed.
     images/                             # Folder of images to be analyzed. 
         image.csv                       # CSV file with the data generated from the images in this folder.
         image_ROI_line.pdf              # PDF with images and curves generated from data in this folder. 
