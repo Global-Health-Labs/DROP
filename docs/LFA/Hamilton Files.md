@@ -5,7 +5,7 @@ The Hamilton Method designed by GH Labs was built with the goal of ultimate flex
 This deck layout was designed for running lateral flow assays and rapid diagnostic tests. These assay/tests can be in either strip or cassette form. There are specific holders for each so that their locations are consistent. For most LFAs, nesting tip racks (NTRs) can be used to maximize the available space on the deck for cassettes or strips. 
 
 ![LFA Deck Layout](./images/LFA_Deck_Layout.png) <br>
-<small> Figure 1. Description </small> <br><br>
+<small> Figure 1. Deck layout for RoboLFA. Specific information about each deck location can be found in the tables below. Modifications can be made to the deck layout in VENUS software. </small> <br><br>
 
 ### Plate Locations
 The deck layout has been defined with the following labware in their respective positions. To use all of these deck locations, the Hamilton flat plate adapter needs to be added to locations 1-9. For most experiments, these will not be required as the only plates used will be in locations 11-14. 
