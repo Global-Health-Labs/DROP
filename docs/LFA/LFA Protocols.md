@@ -1,5 +1,7 @@
 The DROP workflow, diagrammed in Figure 1 below, includes experimental design, experiment setup, experiment validation, running the experiment, and data analysis. This document specifically covers the procedures for Steps 3 and 4: experiment validation and running the experiment. Additional information about assay specific worklist generation and data analysis can be found in their respective pages. 
 
+![DROP Overview](./images/DROP%20workflow%20overview.png)
+
 ![DROP Quickstart](./images/DROP%20workflow%20overview.png) <br>
 <small>Figure 1. High level overview of the DROP workflow. This workflow includes (1) Experimental design (2) Experiment setup (3) Experiment validation (4) Running an experiment and (5) Data analysis. In most applications, futher iteration would continue until product criteria are met.  </small>
 
@@ -27,6 +29,7 @@ The DROP workflow, diagrammed in Figure 1 below, includes experimental design, e
 7. Run worklist(s) on Hamilton STAR using Hamilton software  
 
 ***Finalizing experiment:***  
+
 1. Verify data has been acquired and saved in appropriate folders  
 2. Clean up Hamilton STAR instrument deck, reusable custom LFA-specific hardware, and dispose of materials appropriately  
 3. Analyze data using GH Labs image analysis software  
@@ -108,6 +111,7 @@ Worklists can be generated using the Robotic Assay Development Application (RADA
     ![Simulate Method Run Control](./images/Simulate%20Method%20Run%20Control.png) <br>
     <small>Figure 5. In Run Control, the mode can be viewed by noting the name listed next to “Instrument”.  In simulation mode, the programmed steps will not be sent to the machine itself. Instead they are sent to a virtual machine that simulates the entire method. In instrument mode, the programmed steps will be sent to the machine. All worklists should first be validated in simulation mode. </small>
 4. The following setup pop-up will appear. Select the worklist file for this experiment by clicking on the “…” button and navigating to the specific file. Once the worklist is loaded, the “Run” button will become active. Click “Run”. 
+    
     ![Run Pop Up](./images/Run%20Method%20Pop%20Up.png) <br>
     <small>Figure 6. Pop-up window once the method is started. Load the worklist file from a location on the local machine. Animation can be selected or deselected depending on operator preference. Click the “Run” button to start the operation.</small>
 
@@ -122,13 +126,14 @@ Worklists can be generated using the Robotic Assay Development Application (RADA
     <small>Figure 7. Example pop-up windows that appear to indicate what tips are present on the deck. Make sure enough tips are loaded virtually to cover the steps written in the worklist. This can be checked in Simulation Mode.</small>
 
 6.  Run simulation and observe for any potential errors. 
+     
     !!! note 
         - Errors in the worklist can prevent the method from running to completion, and a notification will appear with information to fix the error. 
         - Common errors include having the wrong liquid class for the volume or dispense type selected, choosing a location that doesn’t exist on the deck, or having incorrect group numbering. Other errors will allow the worklist to run without errors but still indicate a problem with the worklist. These errors are typically due to incorrectly noting the plate or well number on the deck. More information about these errors can be found in the Troubleshooting section.
         - There are a few different windows that can be present during simulation.  It is recommended to focus on the “Instrument” window and the “Traces” window. These two windows will allow the operator to see what is happening and identify the cause of any potential error.  
 
         *Note: The other optional windows that can be included in the simulation view are the “Activities” and “Scheduler” windows, however these are not useful for the current methods.*
-        
+
         - The length of the simulation will depend on the type and number of steps included in the worklist. 
 
 ![VENUS Method Running](./images/VENUS%20Method%20Running.png) <br>
@@ -169,10 +174,10 @@ Worklists can be generated using the Robotic Assay Development Application (RADA
 
 14. Using the information gained from simulation mode, verify the number of tips loaded for the experiment. Update tip count for all tip types by selecting the first available tip in each rack. Make sure to be precise. Select "ok" when done. 
 15. Run the method, watching the instrument and/or the trace for any potential errors. The first time a new worklist is run, stay by the instrument in case of an incident. Should a problem arise, select either the “Pause” or “Abort” buttons in the run control window. 
-
-!!! note 
-    Make sure there are enough pipette tips on the deck for the experiment programmed. The system will not notice that there are not enough tips until it runs out.   
-
+  
+    !!! note 
+        Make sure there are enough pipette tips on the deck for the experiment programmed. The system will not notice that there are not enough tips until it runs out.   
+  
 16. If an error message appears, refer to the Troubleshooting section for assistance. 
 17. Clean up:
     - Remove all consumables except for tips from the deck. 
