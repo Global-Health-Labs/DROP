@@ -32,14 +32,14 @@ The DROP workflow, diagrammed in Figure 1 below, includes experimental design, e
 3. Analyze data using GH Labs image analysis software  
 4. Prepare documentation of results and analysis   
 
-## Experimental design
+## :simple-materialdesignicons: **Experimental design**
 
 Experimental design on the RoboLFA system 
 
 ![LFA Experimental Design](./images/LFA experimental design.png) <br>
 <small>Figure 2. Examples of variables that can be optimized using the RoboLFA system. </small>
 
-## Experiment setup
+## :material-test-tube: **Experiment Setup**
 
 An LFA effort on the DROP system begins by preparing the hardware and software for a given assay. Most often, we'll start with a strip or cassette with specific dimensions that correspond to the overall size of the assay, the pipetting location(s), and the read window. 
 
@@ -91,47 +91,45 @@ Once all of the above activities have been completed, the system is ready to run
 
 Worklists can be generated using the Robotic Assay Development Application (RADA) or through manual methods. An explanation on how to make a worklist using either method can be found in the RADA tab. 
 
-## Experiment validation
+## :material-hazard-lights: **Experiment Validation**
 
 !!! note     
     All worklists must first be run in simulation mode to identify any potential problems before running the actual experiment. Use simulation mode to do the following: 
+
     - Verify run by watching the deck layout.
     - Optional: verify run using the trace file.
     - Optional and recommended: add animation in the method. The animation provides realistic virtual x, y, z visualization.
 
 1. To validate the worklist(s) generated for the experiment, first launch VENUS software 
 2. Using the three dots on the right-hand side of the relevant shortcut to access the menu, in either the “Frequently Used” portion of the window or the “Shortcuts” section, select “Simulate Method”. Once selected, Run Control will open and prepare to run the method in simulation mode.  
-
-![Simulation Mode](./images/Simulate%20Method%20Nav.png) <br>
-<small>Figure 4. Navigation to enter Simulation Mode in VENUS 6 software. </small>
-
+    ![Simulation Mode](./images/Simulate%20Method%20Nav.png) <br>
+    <small>Figure 4. Navigation to enter Simulation Mode in VENUS 6 software. </small>
 3. Confirm that the system is in simulation mode in the upper left corner of the window. Once confirmed, click the blue play button to begin the simulation. 
-
-![Simulate Method Run Control](./images/Simulate%20Method%20Run%20Control.png) <br>
-<small>Figure 5. In Run Control, the mode can be viewed by noting the name listed next to “Instrument”.  In simulation mode, the programmed steps will not be sent to the machine itself. Instead they are sent to a virtual machine that simulates the entire method. In instrument mode, the programmed steps will be sent to the machine. All worklists should first be validated in simulation mode. </small>
-
+    ![Simulate Method Run Control](./images/Simulate%20Method%20Run%20Control.png) <br>
+    <small>Figure 5. In Run Control, the mode can be viewed by noting the name listed next to “Instrument”.  In simulation mode, the programmed steps will not be sent to the machine itself. Instead they are sent to a virtual machine that simulates the entire method. In instrument mode, the programmed steps will be sent to the machine. All worklists should first be validated in simulation mode. </small>
 4. The following setup pop-up will appear. Select the worklist file for this experiment by clicking on the “…” button and navigating to the specific file. Once the worklist is loaded, the “Run” button will become active. Click “Run”. 
+    ![Run Pop Up](./images/Run%20Method%20Pop%20Up.png) <br>
+    <small>Figure 6. Pop-up window once the method is started. Load the worklist file from a location on the local machine. Animation can be selected or deselected depending on operator preference. Click the “Run” button to start the operation.</small>
 
-![Run Pop Up](./images/Run%20Method%20Pop%20Up.png) <br>
-<small>Figure 6. Pop-up window once the method is started. Load the worklist file from a location on the local machine. Animation can be selected or deselected depending on operator preference. Click the “Run” button to start the operation.</small>
+    !!! note 
+        The worklist file must be a .csv file that ends with worklist.csv. If the file is of another type, the Hamilton software will not recognize it. 
 
-!!! note 
-    The worklist file must be a .csv file that ends with worklist.csv. If the file is of another type, the Hamilton software will not recognize it. 
-
-    **Developer notes:** The Hamilton Method was developed in collaboration with the Hamilton Apps team. It inputs a *worklist.csv file where each row in the document corresponds to one robot step. The method file is intended to be flexible for a range of experimental designs. More information about this document, called a “worklist” can be found in the RADA tab.
+        **Developer notes:** The Hamilton Method was developed in collaboration with the Hamilton Apps team. It inputs a *worklist.csv file where each row in the document corresponds to one robot step. The method file is intended to be flexible for a range of experimental designs. More information about this document, called a “worklist” can be found in the RADA tab.
 
 5. Tip counters will appear. Update the tip count for all tip types by clicking on the first available tip in each rack. Make sure to be precise. If there are not enough virtual tips, the Method will error.  For simulation, the best practice is to fill all locations of each tip type. This will inform the total number of tips that must be loaded onto the instrument when running the experiment. Click “OK” when done. 
 
-![Tip Counters](./images/Tip%20Counters.png) <br>
-<small>Figure 7. Example pop-up windows that appear to indicate what tips are present on the deck. Make sure enough tips are loaded virtually to cover the steps written in the worklist. This can be checked in Simulation Mode.</small>
+    ![Tip Counters](./images/Tip%20Counters.png) <br>
+    <small>Figure 7. Example pop-up windows that appear to indicate what tips are present on the deck. Make sure enough tips are loaded virtually to cover the steps written in the worklist. This can be checked in Simulation Mode.</small>
 
 6.  Run simulation and observe for any potential errors. 
-!!! note 
-    - Errors in the worklist can prevent the method from running to completion, and a notification will appear with information to fix the error. 
-    - Common errors include having the wrong liquid class for the volume or dispense type selected, choosing a location that doesn’t exist on the deck, or having incorrect group numbering. Other errors will allow the worklist to run without errors but still indicate a problem with the worklist. These errors are typically due to incorrectly noting the plate or well number on the deck. More information about these errors can be found in the Troubleshooting section.
-    - There are a few different windows that can be present during simulation.  It is recommended to focus on the “Instrument” window and the “Traces” window. These two windows will allow the operator to see what is happening and identify the cause of any potential error.  
-    *Note: The other optional windows that can be included in the simulation view are the “Activities” and “Scheduler” windows, however these are not useful for the current methods.*
-    - The length of the simulation will depend on the type and number of steps included in the worklist. 
+    !!! note 
+        - Errors in the worklist can prevent the method from running to completion, and a notification will appear with information to fix the error. 
+        - Common errors include having the wrong liquid class for the volume or dispense type selected, choosing a location that doesn’t exist on the deck, or having incorrect group numbering. Other errors will allow the worklist to run without errors but still indicate a problem with the worklist. These errors are typically due to incorrectly noting the plate or well number on the deck. More information about these errors can be found in the Troubleshooting section.
+        - There are a few different windows that can be present during simulation.  It is recommended to focus on the “Instrument” window and the “Traces” window. These two windows will allow the operator to see what is happening and identify the cause of any potential error.  
+
+        *Note: The other optional windows that can be included in the simulation view are the “Activities” and “Scheduler” windows, however these are not useful for the current methods.*
+        
+        - The length of the simulation will depend on the type and number of steps included in the worklist. 
 
 ![VENUS Method Running](./images/VENUS%20Method%20Running.png) <br>
 <small>Figure 8. Run Control when the method is running.</small>
@@ -146,7 +144,7 @@ Worklists can be generated using the Robotic Assay Development Application (RADA
 ![Deck after simulation](./images/Deck%20after%20simulation.png) <br>
 <small>Figure 9. Example screenshots of methods run on the Hamilton Method. An ideal screenshot will show both the number of tips used and the plate locations that are required.</small>
 
-## Running an experiment 
+## :material-robot-industrial: **Run Experiment**
 
 1. Run daily maintenance. Before running an experiment. To do so, launch the Instrument Maintenence Program and follow the step by step instructions provided. 
 2. If required, turn on the cooling pump at least 1 hour before the experiment to ensure that the carreirs have reached the required temperature. Make sure there is enough liquid in the chiller. 
@@ -197,7 +195,7 @@ Worklists can be generated using the Robotic Assay Development Application (RADA
     - Load tips correctly. 50µL and 300µL tips have the same shoulder height and cannot be used interchangeably.
     - Depending on the assay, certain chemistries are more stable on the deck when stored at 4°C than others. Additional chemistry specific testing may be required. 
 
-## Data analysis 
+## :octicons-graph-16: **Data Analysis**
 
 Analyze data as described in the LFA Software tab. Repeat process as required. 
 
