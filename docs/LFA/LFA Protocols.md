@@ -1,13 +1,11 @@
 The DROP workflow, diagrammed in Figure 1 below, includes experimental design, experiment setup, experiment validation, running the experiment, and data analysis. This document specifically covers the procedures for Steps 3 and 4: experiment validation and running the experiment. Additional information about assay specific worklist generation and data analysis can be found in their respective pages. 
 
-![DROP Overview](./images/DROP%20workflow%20overview.png)
-
 ![DROP Quickstart](./images/DROP%20workflow%20overview.png) <br>
 <small>Figure 1. High level overview of the DROP workflow. This workflow includes (1) Experimental design (2) Experiment setup (3) Experiment validation (4) Running an experiment and (5) Data analysis. In most applications, futher iteration would continue until product criteria are met.  </small>
 
 ## :octicons-checklist-16: **Experiment Checklist**
 
-***Preparing for the experiment:***  
+***A. Preparing for the experiment:***  
 
 1. Design experimental protocol 
 2. Design, source, and build LFA components 
@@ -18,7 +16,7 @@ The DROP workflow, diagrammed in Figure 1 below, includes experimental design, e
 7. Make modifications to worklist as needed   
 *Note plate locations and number of tips used*  
 
-***Running the experiment:***  
+***B. Running the experiment:***  
 
 1. Prepare Hamilton STAR instrument deck   
 2. Spray down deck with cleaning solution  
@@ -28,7 +26,7 @@ The DROP workflow, diagrammed in Figure 1 below, includes experimental design, e
 6. Place all reagent plates, sample plates, LFAs and associated custom LFA-specific hardware onto Hamilton STAR instrument deck  
 7. Run worklist(s) on Hamilton STAR using Hamilton software  
 
-***Finalizing experiment:***  
+***C. Finalizing experiment:***  
 
 1. Verify data has been acquired and saved in appropriate folders  
 2. Clean up Hamilton STAR instrument deck, reusable custom LFA-specific hardware, and dispose of materials appropriately  
@@ -90,7 +88,7 @@ The DROP system has a library of liquid classes that can be used to run experime
 
 Once all of the above activities have been completed, the system is ready to run an LFA effort. An example checklist is shown below to step through the process from beginning to end. 
 
-### Generate worklist(s) 
+### :material-microsoft-excel: **Generate worklist(s)**
 
 Worklists can be generated using the Robotic Assay Development Application (RADA) or through manual methods. An explanation on how to make a worklist using either method can be found in the RADA tab. 
 
@@ -105,20 +103,25 @@ Worklists can be generated using the Robotic Assay Development Application (RADA
 
 1. To validate the worklist(s) generated for the experiment, first launch VENUS software 
 2. Using the three dots on the right-hand side of the relevant shortcut to access the menu, in either the “Frequently Used” portion of the window or the “Shortcuts” section, select “Simulate Method”. Once selected, Run Control will open and prepare to run the method in simulation mode.  
+
     ![Simulation Mode](./images/Simulate%20Method%20Nav.png) <br>
     <small>Figure 4. Navigation to enter Simulation Mode in VENUS 6 software. </small>
+
 3. Confirm that the system is in simulation mode in the upper left corner of the window. Once confirmed, click the blue play button to begin the simulation. 
+
     ![Simulate Method Run Control](./images/Simulate%20Method%20Run%20Control.png) <br>
     <small>Figure 5. In Run Control, the mode can be viewed by noting the name listed next to “Instrument”.  In simulation mode, the programmed steps will not be sent to the machine itself. Instead they are sent to a virtual machine that simulates the entire method. In instrument mode, the programmed steps will be sent to the machine. All worklists should first be validated in simulation mode. </small>
+
 4. The following setup pop-up will appear. Select the worklist file for this experiment by clicking on the “…” button and navigating to the specific file. Once the worklist is loaded, the “Run” button will become active. Click “Run”. 
     
+        !!! note 
+            The worklist file must be a .csv file that ends with worklist.csv. If the file is of another type, the Hamilton software will not recognize it. 
+
+            **Developer notes:** The Hamilton Method was developed in collaboration with the Hamilton Apps team. It inputs a *worklist.csv file where each row in the document corresponds to one robot step. The method file is intended to be flexible for a range of experimental designs. More information about this document, called a “worklist” can be found in the RADA tab.
+
+
     ![Run Pop Up](./images/Run%20Method%20Pop%20Up.png) <br>
     <small>Figure 6. Pop-up window once the method is started. Load the worklist file from a location on the local machine. Animation can be selected or deselected depending on operator preference. Click the “Run” button to start the operation.</small>
-
-    !!! note 
-        The worklist file must be a .csv file that ends with worklist.csv. If the file is of another type, the Hamilton software will not recognize it. 
-
-        **Developer notes:** The Hamilton Method was developed in collaboration with the Hamilton Apps team. It inputs a *worklist.csv file where each row in the document corresponds to one robot step. The method file is intended to be flexible for a range of experimental designs. More information about this document, called a “worklist” can be found in the RADA tab.
 
 5. Tip counters will appear. Update the tip count for all tip types by clicking on the first available tip in each rack. Make sure to be precise. If there are not enough virtual tips, the Method will error.  For simulation, the best practice is to fill all locations of each tip type. This will inform the total number of tips that must be loaded onto the instrument when running the experiment. Click “OK” when done. 
 
@@ -136,8 +139,8 @@ Worklists can be generated using the Robotic Assay Development Application (RADA
 
         - The length of the simulation will depend on the type and number of steps included in the worklist. 
 
-![VENUS Method Running](./images/VENUS%20Method%20Running.png) <br>
-<small>Figure 8. Run Control when the method is running.</small>
+    ![VENUS Method Running](./images/VENUS%20Method%20Running.png) <br>
+    <small>Figure 8. Run Control when the method is running.</small>
 
 7. Verification and troubleshooting: 
     - If everything ran correctly, a “Method Complete” message will appear. If not, an error message will pop up. 
@@ -163,14 +166,14 @@ Worklists can be generated using the Robotic Assay Development Application (RADA
 10. Open VENUS software and return to the Home Page in the Navigation Bar. Load the method by selecting the shortcut or by choosing from "Run History". 
 11. Confirm that VENUS software is in insturment mode by noting the name listed next to "Instrument" in the Run Control Window. 
 
-![Run Control Experiment](./images/Run%20Control%20Experiment.png) <br>
-<small>Figure 10. The view in Run Control when an experiment has been started in instrument mode. Note the machine’s ID to ensure that the system is connected to the Hamilton STAR.</small>
+    ![Run Control Experiment](./images/Run%20Control%20Experiment.png) <br>
+    <small>Figure 10. The view in Run Control when an experiment has been started in instrument mode. Note the machine’s ID to ensure that the system is connected to the Hamilton STAR.</small>
 
 12. Select the blue play button to begin the run. 
 13. The pop up shown in figure X will appear. Attach the worklist file that corresponds to the experiment and select "Run". 
 
-!!! note 
-    The method can be run with or without animation when in instrument mode. 
+    !!! note 
+        The method can be run with or without animation when in instrument mode. 
 
 14. Using the information gained from simulation mode, verify the number of tips loaded for the experiment. Update tip count for all tip types by selecting the first available tip in each rack. Make sure to be precise. Select "ok" when done. 
 15. Run the method, watching the instrument and/or the trace for any potential errors. The first time a new worklist is run, stay by the instrument in case of an incident. Should a problem arise, select either the “Pause” or “Abort” buttons in the run control window. 
@@ -203,4 +206,3 @@ Worklists can be generated using the Robotic Assay Development Application (RADA
 ## :octicons-graph-16: **Data Analysis**
 
 Analyze data as described in the LFA Software tab. Repeat process as required. 
-
