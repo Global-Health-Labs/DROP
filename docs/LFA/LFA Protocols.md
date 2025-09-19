@@ -1,6 +1,6 @@
 The DROP workflow, diagrammed in Figure 1 below, includes experimental design, experiment setup, experiment validation, running the experiment, and data analysis. This document specifically covers the procedures for Steps 3 and 4: experiment validation and running the experiment. Additional information about assay specific worklist generation and data analysis can be found in their respective pages. 
 
-![DROP Quickstart](./images/DROP_workflow_overview.png) <br>
+![DROP Quickstart](./images/DROP%20workflow%20overview.png) <br>
 <small>Figure 1. High level overview of the DROP workflow. This workflow includes (1) Experimental design (2) Experiment setup (3) Experiment validation (4) Running an experiment and (5) Data analysis. In most applications, futher iteration would continue until product criteria are met.  </small>
 
 ## :octicons-checklist-16: **Experiment Checklist**
