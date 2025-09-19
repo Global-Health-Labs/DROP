@@ -25,29 +25,32 @@ Best practices include addition of date and liquid class version to the validate
 ### Experiment Checklist
 
 ***Preparing for the experiment:***  
-- Design experimental protocol  
-- Define additional liquid classes or hardware definitions (if required)   
-- Source appropriate reagents, pipette tips, devices and plates  
-- Generate worklist    
-- Validate worklist in simulation   
-- Make modifications to worklist as needed   
-- Note plate locations and number of tips used  
+
+1. Design experimental protocol  
+2. Define additional liquid classes or hardware definitions (if required)   
+3. Source appropriate reagents, pipette tips, devices and plates  
+4. Generate worklist    
+5. Validate worklist in simulation   
+6. Make modifications to worklist as needed   
+*Note plate locations and number of tips used*
+
 ***Running the experiment:***  
-- Prepare instrument deck   
-- Start refrigerated circulator (if required)  
-- UV treat and/or spray down deck with cleaning solution  
-- Complete Daily Maintenance. Skip, if already completed for the day.  
-- Load all required tips onto instrument  
-- Load reagents into reagent plates in PCR hood   
-- Load all reagent and assay plates required to run experiment onto Hamilton STAR  
-- Run worklist(s) on Hamilton STAR   
-- Seal assay plate(s)  
-- Vortex briefly and spin down assay plate(s)  
-- Place assay plate(s) onto thermocycler, load corresponding protocol and run  
+1. Prepare instrument deck   
+2. Start refrigerated circulator (if required)  
+3. UV treat and/or spray down deck with cleaning solution  
+4. Complete Daily Maintenance. Skip, if already completed for the day.  
+5. Load all required tips onto instrument  
+6. Load reagents into reagent plates in PCR hood   
+7. Load all reagent and assay plates required to run experiment onto Hamilton STAR  
+8. Run worklist(s) on Hamilton STAR   
+9. Seal assay plate(s)  
+10. Vortex briefly and spin down assay plate(s)  
+11. Place assay plate(s) onto thermocycler, load corresponding protocol and run  
+
 ***Finalizing experiment:***  
-- Clean deck and dispose of materials appropriately  
-- Analyze data   
-- Repeat as needed   
+1. Clean deck and dispose of materials appropriately  
+2. Analyze data   
+3. Repeat as needed   
 
 
 ## References

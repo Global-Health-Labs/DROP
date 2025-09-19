@@ -1,6 +1,8 @@
 nav:
-  - Overview: NAAT_overview.md
-  - Hardware: NAAT_hardware.md
-  - Software: NAAT_software.md
-  - Protocols: NAAT_protocols.md
-  - Example Efforts: NAAT_example_efforts.md
+  - Overview: NAAT Overview.md
+  - Hardware: NAAT Hardware.md
+  - Software: 
+    - NAAT Hamilton Files: NAAT Hamilton Files.md
+    - Thermocycler Analysis: Thermocycler Analysis.md
+  - Protocols: NAAT Protocols.md
+  - Example Efforts: NAAT Example Efforts.md

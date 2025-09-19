@@ -3,6 +3,7 @@ nav:
     - Project Introduction: index.md
     - Quick Start Guide: DROP_quickstart.md
     - DROP Installation: Installation Instructions.md
+    - DROP Master Protocol: Drop Master Protocol.md
     - Troubleshooting Support: Common Errors
     - Glossary: glossary.md
     - Contributors: authors.md

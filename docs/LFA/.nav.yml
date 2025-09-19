@@ -2,7 +2,7 @@ nav:
   - Overview: LFA Overview.md
   - Hardware: LFA Hardware.md
   - Software: 
-    - Hamilton Files: Hamilton Files.md
+    - Hamilton Files: LFA Hamilton Files.md
     - LFA Analysis: LFA Analysis.md
   - Protocols: LFA Protocols.md
   - Example Efforts: LFA Example Efforts.md

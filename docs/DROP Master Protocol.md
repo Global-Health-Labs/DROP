@@ -1,10 +1,37 @@
+The DROP workflow (diagrammed in Figure 1 below) includes experimental design, experiment setup, experiment validation, running the experiment, and data analysis. This document specifically covers the procedures for Steps 3 and 4: experiment validation and running the experiment. Additional information about assay specific experimental design, setup, and data analysis can be found in their respective pages under RoboNAAT and RoboLFA. 
+
+![DROP Quickstart](./images/DROP_Quickstart.png) <br>
+<small>Figure 1. High level overview of the DROP workflow. This workflow includes (1) Experimental design (2) Experiment setup (3) Experiment validation (4) Running an experiment and (5) Data analysis. In most applications, futher iteration would continue until product criteria are met.  </small>
+
+### Experiment preparation 
+
+Before running an experiment, it is recommended to complete the Daily Maintenence provided with the Hamilton system. Launch the Instrument Maintenence Program and follow the step by step instructions provided. 
+
+NAAT applications are highly sensitive to contamination, therefore it is recommended to UV treat the hood for a minimum of 10 minutes before working with a potentially sensitive molecular assay. 
+
+### Experiment confirmation 
+
+1. Launch VENUS software 
+2. Run Worklist in simulation mode 
+
+!!! note 
+    A worklist is generated using the Robotic Assay Development Application (RADA) or through manual methods. An explanation on how to make a worklist using either method can be found in the RADA tab. 
+    
+    All worklists must first be run in simulation mode to identify any potential problems before running the actual experiment. Use simulation mode to do the following: 
+    •	Verify run by watching the deck layout.
+    •	Optional: verify run using the trace file.
+    •	Optional and recommended: add animation in the method. The animation provides realistic virtual x, y, z visualization.
+
+
+
+
 
 ## :material-robot-outline:  **Step 0: Equipment set up**
 
 DROP is an add on to a Hamilton STAR system that consists of hardware, software, and protocols specific to this work. Other Hamilton systems could be used with some modifications to the Method/Layout files and LFA hardware. 
 
 ![DROP STAR](./images/DROP%20system%20overview.png) <br> <br>
-<small>Figure 1. Image of Hamilton STAR, base of the DROP system, with specific add ons required for the build. This includes type of pipette head (other options are 96 and 384 head, which work well for plate applications but are not flexible enough for LFA applications), VENUS software, tip and plate carriers, and on board camera. NAAT applications also require a HEPA filter and UV hood to reduce the risk of contamination. </small>
+<small>Figure 2. Image of Hamilton STAR, base of the DROP system, with specific add ons required for the build. This includes type of pipette head (other options are 96 and 384 head, which work well for plate applications but are not flexible enough for LFA applications), VENUS software, tip and plate carriers, and on board camera. NAAT applications also require a HEPA filter and UV hood to reduce the risk of contamination. </small>
 
 **Additional capabilities recommended:**
 
@@ -31,7 +58,7 @@ Experimental design for LFAs and NAATs can take many forms. One of the major ben
 More detail on each of these can be found in the respective roboLFA and roboNAAT Modules. 
 
 ![DROP DOE](./images/DOE_example.jpg) <br>
-<small>Figure 2. Graphical representation of experimental designs for a 3-dimensional experimental space. Image from [Prism UK](https://prismtc.co.uk/resources/blogs-and-articles/the-sequential-nature-of-classical-design-of-experiments).  </small>
+<small>Figure 3. Graphical representation of experimental designs for a 3-dimensional experimental space. Image from [Prism UK](https://prismtc.co.uk/resources/blogs-and-articles/the-sequential-nature-of-classical-design-of-experiments).  </small>
 
 ## :material-test-tube: **Step 2: Experiment Setup**
 
