@@ -8,7 +8,7 @@ theme:
     repo: fontawesome/brands/github
     annotation: material/message-question-outline
     admonition: 
-      note: material/information-slab-box-outline
+      note: octicons/tag-16
   features: 
     - navigation.tabs
     - navigation.tabs.sticky
