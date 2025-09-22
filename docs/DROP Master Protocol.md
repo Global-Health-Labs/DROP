@@ -23,9 +23,6 @@ NAAT applications are highly sensitive to contamination, therefore it is recomme
     •	Optional and recommended: add animation in the method. The animation provides realistic virtual x, y, z visualization.
 
 
-
-
-
 ## :material-robot-outline:  **Step 0: Equipment set up**
 
 DROP is an add on to a Hamilton STAR system that consists of hardware, software, and protocols specific to this work. Other Hamilton systems could be used with some modifications to the Method/Layout files and LFA hardware. 

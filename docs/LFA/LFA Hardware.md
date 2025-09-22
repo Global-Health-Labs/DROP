@@ -84,5 +84,12 @@ CAD link:
 
 ## Deck build 
 
+The hardware above is placed onto the deck in the following, respective manners, for the cassette and strip holders. 
 
-Images of deck build with both the LFA strip holder and the cassette holder 
+![Deck Layout with cassette holder](./images/Deck%20with%20LFA%20Cassette%20Holder.png) <br>
+<small>Figure 4. Deck layout with cassette holder and corresponding guidance spacers. </small>
+
+Images of deck build with both the LFA strip holder 
+
+![Deck Layout with cassette holder](./images/Deck%20with%20LFA%20Cassette%20Holder.png) <br>
+<small>Figure 5. Deck layout with strip holder. </small>

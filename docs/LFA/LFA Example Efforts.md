@@ -10,6 +10,8 @@ For this effort, we have 10 antibodies against TB LAM that have been identified 
 
 In this screening effort, there was a push to run all antibodies in both the capture and detection formats. This is considered a full factorial design of experiments (DOE). For other types of optimization efforts, such as conjugation chemistry or running buffer optimization, other DOE approaches may be recommended. 
 
+The antigen used in this screening is cultured LAM (BEI). 
+
 The format for the selected LFA consists of a streptavidin test line and a donkey anti-chicken control line striped onto the nitrocellulose membrane. Each antibody in the screen will be (1) biotinylated and (2) conjugated to a 400nm latex nanoparticle. Something important to understand is that the stack format can make a big difference on the screening results, an antibody that performs very well as a biotinylated antibody capture may not have the same performance when striped directly onto the test line. Therefore, it is recommended to screen antibodies in the final format for the assay. 
 
 ### Reagent Preparation 
@@ -22,8 +24,8 @@ Test membranes were prepared using a generic LFA format. This included CN95 nitr
 
 To break up the 10x10 grid, there are two different worklists required. The worklists are: 
 
-    - [Worklist A](./protocols/5x3_full_worklist.csv): 3 detection antibodies with 5 capture antibodies (15 total combinations)
-    - [Worklist B](./protocols/15x1_full_worklist.csv): 1 detection antibody with 15 capture antibodies (15 total combinations)
+- [Worklist A](./protocols/5x3_full_worklist.csv): 3 detection antibodies with 5 capture antibodies (15 total combinations)
+- [Worklist B](./protocols/15x1_full_worklist.csv): 1 detection antibody with 15 capture antibodies (15 total combinations)
 
 The breakdown of how these worklists will span the 10x10 grid are shown in Figure 1. 
 
@@ -33,6 +35,7 @@ The breakdown of how these worklists will span the 10x10 grid are shown in Figur
 For every robot run, a worklist is run covering the antibodies shown in the grid. The maximum number of cassettes for each robot run for this cassette holder limits the number of LFAs run to 96. With this limitation, 3 negatives and 3 positives are run for every antibody pair, including an additional control antibody.  
 
 The steps described in the worklist are as followed:
+
 - Pipette 2uL of biotinylated antibody onto conjugate pad
 - Pipette 4uL of latex conjugated antibody onto sample pad
 - Wait 15 minutes for conjugates to dry
@@ -42,20 +45,25 @@ The steps described in the worklist are as followed:
 
 ### Running the experiment 
 
-1. Place all reagent plates, sample plates, LFAs and associated custom LFA-specific hardware onto Hamilton STAR instrument deck  
-2. Run worklist(s) on Hamilton STAR using Hamilton software  
+To start, all reagent plates were prepared with the reagents detailed in the worklist viewer in the RADA app. This includes antibody conjugates and samples (negative and positive). The cassette holder was filled with the prepared LFAs and loaded onto the deck. Tips were loaded onto the deck corresponding to the number identified in the simulation run. The validated worklist(s) were then run on the Hamilton STAR using the VENUS software.
 
+Once the run has completed, images are automatically loaded into the same folder as the worklist. These images were then analyzed using the GH Labs image analysis software. 
 
 ### Results and Conclusions 
 
-- Analyze data using GH Labs image analysis software  
-- Prepare documentation of results and analysis   
+In this antibody screening effort, a total 672 LFAs were split across 7 robot runs. This included 100 different antibody pairs screened in addition the control pair included for every run. From this experiment, there were a handful of antibody pairs identified that performed better than the control pair (Figure 2). 
 
 ![LAM 10x10 Screening Results](./images/TBL%20Antibody%20Screen.png) <br>
 <small>Figure 2. Results from antibody screening effort. </small>
 
-Something about S/N vs. S-N and why you would use one over the other 
+LFA data is often presented as either S/N or S-N. Both analyses are informative in different ways for an LFA screening or optimization effort. Where S-N provides information about the magnitude of the dynamic range between a negative and positive, S/N  provides information about the ratio between the negative and positive. Depending on the end goals of the screen, it can be more useful to do one analysis over the other. We have presented S/N for this example experiment as it puts more weight on antibody pairs without non-specific binding in the negative control. 
+
+This is an example of how to use the RoboLFA system to do antibody screening. Every assay comes with it's own differences that may lead to changes in the hardware, software, and protocols. These differences must be considered and the adjustments validated before starting a new LFA effort on the drop system. 
 
 ## :simple-graphql: **Other example efforts**
 
-Other examples can be found in the following manuscript: 
+The range of efforts that the RoboLFA system can be used for are large. Everything from an analytical or clinical evaluation to a large DoE screening running buffer conditions are possible. More information about the system and other applications can be found in the following manuscripts: 
+<small>
+[1] Anderson, C.E., Huynh, T., Gasperino, D.J. et al. Automated liquid handling robot for rapid lateral flow assay development. Anal Bioanal Chem 414, 2607–2618 (2022). https://doi.org/10.1007/s00216-022-03897-9 <br>
+[2] Cate, D. M., Bishop, J. D., Hsieh, H. V., et al. Antibody Screening Results for Anti-Nucleocapsid Antibodies Toward the Development of a Lateral Flow Assay to Detect SARS-CoV-2 Nucleocapsid Protein. ACS Omega 2021 6 (39), 25116-25123. DOI: 10.1021/acsomega.1c01253 <br> 
+[3] Cantera, J. L., Cate, D. M., Golden, A., et al. Screening Antibodies Raised against the Spike Glycoprotein of SARS-CoV-2 to Support the Development of Rapid Antigen Assays. ACS Omega 2021 6 (31), 20139-20148. DOI: 10.1021/acsomega.1c01321 <br> </small>
