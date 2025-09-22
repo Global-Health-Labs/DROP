@@ -63,6 +63,7 @@ This is an example of how to use the RoboLFA system to do antibody screening. Ev
 ## :simple-graphql: **Other example efforts**
 
 The range of efforts that the RoboLFA system can be used for are large. Everything from an analytical or clinical evaluation to a large DoE screening running buffer conditions are possible. More information about the system and other applications can be found in the following manuscripts: 
+
 <small>
 [1] Anderson, C.E., Huynh, T., Gasperino, D.J. et al. Automated liquid handling robot for rapid lateral flow assay development. Anal Bioanal Chem 414, 2607–2618 (2022). https://doi.org/10.1007/s00216-022-03897-9 <br>
 [2] Cate, D. M., Bishop, J. D., Hsieh, H. V., et al. Antibody Screening Results for Anti-Nucleocapsid Antibodies Toward the Development of a Lateral Flow Assay to Detect SARS-CoV-2 Nucleocapsid Protein. ACS Omega 2021 6 (39), 25116-25123. DOI: 10.1021/acsomega.1c01253 <br> 
