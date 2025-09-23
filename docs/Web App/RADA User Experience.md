@@ -93,13 +93,14 @@ The items that need to be filled out include:
 
 - Name of experiment 
 - Deck layout
-- Number of samples and technical replicates
-- Mastermix volume
+- Number of samples: this number should include the negative control
+- Number of technical replicates 
+- Mastermix volume: the volume of mastermix only per reaction, not the total reaction volume
 - Sample volume
 - Liquid type for mastermix liquid
 - Liquid type for sample liquid 
 - Liquid type for mixing step of mastermix (especially important if the mastermix contents are highly viscous or containing detergent)
-- PCR plates size (options for 96 and 384 wells)
+- PCR plates size: dropdown with options for 96 and 384 wells
 - Option to make an experiment preset that will appear in the "New Experiment" drop down. 
 
 Deck Layout is a drop down menu that pulls from configurations built by the RADA admins. More information on what that entails can be found under "Admin Capabilities".  
@@ -113,11 +114,11 @@ The next page allows the user to Configure the NAAT experiment steps. Each maste
 The information required for each step include:
 
 - Mastermix name
-- Source name: user input reagent name
-- Concentration unit 
+- Source name: the identity of the reagent (i.e. water, buffer, dNTPs, DNA pol, etc)
+- Concentration unit: drop down menu with options for concentration value will apply to both the final and stock concentration inputs
 - Final concentration desired in mastermix
 - Stock concentration: starting concentration for reagent
-- Liquid type to be pipetted
+- Liquid type to be pipetted: drop down menu that correlates with the respective liquid class
 
 The order in which the reagents are added into the list is the order in which they will be added on the machine. If the order needs to be switched, they can be moved by using the six dots on the far right of the corresponding step. Similarly, the order of the mastermixes can be reordered as needed. 
 
@@ -149,3 +150,11 @@ When loading the deck, select "View Instructions" to enter into the Worklist Vie
 
 ![Worklist Viewer](./images/RADA_NAAT_Experiment_page4.PNG) <br>
 <small>Figure 14. Page designed to support the set up of the reagents and plates onto the Hamilton Deck. </small>
+
+The worklist viewer has five sections:
+
+1.	Reagent loading section – This section includes the list of reagents to be added to run the experiment. It includes solution name (based on user input), plate name, well number, and a check box to indicate when a reagent has been loaded. Click on a given row to highlight locations in the plate layout and deck layout. 
+2.	Plate Layout – Shows the layout of a given plate, 96 or 384. When a given reagent is highlighted, the corresponding well will be highlighted in black. 
+3.	Deck Layout – Shows the layout of the deck, with the corresponding plate names used by the robot to identify plate locations. Similar to the plate layout, the plate corresponding to a specific reagent will be highlighted in black when that reagent is selected. 
+4.	Instructions – When one row in the solution section is selected, instructions will include the solution name, the volume to be pipetted, and the well and plate ID. This can be used by the user to know what to load where, and in what volume.
+
