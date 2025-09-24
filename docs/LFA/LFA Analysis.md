@@ -4,6 +4,10 @@ The DROP system utilizes an integrated camera in the Hamilton STAR to take LFA i
 
 > 'LFA ID #' _ 'Date in YYYYDDMM format' _ 'Time in HHMMSS format'.png  
 
+## Github files 
+
+**make sure to include the versions for all require libraries** 
+
 ## Image Analysis Code Overview
 
 :fontawesome-brands-github: - LFA Image Analysis 
