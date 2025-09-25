@@ -1,9 +1,13 @@
-SARS-CoV-2 LAMP assay overview 
+The DROP system can provide utility for a range of efforts along the research and development pathway for NAAT assays. RoboNAAT, as it has been affectionately named, has been built out to enable large scale experiments for PCR as well as isothermal amplification methods. An example effort for a SARS-CoV-2 loop mediated isothermal amplification (LAMP) assay is described in this document. 
+
+LAMP is an isothermal amplification method that relies on 4-6 primers to amplify a DNA or RNA target at a steady temperature, usually between 60-65C. The chemistry also utilizes a DNA polymerase with strand-displacing properties to allow for effective amplification. Different from PCR, which produces a predictable amplicon, LAMP amplicons can form many different structures. This provides both an advantage, for example in the probability, as well as a challenge, such as the possibility of off-target amplification. 
+
+Therefore, this chemistry was ideal for optimization on the RoboNAAT system as traditional one factor at a time (OFAT) optimization may not capture the full picture of a given LAMP assay. In this example, (1) Mastermix optimization, (2) additive screening, and (3) assay evaluation are all demonstrated with their example worklists and results. 
 
 ![SARS-CoV-2 LAMP Optimization Summary](./images/Example%20NAAT%20Efforts.png) <br>
 <small>Figure 1. High level overview of the NAAT optimization efforts described in this page. The efforts were broken into (1) mastermix optimization, (2) additive screening and (3) performance evaluation. </small>
 
-## LAMP Mastermix Optimization Effort 
+## :simple-graphql: **LAMP Mastermix Optimization Effort**
 
 ### Experimental Design
 
@@ -60,8 +64,6 @@ For all four of these runs, they have similar deck layouts. Examples of the well
 ![LAM 10x10 Screening Results](./images/NAAT%20aq%20sample%20deck%20layout.png) <br>
 <small>Figure 3. Deck layout from the sample aliquot worklist after running in simulation. </small>
 
-### Running the experiment
-
 All reagent plates were prepared with the reagents detailed in the worklist viewer in the RADA app. This includes all mastermix components and samples (negative and positive). Tips were loaded onto the deck corresponding to the number identified in the simulation run. The validated worklist(s) were then run on the Hamilton STAR using the VENUS software.
 
 ### Results and Conclusions
@@ -79,37 +81,76 @@ There were three larger trends that were identified from this screening effort:
 
 From this effort, the 80+ mastermixes allowed an increased understanding of the LAMP chemistry. The two top performing assay conditions were selected and used for additional testing. 
 
-## LAMP Additive Screening Effort
+## :material-graph: **LAMP Additive Screening Effort**
 
 ### Experimental Design
 
+The Additive Screening round had a few goals, specifically to identify the impact of a list of additives on the speed, tolerance to inhibihors, or stability of the assay. Most additives included in this screen fall into three categories:
+
+1. Stability and blocking 
+2. Crowding agents 
+3. Melting temperature (Tm) and secondary structure reducers 
+
+Because of the differing nature of each of these categories, the experimental design included mastermixes tested with one additive at a time at two concentrations, as well as a DSD design testing combinations of the additives in the stability and blocking category. 
 
 ### Reagent Preparation
 
+In addition to the reagent preparation described in the previous effort, a long list of additives and crowding agents were identified for screening. These reagents include:
+
+**Stability agents:**
+
+- Sucrose
+- Trehalose 
+- BSA
+
+**Crowding agents:**
+
+- PEG (1000, 3000, and 8000)
+- Ficoll (400)
+- Dextran (12k, 80k, and 410k)
+
+**Tm and secondary structure reducers:**
+
+- Formamide
+- Betaine
+- DMSO
+- SSBs 
+
+**Miscellaneous:**
+
+- ATP
+- Guanidine
+- EDTA
 
 ### Worklist Preparation and Validation
 
-
-### Running the experiment
-
-Same protocol as described under the LAMP Mastermix Optimization Effort. 
+The additive screening was split into three robot runs, preparing two 96 well plates each run. 
 
 ### Results and Conclusions
 
 
-## LAMP Performance Evaluation 
+
+![Additive Screening Results](./images/RoboNAAT%20Additive%20Screening.png) <br>
+<small>Figure 5. Snapshot of the data generated from the Additive Screening to identify optimized conditions for the SARS-CoV-2 LAMP assay. </small>
+
+Observation: Best improvement can be seen from PEG1K and Dextran 410K, which had average improvement (reduction) in CT of 15 (with NTCs coming up at ~ 92 cycles) and 15 (w/o NTCs coming up) respectively. 
+
+## :octicons-graph-16: **LAMP Performance Evaluation**
 
 ### Experimental Design
 
+The top mastermix condition was evaluated using an LOD against the starting mastermix. The two conditions are:
+
+- Start mastermix: 1X RT, 1X BST 2.0, 8mM Mg
+- Optimized mastermix: 1.25X RT, 1.25X BS 2.0, and 7mM Mg 
 
 ### Reagent Preparation
 
+This effort used the same reagents as the mastermix optimization and additive screening efforts. 
 
 ### Worklist Preparation and Validation
 
 
-### Running the experiment
 
-Same protocol as described under the LAMP Mastermix Optimization Effort. 
 
 ### Results and Conclusions
