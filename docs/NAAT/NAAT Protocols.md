@@ -16,6 +16,7 @@ The DROP workflow, diagrammed in Figure 1 below, includes experimental design, e
 *Note plate locations and number of tips used*
 
 ***B. Running the experiment:***  
+
 1. Prepare instrument deck   
 2. Start refrigerated circulator (if required)  
 3. UV treat and/or spray down deck with cleaning solution  
@@ -29,6 +30,7 @@ The DROP workflow, diagrammed in Figure 1 below, includes experimental design, e
 11. Place assay plate(s) onto thermocycler, load corresponding protocol and run  
 
 ***C. Finalizing experiment:***  
+
 1. Clean deck and dispose of materials appropriately  
 2. Analyze data   
 3. Repeat as needed   
@@ -40,20 +42,23 @@ An NAAT effort on the DROP system begins by preparing the reagents for a given a
 ![NAAT Experimental Design](./images/NAAT%20experimental%20design.png) <br>
 <small>Figure 2. Examples of variables that can be optimized using the RoboNAAT system. </small>
 
+Design of experiment (DoE) describes an approach to systematically and efficiently study the effects of input(s) on a process and the outputs from that process [1]. This methodology has been used for a wide array of application areas, ranging from traditional engineering applications to polymerase chain reaction. The ability of an automated liquid handling robot to efficiently and accurately pipette as programmed opens up a wide array of possibilities for experimental design. 
 
+To leverage this capability, specific DoE methods have been investigated through the course of our work at GH Labs, such as the Taguchi Method and Definitive Screening Design (DSD). When planning an experiment using the roboNAAT system, it is critical to select an experimental design that provides the appropriate statistical power to support the decision making process. There are a number of groups who have published on the use of Taguchi for PCR applications, two selected manuscripts are [Cobb et al 1994](https://pmc.ncbi.nlm.nih.gov/articles/PMC308365/) and [Celani de Souza](https://pubmed.ncbi.nlm.nih.gov/21867748/). 
 
 ## :material-test-tube: **Experiment Setup**
 
-
+Setup for a NAAT experiment involves the preparation of the working stock of all materials required to run the designed experiment. 
 
 ![NAAT workflow](./images/roboNAAT%20workflow.png) <br>
 <small>Figure 3. Example workflow automated by RoboNAAT. </small>
 
 ### Adjusting hardware/labware
 
-
+Most NAAT efforts use basic labware definitions, such as PCR plates, deep well plates, and tubes. These definitions come with the Hamilton software, and the only adjustments that are typically required are to dial in the labware locations in the Hamilton Layout file. 
 
 ### Optimizing liquid classes 
+
 The DROP system has a library of liquid classes that can be used to run experiments. These liquid classes are modified to have the precise pipetting protocol to enable consistent pipetting for a given liquid class. It is important to precisely tune a liquid class for the liquids that will be pipetted during an experiment on the DROP system. Some of the parameters that are included are flow rate, air transport volume, blowout volume, settling time, and more. More information can be found in the CO-RE Liquid Editor Help section. Liquid classes can be made using the Hamilton Liquid Verification Kit (LVK). When more liquid classes are made, or when an existing liquid class is validated for a new liquid, they will undergo performance qualification. The list below includes liquid classes used commonly for the NAAT system. 
 
 | Liquid Class           | Tip size | Dispense Type     | Recommended validation for: |
@@ -72,7 +77,8 @@ The DROP system has a library of liquid classes that can be used to run experime
 | RoboNAAT_tip50_detergent_SurfaceEmpty | 50|Surface Empty | 5% Triton X-100, Tween-20, and PVP |
 | RoboNAAT_tip50_buffer_JetEmpty | 50|Jet Empty | Aliquoting full mastermix |
 
-Best practices include addition of date and liquid class version to the validated liquid class. 
+!!! note
+    Best practices include addition of date and liquid class version to the validated liquid class. 
 
 Once all of the above activities have been completed, the system is ready to run a NAAT effort. An example checklist is shown below to step through the process from beginning to end. 
 
@@ -102,10 +108,10 @@ Worklists can be generated using the Robotic Assay Development Application (RADA
 
 4. The following setup pop-up will appear. Select the worklist file for this experiment by clicking on the “…” button and navigating to the specific file. Once the worklist is loaded, the “Run” button will become active. Click “Run”. 
     
-        !!! note 
-            The worklist file must be a .csv file that ends with worklist.csv. If the file is of another type, the Hamilton software will not recognize it. 
+    !!! note 
+        The worklist file must be a .csv file that ends with worklist.csv. If the file is of another type, the Hamilton software will not recognize it. 
 
-            **Developer notes:** The Hamilton Method was developed in collaboration with the Hamilton Apps team. It inputs a *worklist.csv file where each row in the document corresponds to one robot step. The method file is intended to be flexible for a range of experimental designs. More information about this document, called a “worklist” can be found in the RADA tab.
+        **Developer notes:** The Hamilton Method was developed in collaboration with the Hamilton Apps team. It inputs a *worklist.csv file where each row in the document corresponds to one robot step. The method file is intended to be flexible for a range of experimental designs. More information about this document, called a “worklist” can be found in the RADA tab.
 
 
     ![Run Pop Up](./images/Run%20Method%20Pop%20Up.png) <br>
@@ -190,3 +196,22 @@ Worklists can be generated using the Robotic Assay Development Application (RADA
     - Low volume (10µL) tips do not reach the deck or the bottom of sample tubes in standard sample carriers
     - Load tips correctly. 50µL and 300µL tips have the same shoulder height and cannot be used interchangeably.
     - Depending on the assay, certain chemistries are more stable on the deck when stored at 4°C than others. Additional chemistry specific testing may be required. 
+
+## :material-virus: **Testing for Contamination** 
+
+If you suspect contamination in your Hamilton Star liquid handling robot:
+
+1.	Stop the operation: Immediately halt any ongoing processes to prevent further contamination.
+2.	Identify the source: Determine where the contamination might have occurred (i.e., from the liquid samples, pipette tips, the environment, etc).
+3.	Clean the system:
+    - Pipette tips: Replace all pipette tips; discard the contaminated ones and use new, sterile tips.
+    - Deck and surfaces: Clean all surfaces of the robot, including the deck and any other areas that might have come into contact with the contaminating material. Use cleaning agent appropriate to the contaminating material (refer to section 9.6 of DROP SOP-001)
+4.	Check for residual contamination: After cleaning, run a test with no template control or NTC for NAAT, or blank reactions inside the system to ensure that the contamination has been fully removed.
+5.	Prevent future contamination:
+    - Regular maintenance: Perform regular maintenance and cleaning as recommended by Hamilton.
+    - Proper handling: Ensure that all samples and reagents are handled properly to avoid introducing contaminants.
+    - Environmental controls: Maintain a clean working environment to minimize the risk of contamination.
+
+If the contamination persists or unsure about any steps, contact Hamilton’s technical support for further assistance.
+
+[1] https://www.jmp.com/en/statistics-knowledge-portal/design-of-experiments
