@@ -62,7 +62,12 @@ This is an example of how to use the RoboLFA system to do antibody screening. Ev
 
 ## :simple-graphql: **Other example efforts**
 
-The range of efforts that the RoboLFA system can be used for are large. Everything from an analytical or clinical evaluation to a large DoE screening running buffer conditions are possible. More information about the system and other applications can be found in the following manuscripts: 
+The range of efforts that the RoboLFA system can be used for are large. Everything from an analytical or clinical evaluation to a large DoE screening running buffer conditions are possible. 
+
+![LFA example efforts](./images/LFA%20example%20efforts.png) <br>
+<small>Figure 3. Examples of roboLFA development effrts. </small>
+
+More information about the system and other applications can be found in the following manuscripts: 
 
 <small>
 [1] Anderson, C.E., Huynh, T., Gasperino, D.J. et al. Automated liquid handling robot for rapid lateral flow assay development. Anal Bioanal Chem 414, 2607–2618 (2022). https://doi.org/10.1007/s00216-022-03897-9 <br>
