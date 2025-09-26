@@ -1,5 +1,9 @@
 This document describes how to analyze thermocycler data of a nucleic acid amplification test (NAAT). This code applies to large batch thermocycler data, typically generated from the NAAT system. This code has been developed and validated with data exported from Biorad software. Additional development may be required for other thermocyclers. Application of the software described here can be used for thermocycler data made outside of the context of RoboNAAT. 
 
+Traditional analysis for thermocycler data analyzes one 96 or 384 well plate at a time. Background subtraction and amplification threshholds are deteremined automatically using the software associated with the machine. 
+
+We sought out to develop code that can analyze many plates at once. This presented unique challenges, as the automatically set threshold does not always apply to experiments where many variables are changing at once. Therefore, this code takes the raw fluorescence data from the thermocycler, generates a sigmoidal logistic function fit to the data, and outputs the variables of interest for analysis. The sigmoidal logistic function is based on [Goll et al 2006](https://link.springer.com/article/10.1186/1471-2105-7-107)
+
 ## :fontawesome-solid-computer: **Software requirements**
 
 To operate the thermocycler data analysis code, Python and Jupyter notebook are required. Instructions on how to install Jupyter notebook on a Windows machine can be found here - https://www.geeksforgeeks.org/how-to-install-jupyter-notebook-in-windows/
