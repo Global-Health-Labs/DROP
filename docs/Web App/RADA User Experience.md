@@ -1,4 +1,4 @@
-The RADA web application has two experiment tabs, for LFA and NAAT experiments respectively. These are seperated because of differences in the experiment design, specifically around addition to non-plate based hardware. Modifications can be made to widen the breath of protocols that can be generated using RADA, as required.
+The RADA application features two distinct experiment tabs, one for LFA experiment and another for NAAT experiments. There are separated due to differences in the experimental design, especially regarding the addition of non-plate based hardware. Modifications can be made to widen the range of protocols that RADA can generate as needed.
 
 ![RADA Main Page](./images/RADA_homepage.PNG) <br>
 <small>Figure 1. Home page of RADA web application. LFA and NAAT tabs contain experiments for their respective chemistries. </small>
@@ -22,9 +22,11 @@ The items that need to be filled out include:
 - Number of technical replicates
 - Option to make an experiment preset that will appear in the "New Experiment" drop down. 
 
-Both Deck Layout and Assay Plate configuration are drop down menus that pull from configurations built by the RADA admins. More information on what that entails can be found under "Admin Capabilities". 
+Both the Deck Layout and Assay Plate Configuration dropdown menus are populated with predefined setups created by RADA administrators. These configurations help standardize experiment setup and ensure compatibility with automated workflows.
 
-Assay plate configuration refers to the assay holder (cassette, strip, etc) corresponding to the experiment being run. 
+Deck Layout refers to the layout of plates and tubes on the Hamilton deck. The deck layout must be consistent between the web application, the Hamilton Layout file, and the physical location of items on the Hamilton STAR.
+
+Assay Plate Configuration refers to the assay holder (cassette, strip, etc) corresponding to the experiment being run. 
 
 Once the Deck Layout or Assay Plate Configuration have been selected, a preview of the selected configuration will be visible when hovering over the preview icon. 
 
@@ -44,7 +46,7 @@ The information required for each step include:
 - Liquid type to be pipetted. Select "Imaging" if the step is an imaging step. 
 - Volume to be pipetted. Note: Numbers can use decimals and are recommended to be between 1-1000uL for the current configuration. 
 - Time delay in seconds if a time delay is required between this and the subsequent step. 
-- Variable conditions for the experiment. The worlist generator will take the input variables and use a full factorial DoE to run all combinations of the input conditions. Keep an eye on the number of conditions and number of replicates to ensure that there are enough spots on the given deck layout to run the desired experiment. 
+- Variable conditions for the experiment. The worklist generator will take the input variables and use a full factorial DoE to run all combinations of the input conditions. Keep an eye on the number of conditions and number of replicates to ensure that there are enough spots on the given deck layout to run the desired experiment. 
 
 ![Configure LFA Experiment Steps](./images/RADA_LFA_experiment_page2.PNG) <br>
 <small>Figure 5. Screen to load LFA experiment steps. </small>
@@ -58,29 +60,29 @@ Once the experiment details are finalized, select "Save and Continue"
 
 ### :fontawesome-solid-file-csv: **Download worklist file(s)**
 
-Worklist file can be downloaded from the "Export Experiment" page. This is the file that is input into the Hamilton VENUS Run Control. 
+Worklist file can be downloaded from the "Export Experiment" page. This file serves as the input for controlling the Hamilton Venus run.
 
 ![Download Worklist Files](./images/RADA_LFA_experiment_page3.PNG) <br>
 <small>Figure 7. Export Experiment Files Page. </small>
 
 !!! note
-    The file that is downloaded will be a CSV UTF-8. The Method provided on this site does not work with CSV UTF-8, therefore the downloaded worklist must be opened and saved as a plain .csv. 
+    The downloaded file is a CSV UTF-8. The DROP method does not recognize CSV UTF-8; the downloaded worklist must be saved as a plain .csv file. 
 
 ### :material-view-grid-plus-outline: **View robot instructions to load deck**
 
-When loading the deck, select "View Instructions" to enter into the Worklist Viewer. This viewer contains all the information required for the user to load reagents into plates and plates onto the deck in the correct locations. 
+To enter the Worklist Viewer, select "View Instructions". This viewer contains all the information to correctly load reagents into plates and position the plates on the deck in their designated locations.
 
 ![Worklist Viewer](./images/RADA_LFA_Experiment_page4.PNG) <br>
 <small>Figure 8. Page designed to support the set up of the reagents and plates onto the Hamilton Deck. </small>
 
-After an experiment has been created, it is saved in the database built into the application. An experiment can always be referenced after the fact, as well as modified or loaded with the LogFiles and/or data from the experiment after completion. 
+Once an experiment is created, it is saved in the application's built-in database. Experiments can be referenced at any time after creation and maybe modified or reloaded as needed. Additionally, completed experiments can be loaded with associated LogFiles and experimental data for further analysis or review.
 
 ![Worklist Viewer](./images/RADA_LFA_experiment_summary.PNG) <br>
 <small>Figure 9. Experiment summary for example LFA experiment. </small>
 
 ## User Experience - NAAT experiment 
 
-Generated NAAT experiments can be found in the NAAT tab. A new experiment can be generated by selecting "New Experiment" or by copying an existing experiment. Presets for commonly used protocols will also appear here.
+All generated NAAT experiments can be viewed in the NAAT tab. To create a new experiment, select "New Experiment", or duplicate an existing one using the copy option. Presets for commonly used protocols are also available in this tab to streamline setup.
 
 ### :material-test-tube: **Input experimental details**
 
@@ -103,29 +105,31 @@ The items that need to be filled out include:
 - PCR plates size: dropdown with options for 96 and 384 wells
 - Option to make an experiment preset that will appear in the "New Experiment" drop down. 
 
-Deck Layout is a drop down menu that pulls from configurations built by the RADA admins. More information on what that entails can be found under "Admin Capabilities".  
+The Deck Layout drop down menu displays configurations created by RADA. For more details on how these configurations are managed, refer to the Admin Capabilities section.
 
 Once the Deck Layout has been selected, a preview of the selected configuration will be visible when hovering over the preview icon. 
 
 Once completed, select "Save and Continue". 
 
-The next page allows the user to Configure the NAAT experiment steps. Each mastermix will be loaded into one section that can contain as many mastermix components as needed. The form will pop up with one mastermix, and more steps can be added by selecting the "Add mastermix" button on the bottom right. 
+Configure master mix components. On the next page, users can configure the steps of their NAAT experiment. Each master mix is loaded into a dedicated section, which can include as many components as needed.
+
+The form initially displays one master mix by default. To add additional steps, simply click the "Add Master mix" button located at the bottom right of the page.
 
 The information required for each step include:
 
-- Mastermix name
+- Master mix name
 - Source name: the identity of the reagent (i.e. water, buffer, dNTPs, DNA pol, etc)
 - Concentration unit: drop down menu with options for concentration value will apply to both the final and stock concentration inputs
 - Final concentration desired in mastermix
 - Stock concentration: starting concentration for reagent
 - Liquid type to be pipetted: drop down menu that correlates with the respective liquid class
 
-The order in which the reagents are added into the list is the order in which they will be added on the machine. If the order needs to be switched, they can be moved by using the six dots on the far right of the corresponding step. Similarly, the order of the mastermixes can be reordered as needed. 
+The order in which reagents are listed determines the sequence in which they will be added by the machine. To adjust the order, use the six-dot handle on the far right of each step to drag and rearrange items as needed. Similarly, master mix sections can be reordered to match your desired workflow or protocol sequence.
 
 ![Configure NAAT Experiment Steps](./images/RADA_NAAT_experiment_page2.PNG) <br>
 <small>Figure 11. Screen to load NAAT experiment steps, with example information loaded. </small>
 
-Mastermixes can be copied to minimize the amount of repeat work. This is done by selectin the three bars on the upper right corner of the mastermix header. 
+To reduce repetitive setup, mastermixes can be copied. This can be done by selecting the three-bar menu located in the upper right corner of the mastermix header. This feature allows for quick duplication and easy modification of existing steps.
 
 ![Configure NAAT Experiment Steps](./images/RADA_NAAT_experiment_dropdown.PNG) <br>
 <small>Figure 12. Dropdown to allow for addition of reagents to a mastermix, copy or delete the mastermix. </small>
@@ -134,27 +138,31 @@ Once the experiment details are finalized, select "Save and Continue"
 
 ### :fontawesome-solid-file-csv: **Download worklist file(s)**
 
-Worklist files can be downloaded from the "Export Experiment" page. This is the file that is input into the Hamilton VENUS Run Control. 
+Worklist files can be downloaded from the Export Experiment page. These files are used as input for the Hamilton VENUS Run Control system.
 
-The NAAT worklist generator splits the worklists into two, one that includes the mixing and aliquoting of the mastermix (Mastermix Worklist) and another that includes the aliquoting of the sample (Sample Worklist). 
+The NAAT worklist generator produces two separate files:
+Master mix Worklist – handles the mixing and aliquoting of the master mix.
+Sample Worklist – manages the aliquoting of the samples.
+
+This separation ensures precise execution and easier troubleshooting during automated runs.
 
 ![Download Worklist Files](./images/RADA_NAAT_experiment_page3.PNG) <br>
 <small>Figure 13. Export Experiment Files Page. </small>
 
 !!! note
-    The file that is downloaded will be a CSV UTF-8. The Method provided on this site does not work with CSV UTF-8, therefore the downloaded worklist must be opened and saved as a plain .csv. 
+    The downloaded file is a CSV UTP-8 type. The DROP method does not recognize CSV UTF-8; the downloaded worklist must be saved as a plain .csv file.
 
 ### :material-view-grid-plus-outline: **View robot instructions to load deck**
 
-When loading the deck, select "View Instructions" to enter into the Worklist Viewer. This viewer contains all the information required for the user to load reagents into plates and plates onto the deck in the correct locations. 
+To enter the Worklist Viewer, select "View Instructions". This viewer contains all the information to correctly load reagents into plates and position the plates on the deck in their designated locations.
 
 ![Worklist Viewer](./images/RADA_NAAT_Experiment_page4.PNG) <br>
 <small>Figure 14. Page designed to support the set up of the reagents and plates onto the Hamilton Deck. </small>
 
 The worklist viewer has five sections:
 
-1.	Reagent loading section – This section includes the list of reagents to be added to run the experiment. It includes solution name (based on user input), plate name, well number, and a check box to indicate when a reagent has been loaded. Click on a given row to highlight locations in the plate layout and deck layout. 
-2.	Plate Layout – Shows the layout of a given plate, 96 or 384. When a given reagent is highlighted, the corresponding well will be highlighted in black. 
-3.	Deck Layout – Shows the layout of the deck, with the corresponding plate names used by the robot to identify plate locations. Similar to the plate layout, the plate corresponding to a specific reagent will be highlighted in black when that reagent is selected. 
-4.	Instructions – When one row in the solution section is selected, instructions will include the solution name, the volume to be pipetted, and the well and plate ID. This can be used by the user to know what to load where, and in what volume.
+1.	Reagent loading section – This section lists all reagents required for the experiment, including solution name (based on user input), plate name, well number, and a check box to indicate when a reagent has been loaded. Selecting a row will highlight the corresponding locations in both the Plate Layout and Deck Layout. 
+2.	Plate Layout – Displays the layout of a given plate, 96 or 384. When selected the corresponding well will be highlighted in black. 
+3.	Deck Layout – Shows the robot's deck configuration. When a reagent is selected, the associated plate is highlighted in black, mirroring the Plate Layout behavior. 
+4.	Instructions – When a reagent row is selected, this panel provides detailed loading instructions, including: Solution name, volume to be pipetted, well and plate ID. This helps users accurately load reagents with the correct volume and location.
 

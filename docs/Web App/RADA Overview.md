@@ -9,9 +9,9 @@ The Robotic Assay Development Application (RADA) was developed to reduce the bar
 + Ability to copy and edit experiments for maximum efficiency
 + Informational icons to support users through unfamiliar jargon
 + Admin functionalities including:
-+ Adding new users and changing visibility levels
-+ Adjusting liquid classes, hardware, and deck layouts
-+ Load experiment presets 
+    - Adding new users and changing visibility levels
+    - Adjusting liquid classes, hardware, and deck layouts
+    - Load experiment presets 
 + Quality assurance tested
 
 ### Deployment instructions
@@ -19,7 +19,7 @@ The Robotic Assay Development Application (RADA) was developed to reduce the bar
 :fontawesome-brands-github: - RADA App Backend <br>
 :fontawesome-brands-github: - RADA App Deployment <br>
 
-There are three different Github repos associated with RADA, the frontend, backend, and deployment. All three are required to deploy the web application. The Deployment Repo contains all necessary information to deploy the RADA web app. 
+There are three different Github repositories (repos) associated with RADA, the frontend, backend, and deployment. All three are required to deploy the web application. The Deployment Repo contains all necessary information to deploy the RADA web app. 
 
 ![RADA Architecture](./images/RADA_architecture.PNG) <br>
 <small> Figure 1. Description </small> <br><br>

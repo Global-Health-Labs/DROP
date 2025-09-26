@@ -3,16 +3,16 @@
 The Diagnostic Robotic Optimization Platform (DROP) was developed by GH Labs to support high throughput development of diagnostic chemistries, with an initial focus on Lateral Flow Assays (LFAs) and Nucleic Acid Amplification Tests (NAATs). The scope of this work includes: 
 
 * Development and validation of robotic platforms for the optimization of lateral flow assay and nucleic acid amplification chemistries. 
-* Application of the high-throughput screening platform to identify best performing antibodies for LFAs in multiple disease areas. 
-* Demonstration of utility of Design of Experiments for NAAT development. 
+* Application of the high-throughput screening platform to identify top performing antibodies for LFAs in multiple disease areas. 
+* Demonstration of utility of Design of Experiments (DoE) for NAAT development. 
 * Technology transfer to partners in India and the UK. 
 
 ## The Why
 Assay development can be a largely manual process that requires a large amount of hands-on time from highly trained laboratory personnel. The DROP system uses an automated liquid handling robot to support assay development efforts. The benefits of such a system include: 
 
-* **Time** - potential to decrease both total development time and total hands-on time required
-* **Maximizes experiment size** - no longer limited by how many strips or plates on person can run at a time
-* **Reproducibility** - ensuing greater accuracy and consistency
+* **Accelerate Timelines** - reduces both total development time and total hands-on time required
+* **Improve Scalability** - enables performance of large scale experiments without the limitation of manual handling
+* **Enhance Reproducibility** - Automation minimizes variability, ensuring greater accuraccy and consistency 
 
 Applications of this system can include, but are not limited to: 
 
@@ -32,24 +32,22 @@ Running an experiment using the DROP system requires the use of a number of tool
 + Getting and analyzing the data
 + Repeating as needed
 
-RoboLFA is the DROP module that was designed to run LFA chemistries on the Hamilton STAR. This system has been used primarily for the selection and optimization of antibody pairs for a traditional LFA antibody stack. Additional applicaitons include optimization of membrane materials, blocking and running buffers, drying and spraying conditions, and conjugate chemistry optimization. More about this module can be found in the RoboLFA tab above. 
+RoboLFA is the DROP module that was designed to run LFA chemistries on the Hamilton STAR. This system has been used primarily for the selection and optimization of antibody pairs for a traditional LFA antibody stack. Additional applicaitons include optimization of membrane materials, blocking and running buffers, drying and spraying conditions, and conjugate chemistry. More about this module can be found in the RoboLFA tab above. 
 
 ![Diagnostic Robotic Optimization Platform (DROP) for LFA](./images/DROP_LFA_Flowchart.png)
 <small>Figure 2. Flow chart describing use of DROP system for LFA applications. </small>
 
-RoboNAAT is the DROP module that was designed to run NAAT chemistries on the Hamilton STAR. This module has been used for the optimization and characterization of a range of nucleic acid amplification chemistries, including polymerase chain reaction (PCR), loop-mediated isothermal amplification (LAMP) and recombinase polymerase amplification (RPA). 
+RoboNAAT is the DROP module that was designed to run NAAT on the Hamilton STAR. This module has been used for the optimization and characterization of various nucleic acid amplification chemistries, including polymerase chain reaction (PCR), loop-mediated isothermal amplification (LAMP) and recombinase polymerase amplification (RPA). 
 
 ![Diagnostic Robotic Optimization Platform (DROP) for NAAT](./images/DROP_NAAT_Flowchart.png)
 <small>Figure 3. Flow chart describing use of DROP system for NAAT applications. </small>
 
+## Conclusions and Next Steps
 
-
-## Ongoing work/next steps
-
-+ RoboNAAT and RoboLFA designs locked and available to be shared 
-+ RADA web application for simplified use of Hamilton STAR completed and available for additional deployments
-+ This technology has been transferred to partners in India (C-CAMP/InDx) and the UK (GADx) 
++ RoboNAAT and RoboLFA designs locked and available on Github
++ RADA web application for simplified use of Hamilton STAR completed and available for deployment
++ Technology has been transferred to partners in India (C-CAMP/InDx) and the UK (GADx) 
 + Continued development is needed in the following areas:
-    + Application of DROP to accelerate bringing diagnostic products to market
+    + Application of DROP in India to accelerate bringing diagnostic products to market
     + Experimental design for NAAT experiments – finding optimal DOE for different amplification chemistries 
     + Integration with fluorescence readout to enable non-colorimetric readout for protein or nucleic acid-based assays 

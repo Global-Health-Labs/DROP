@@ -8,26 +8,25 @@
     - Refer to Hamilton Robotics or local Hamilton distributor 
 
 ## Files required for installation 
-(github link here) Github Repository containing: 
 
 - DROP Method and Layout Files 
-    - DROP_NAAT.pkg
-    - DROP_LFA.pkg
-- DROP Liquid Classes 
+    - [DROP_NAAT.pkg]()
+    - [DROP_LFA.pkg]()
+- [DROP Liquid Classes]() 
 - Test Worklists 
-    - Test_mastermix_worklist.csv 
-    - Test_sample_worklist.csv 
-    - Test_LFA_cartridge_worklist.csv 
-    - Test_LFA_strip_worklist.csv
+    - [Test_mastermix_worklist.csv]() 
+    - [Test_sample_worklist.csv]()
+    - [Test_LFA_cartridge_worklist.csv]() 
+    - [Test_LFA_strip_worklist.csv]()
 - Support packages
-    - STAR Animations
-    - Shortcuts Import 
-    - EasyPickII Library
+    - [STAR Animations]()
+    - [Shortcuts Import]()
+    - [EasyPickII Library]()
 
 ## VENUS installation
 1.	Download VENUS onto local machine. Also download the following supporting files that are required as described above.
 2.	Run Venus.STAR.Installer.exe and follow the prompts. This step might take a while.
-    - When you get to the "Select Features" Window, make sure to select ALL features listed. If you skip this step, the final software will not be able to run the Method correctly. <br> <br>
+    - When you get to the "Select Features" window, make sure to select ALL features listed. If you skip this step, the final software will not be able to run the Method correctly. <br> <br>
     ![VENUS Installation Wizard](./images/VENUS-installation-wizard.png) <br>
     <small>Figure 1. Screenshot of VENUS software installation wizard. Select all features to ensure proper execution of the Method. </small> <br><br>
 3.	Once installation is completed, open the VENUS software. 
@@ -36,11 +35,11 @@
 4.	Navigate to System Tools and click on Hamilton Method Editor. 
     ![VENUS System Tools](./images/VENUS-system-tools.png) <br>
     <small> Figure 2. User view of System Tools. Important locations to note for installation are the Method Editor and Liquid Class Editor in the top row. </small> <br><br>
-5.	The following package files will be loaded one at a time. Make sure they are saved locally onto the machine. 
+5.	Load following package files one at a time. Make sure they are saved locally onto the machine. 
     - DROP_NAAT.pkg
     - DROP_LFA.pkg
     - STAR_Animations V1.6.0 200416.pkg 
-6.	Select "Import" in the Hamilton Method Editor. Make sure the section that is selected is Import Method/Library/Workflow. Select the "..." and navigate to the .pkg file you are installing. Select "Next". <br> <br>
+6.	Select "Import" in the Hamilton Method Editor. Make sure to select Import Method/Library/Workflow. Select the "..." and navigate to the .pkg file you are installing. Select "Next". <br> <br>
     ![VENUS System Tools](./images/VENUS-import-method.png) <br>
     <small> Figure 3. Pop up in Hamilton Method Editor to Import a Method file. Make sure that Import Method / Library / Workflow are selected. </small> <br><br>
 7.	Select "Import into Default Directories". Once selected, click "Next". <br><br>

@@ -4,13 +4,13 @@
 DROP is an add on to a Hamilton STAR system that consists of hardware, software, and protocols specific to this work. Other Hamilton systems could be used with some modifications to the Method/Layout files and LFA hardware. 
 
 ![DROP STAR](./images/DROP%20system%20overview.png) <br> <br>
-<small>Figure 1. Image of Hamilton STAR, base of the DROP system, with specific add ons required for the build. This includes type of pipette head (other options are 96 and 384 head, which work well for plate applications but are not flexible enough for LFA applications), VENUS software, tip and plate carriers, and on board camera. NAAT applications also require a HEPA filter and UV hood to reduce the risk of contamination. </small>
+<small>Figure 1. Image of Hamilton STAR with specific add ons required for DROP. This includes 8 individual pipetting channels (other options are 96 and 384 head, which work well for plate applications but are not flexible enough for LFA applications), VENUS software, tip and plate carriers, and on board camera. NAAT applications also require a HEPA filter and UV light to reduce the risk of contamination. </small>
 
-**Additional capabilities recommended:**
+**Additional recommended capabilities:**
 
 *LFA applications -*
 
-+ Lateral flow assay preparation and assembly 
++ Lateral flow strip preparation and assembly 
 + 3D printing (internal or outsourced) to make LFA strip holders 
 + Laser cutting (internal or outsourced) to make LFA cassette holders 
 
@@ -18,8 +18,9 @@ DROP is an add on to a Hamilton STAR system that consists of hardware, software,
 
 + PCR hood for clean reagent preparation 
 + Gel capabilities 
++ Thermocyclers 
 
-After setting up the equipment described above, the software specific to the DROP system must be installed. More detail instructions for installation can be found under "DROP Installation". 
+After setting up the Hamilton STAR and ancillary equipment, the software specific to the DROP system must be installed. More detail instructions for installation can be found under "DROP Installation". 
 
 ## :simple-materialdesignicons: **Step 1: Experimental Design**
 
@@ -28,7 +29,7 @@ Experimental design for LFAs and NAATs can take many forms. One of the major ben
 + Full factorial design to determine the best antibody pairs for a given antigen target 
 + Taguchi design for PCR optimization 
 
-More detail on each of these can be found in the respective roboLFA and roboNAAT Modules. 
+More detail on each of these can be found in the respective RoboLFA and RoboNAAT Modules. 
 
 ![DROP DOE](./images/DOE_example.jpg) <br>
 <small>Figure 2. Graphical representation of experimental designs for a 3-dimensional experimental space. Image from [Prism UK](https://prismtc.co.uk/resources/blogs-and-articles/the-sequential-nature-of-classical-design-of-experiments).  </small>
@@ -53,11 +54,11 @@ A full experiment should not be run if there are errors that occur in either of 
 
 ## :material-robot-industrial: **Step 4: Run Experiment**
 
-This step is exactly what it sounds like, run the experiment that has been designed and validated. Something to be mindful of is that there are efforts on the DROP system can span multiple robot runs. 
+This step is exactly what it sounds like, run the experiment that has been designed and validated. Something to be mindful of is that there are efforts on the DROP system that can span multiple robot runs. 
 
 ## :octicons-graph-16: **Step 5: Data Analysis**
 
-Included in the DROP system are two data analysis tools, one for analyzing LFA images taken on the Hamilton STAR and one for analyzing raw NAAT data from a thermocycler. Both tools utilize Jupyter Notebook and Python. More information about each tool can be found in their respective platform tabs (roboLFA and roboNAAT). 
+The DROP system includes two data analysis tools, one designed for analyzing LFA images captured using the Hamilton STAR and one for analyzing raw NAAT data from a thermocycler. Both tools utilize Jupyter Notebook and Python. More information about each tool can be found in their respective platform tabs (roboLFA and roboNAAT). 
 
 ## :material-repeat: **Step 6: Iterate**
 
