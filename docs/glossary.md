@@ -18,8 +18,8 @@ There is a lot of jargon associated with the DROP system. The definitions are gr
 | `RDT`            | Rapid diagnsotic test |
 
 ## General definitions 
-| Term              | Definition                          |
-| :---------------- | :----------------------------------- |
+| Term                     | Definition                          |
+| :----------------------- | :----------------------------------- |
 | `worklist`        | The worklist is a .csv file that is input into the Hamilton Run Control to the robot what actions to follow and in what order. The file containing the worklist must end with ‘worklist.csv’ otherwise the Hamilton software will not recognize it. The file containing the worklist must end with worklist.csv; otherwise, the Hamilton software will not recognize it. The file must be a plain .csv file (not a UTF-8 or any other csv version). A worklist can be made manually or by coding. For LFA optimization work, we have python-based code called the “Robot Worklist Generator”. The worklist is composed of 21 columns (two of which are optional) and infinite rows. The identity and definition of each of these columns is described in Section 8. The order of the columns does not matter.  |
 | `Method`          | A Hamilton specific piece of software that has been designed to carry out an experiment. Methods can be simple (always pipette a known volume between known locations) or complex (insert a .csv file with a range of different commands that can pipette any volume within reason between any location available on the deck). |
 | `Deck`            | The area on the robot where things happen. It includes where the pipette tips are stored, where plates can be placed, and even includes the waste area. |

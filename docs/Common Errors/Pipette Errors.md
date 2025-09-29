@@ -30,10 +30,10 @@
 
 ### Incorrect pipette tip assignment
 
-+ **Problem**: 
-+ **Error pop-up**:  
-+ **Logfile information**: 
-+ **Solution**: 
++ **Problem**: The system is expecting a certain pipette tip, and a different one is in the identified location. 
++ **Error pop-up**:  If the issue is between 50 and 300 uL tips, then non error will pop up but the system will run assuming that it is using a tip with different dimensions (height) and may either crash or be unable to reach the liquid level. 
++ **Logfile information**: None if the issue happens with 50 and 300 uL tip. Will identify that it can not pick up the tip if it is between 50/300 and 1000 as their shoulder heights are different. 
++ **Solution**: Ensure that the tips loaded on the deck are the ones identified in the Hamilton Layout. Pictures of the deck layout or labels on the tip carriers can also reduce the likelihood of error. 
 
 ### Tip swap
 

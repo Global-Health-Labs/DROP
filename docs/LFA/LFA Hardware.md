@@ -80,7 +80,7 @@ The cassette holder consists of:
 | 16 | 047287.SLDPRT   | LFA cassette deck| Custom            | 1    |Holes for alignment posts and posts for cassette holder| 12 + 13 |
 | 17 | 038379_v1.SLDPRT or  038379_v2.SLDPRT (LFA Holder 4) | LFA cassette holder | Custom            | 1    |Holes for posts and cassettes (LFA cassette dependent)| 16 |
 
-CAD link:
+:simple-opensourcehardware: 
 
 ## Deck build 
 
@@ -91,5 +91,5 @@ The hardware above is placed onto the deck in the following, respective manners,
 
 Images of deck build with both the LFA strip holder 
 
-![Deck Layout with cassette holder](./images/Deck%20with%20LFA%20Cassette%20Holder.png) <br>
+![Deck Layout with LFA strip holder](./images/Deck%20with%20LFA%20Strip%20Holder.png) <br>
 <small>Figure 5. Deck layout with strip holder. </small>
