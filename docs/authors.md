@@ -6,6 +6,7 @@
 + Toan Hunyh [:material-linkedin:](https://www.linkedin.com/in/huynhtoan/){:target="_blank"}
 + Josh Bishop [:material-linkedin:](https://www.linkedin.com/in/josh-bishop-ph-d-6207324/){:target="_blank"}
 + Jason Cantera [:material-linkedin:](https://www.linkedin.com/in/jason-cantera-87554319/){:target="_blank"}
++ Dan Shea [:material-linkedin:](https://www.linkedin.com/in/sheadan/){:target="_blank"}
 + Anne-Laure Le Ny [:material-linkedin:](https://www.linkedin.com/in/anne-laure-le-ny-a7377a3/){:target="_blank"}
 + Jamie Purcell [:material-linkedin:](https://www.linkedin.com/in/jamie-purcell-phd-098aa65a/){:target="_blank"}
 + Bernhard Weigl [:material-linkedin:](https://www.linkedin.com/in/bernhard-h-weigl-00537b15/){:target="_blank"}
