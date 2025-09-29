@@ -9,7 +9,7 @@
 + Anne-Laure Le Ny [:material-linkedin:](https://www.linkedin.com/in/anne-laure-le-ny-a7377a3/){:target="_blank"}
 + Jamie Purcell [:material-linkedin:](https://www.linkedin.com/in/jamie-purcell-phd-098aa65a/){:target="_blank"}
 + Bernhard Weigl [:material-linkedin:](https://www.linkedin.com/in/bernhard-h-weigl-00537b15/){:target="_blank"}
-+ many many more need to be added
++ Putthida Samrith [:material-linkedin:](https://www.linkedin.com/in/psamrith/){:target="_blank"}
 
 ## Neurosynaptic Communications/Appzoy
 

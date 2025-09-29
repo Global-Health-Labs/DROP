@@ -1,0 +1,12 @@
+The most critical aspect of fitting this model successfully is defining appropriate bounds for each of the parameters, which requires understanding the parameters and how they manifest in the shape of the curve.
+
+The default parameter bounds are set in the code in PlateAnalyzer.__init__() but could be changed/made possible to change. The defaults are:
+bounds = ([0, 0, 1, 0, -100], 
+          [1e6, 160, 100, 1e5, 100])
+
+Which corresponds to the following bounds for parameters:
+F_max: [0,1e6]
+C_half: [0,160]
+k: [1,100] <-- this could be smaller on the low end
+F_b: [0,10000]
+DriftSlope = [-100, 100]

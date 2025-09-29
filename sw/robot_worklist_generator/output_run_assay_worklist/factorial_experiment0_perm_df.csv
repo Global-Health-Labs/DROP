@@ -1,0 +1,17 @@
+rep,0_6,1_6,destination
+0,conjugate_1,Neg,1
+0,conjugate_1,Pos,2
+0,conjugate_2,Neg,3
+0,conjugate_2,Pos,4
+1,conjugate_1,Neg,5
+1,conjugate_1,Pos,6
+1,conjugate_2,Neg,7
+1,conjugate_2,Pos,8
+2,conjugate_1,Neg,9
+2,conjugate_1,Pos,10
+2,conjugate_2,Neg,11
+2,conjugate_2,Pos,12
+3,conjugate_1,Neg,13
+3,conjugate_1,Pos,14
+3,conjugate_2,Neg,15
+3,conjugate_2,Pos,16

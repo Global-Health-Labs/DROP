@@ -1,0 +1,49 @@
+step,dx,dz,volume_ul,liquid_class,timer_delta,source,step_index,destination,group_number,timer_group_check,guid,from_path,asp_mixing,dispense_type,tip_type,touchoff_dis,to_plate,to_well,from_plate,from_well,liquid_type_x,liquid_type_y,liquid_type
+Conjugate addition,13,0.2,2.0,ivl_tip50_pbst_JetEmpty,-1,conjugate_1,1,1,1,0.0,1,some path,0,Jet_Empty,50,-1,IVL_Plate_v3_96cassettes_ABformat_0001,1,ivl_384_flat_v1_0001,1.0,pbst,,pbst
+Conjugate addition,13,0.2,2.0,ivl_tip50_pbst_JetEmpty,-1,conjugate_1,1,2,1,0.0,2,some path,0,Jet_Empty,50,-1,IVL_Plate_v3_96cassettes_ABformat_0001,2,ivl_384_flat_v1_0001,1.0,pbst,,pbst
+Conjugate addition,13,0.2,2.0,ivl_tip50_pbst_JetEmpty,-1,conjugate_2,1,3,1,0.0,3,some path,0,Jet_Empty,50,-1,IVL_Plate_v3_96cassettes_ABformat_0001,3,ivl_384_flat_v1_0001,3.0,pbst,,pbst
+Conjugate addition,13,0.2,2.0,ivl_tip50_pbst_JetEmpty,-1,conjugate_2,1,4,1,0.0,4,some path,0,Jet_Empty,50,-1,IVL_Plate_v3_96cassettes_ABformat_0001,4,ivl_384_flat_v1_0001,3.0,pbst,,pbst
+Conjugate addition,13,0.2,2.0,ivl_tip50_pbst_JetEmpty,-1,conjugate_1,1,5,1,0.0,5,some path,0,Jet_Empty,50,-1,IVL_Plate_v3_96cassettes_ABformat_0001,5,ivl_384_flat_v1_0001,1.0,pbst,,pbst
+Conjugate addition,13,0.2,2.0,ivl_tip50_pbst_JetEmpty,-1,conjugate_1,1,6,1,0.0,6,some path,0,Jet_Empty,50,-1,IVL_Plate_v3_96cassettes_ABformat_0001,6,ivl_384_flat_v1_0001,1.0,pbst,,pbst
+Conjugate addition,13,0.2,2.0,ivl_tip50_pbst_JetEmpty,-1,conjugate_2,1,7,1,0.0,7,some path,0,Jet_Empty,50,-1,IVL_Plate_v3_96cassettes_ABformat_0001,7,ivl_384_flat_v1_0001,3.0,pbst,,pbst
+Conjugate addition,13,0.2,2.0,ivl_tip50_pbst_JetEmpty,-1,conjugate_2,1,8,1,0.0,8,some path,0,Jet_Empty,50,-1,IVL_Plate_v3_96cassettes_ABformat_0001,8,ivl_384_flat_v1_0001,3.0,pbst,,pbst
+Conjugate addition,13,0.2,2.0,ivl_tip50_pbst_JetEmpty,-1,conjugate_1,1,9,2,0.0,9,some path,0,Jet_Empty,50,-1,IVL_Plate_v3_96cassettes_ABformat_0001,9,ivl_384_flat_v1_0001,1.0,pbst,,pbst
+Conjugate addition,13,0.2,2.0,ivl_tip50_pbst_JetEmpty,-1,conjugate_1,1,10,2,0.0,10,some path,0,Jet_Empty,50,-1,IVL_Plate_v3_96cassettes_ABformat_0001,10,ivl_384_flat_v1_0001,1.0,pbst,,pbst
+Conjugate addition,13,0.2,2.0,ivl_tip50_pbst_JetEmpty,-1,conjugate_2,1,11,2,0.0,11,some path,0,Jet_Empty,50,-1,IVL_Plate_v3_96cassettes_ABformat_0001,11,ivl_384_flat_v1_0001,3.0,pbst,,pbst
+Conjugate addition,13,0.2,2.0,ivl_tip50_pbst_JetEmpty,-1,conjugate_2,1,12,2,0.0,12,some path,0,Jet_Empty,50,-1,IVL_Plate_v3_96cassettes_ABformat_0001,12,ivl_384_flat_v1_0001,3.0,pbst,,pbst
+Conjugate addition,13,0.2,2.0,ivl_tip50_pbst_JetEmpty,-1,conjugate_1,1,13,2,0.0,13,some path,0,Jet_Empty,50,-1,IVL_Plate_v3_96cassettes_ABformat_0001,13,ivl_384_flat_v1_0001,1.0,pbst,,pbst
+Conjugate addition,13,0.2,2.0,ivl_tip50_pbst_JetEmpty,-1,conjugate_1,1,14,2,0.0,14,some path,0,Jet_Empty,50,-1,IVL_Plate_v3_96cassettes_ABformat_0001,14,ivl_384_flat_v1_0001,1.0,pbst,,pbst
+Conjugate addition,13,0.2,2.0,ivl_tip50_pbst_JetEmpty,-1,conjugate_2,1,15,2,0.0,15,some path,0,Jet_Empty,50,-1,IVL_Plate_v3_96cassettes_ABformat_0001,15,ivl_384_flat_v1_0001,3.0,pbst,,pbst
+Conjugate addition,13,0.2,2.0,ivl_tip50_pbst_JetEmpty,-1,conjugate_2,1,16,2,0.0,16,some path,0,Jet_Empty,50,-1,IVL_Plate_v3_96cassettes_ABformat_0001,16,ivl_384_flat_v1_0001,3.0,pbst,,pbst
+sample,0,1.0,75.0,ivl_tip300_water_JetEmpty,600,Neg,2,1,3,0.0,1,some path,0,Jet_Empty,300,-1,IVL_Plate_v3_96cassettes_ABformat_0001,1,ivl_96_dw_v1_0001,1.0,water,,water
+sample,0,1.0,75.0,ivl_tip300_water_JetEmpty,600,Pos,2,2,3,0.0,2,some path,0,Jet_Empty,300,-1,IVL_Plate_v3_96cassettes_ABformat_0001,2,ivl_96_dw_v1_0001,2.0,water,,water
+sample,0,1.0,75.0,ivl_tip300_water_JetEmpty,600,Neg,2,3,3,0.0,3,some path,0,Jet_Empty,300,-1,IVL_Plate_v3_96cassettes_ABformat_0001,3,ivl_96_dw_v1_0001,1.0,water,,water
+sample,0,1.0,75.0,ivl_tip300_water_JetEmpty,600,Pos,2,4,3,0.0,4,some path,0,Jet_Empty,300,-1,IVL_Plate_v3_96cassettes_ABformat_0001,4,ivl_96_dw_v1_0001,2.0,water,,water
+sample,0,1.0,75.0,ivl_tip300_water_JetEmpty,600,Neg,2,5,3,0.0,5,some path,0,Jet_Empty,300,-1,IVL_Plate_v3_96cassettes_ABformat_0001,5,ivl_96_dw_v1_0001,1.0,water,,water
+sample,0,1.0,75.0,ivl_tip300_water_JetEmpty,600,Pos,2,6,3,0.0,6,some path,0,Jet_Empty,300,-1,IVL_Plate_v3_96cassettes_ABformat_0001,6,ivl_96_dw_v1_0001,2.0,water,,water
+sample,0,1.0,75.0,ivl_tip300_water_JetEmpty,600,Neg,2,7,3,0.0,7,some path,0,Jet_Empty,300,-1,IVL_Plate_v3_96cassettes_ABformat_0001,7,ivl_96_dw_v1_0001,1.0,water,,water
+sample,0,1.0,75.0,ivl_tip300_water_JetEmpty,600,Pos,2,8,3,0.0,8,some path,0,Jet_Empty,300,-1,IVL_Plate_v3_96cassettes_ABformat_0001,8,ivl_96_dw_v1_0001,2.0,water,,water
+sample,0,1.0,75.0,ivl_tip300_water_JetEmpty,600,Neg,2,9,4,0.0,9,some path,0,Jet_Empty,300,-1,IVL_Plate_v3_96cassettes_ABformat_0001,9,ivl_96_dw_v1_0001,1.0,water,,water
+sample,0,1.0,75.0,ivl_tip300_water_JetEmpty,600,Pos,2,10,4,0.0,10,some path,0,Jet_Empty,300,-1,IVL_Plate_v3_96cassettes_ABformat_0001,10,ivl_96_dw_v1_0001,2.0,water,,water
+sample,0,1.0,75.0,ivl_tip300_water_JetEmpty,600,Neg,2,11,4,0.0,11,some path,0,Jet_Empty,300,-1,IVL_Plate_v3_96cassettes_ABformat_0001,11,ivl_96_dw_v1_0001,1.0,water,,water
+sample,0,1.0,75.0,ivl_tip300_water_JetEmpty,600,Pos,2,12,4,0.0,12,some path,0,Jet_Empty,300,-1,IVL_Plate_v3_96cassettes_ABformat_0001,12,ivl_96_dw_v1_0001,2.0,water,,water
+sample,0,1.0,75.0,ivl_tip300_water_JetEmpty,600,Neg,2,13,4,0.0,13,some path,0,Jet_Empty,300,-1,IVL_Plate_v3_96cassettes_ABformat_0001,13,ivl_96_dw_v1_0001,1.0,water,,water
+sample,0,1.0,75.0,ivl_tip300_water_JetEmpty,600,Pos,2,14,4,0.0,14,some path,0,Jet_Empty,300,-1,IVL_Plate_v3_96cassettes_ABformat_0001,14,ivl_96_dw_v1_0001,2.0,water,,water
+sample,0,1.0,75.0,ivl_tip300_water_JetEmpty,600,Neg,2,15,4,0.0,15,some path,0,Jet_Empty,300,-1,IVL_Plate_v3_96cassettes_ABformat_0001,15,ivl_96_dw_v1_0001,1.0,water,,water
+sample,0,1.0,75.0,ivl_tip300_water_JetEmpty,600,Pos,2,16,4,0.0,16,some path,0,Jet_Empty,300,-1,IVL_Plate_v3_96cassettes_ABformat_0001,16,ivl_96_dw_v1_0001,2.0,water,,water
+imaging,24,0.0,0.0,ivl_tip0_imaging_JetEmpty,1500,imaging,3,1,5,3.0,1,some path,0,Jet_Empty,0,-1,IVL_Plate_v3_96cassettes_ABformat_0001,1,IVL_Plate_v3_96cassettes_ABformat_0001,1.0,imaging,,imaging
+imaging,24,0.0,0.0,ivl_tip0_imaging_JetEmpty,1500,imaging,3,2,5,3.0,2,some path,0,Jet_Empty,0,-1,IVL_Plate_v3_96cassettes_ABformat_0001,2,IVL_Plate_v3_96cassettes_ABformat_0001,2.0,imaging,,imaging
+imaging,24,0.0,0.0,ivl_tip0_imaging_JetEmpty,1500,imaging,3,3,5,3.0,3,some path,0,Jet_Empty,0,-1,IVL_Plate_v3_96cassettes_ABformat_0001,3,IVL_Plate_v3_96cassettes_ABformat_0001,3.0,imaging,,imaging
+imaging,24,0.0,0.0,ivl_tip0_imaging_JetEmpty,1500,imaging,3,4,5,3.0,4,some path,0,Jet_Empty,0,-1,IVL_Plate_v3_96cassettes_ABformat_0001,4,IVL_Plate_v3_96cassettes_ABformat_0001,4.0,imaging,,imaging
+imaging,24,0.0,0.0,ivl_tip0_imaging_JetEmpty,1500,imaging,3,5,5,3.0,5,some path,0,Jet_Empty,0,-1,IVL_Plate_v3_96cassettes_ABformat_0001,5,IVL_Plate_v3_96cassettes_ABformat_0001,5.0,imaging,,imaging
+imaging,24,0.0,0.0,ivl_tip0_imaging_JetEmpty,1500,imaging,3,6,5,3.0,6,some path,0,Jet_Empty,0,-1,IVL_Plate_v3_96cassettes_ABformat_0001,6,IVL_Plate_v3_96cassettes_ABformat_0001,6.0,imaging,,imaging
+imaging,24,0.0,0.0,ivl_tip0_imaging_JetEmpty,1500,imaging,3,7,5,3.0,7,some path,0,Jet_Empty,0,-1,IVL_Plate_v3_96cassettes_ABformat_0001,7,IVL_Plate_v3_96cassettes_ABformat_0001,7.0,imaging,,imaging
+imaging,24,0.0,0.0,ivl_tip0_imaging_JetEmpty,1500,imaging,3,8,5,3.0,8,some path,0,Jet_Empty,0,-1,IVL_Plate_v3_96cassettes_ABformat_0001,8,IVL_Plate_v3_96cassettes_ABformat_0001,8.0,imaging,,imaging
+imaging,24,0.0,0.0,ivl_tip0_imaging_JetEmpty,1500,imaging,3,9,6,4.0,9,some path,0,Jet_Empty,0,-1,IVL_Plate_v3_96cassettes_ABformat_0001,9,IVL_Plate_v3_96cassettes_ABformat_0001,9.0,imaging,,imaging
+imaging,24,0.0,0.0,ivl_tip0_imaging_JetEmpty,1500,imaging,3,10,6,4.0,10,some path,0,Jet_Empty,0,-1,IVL_Plate_v3_96cassettes_ABformat_0001,10,IVL_Plate_v3_96cassettes_ABformat_0001,10.0,imaging,,imaging
+imaging,24,0.0,0.0,ivl_tip0_imaging_JetEmpty,1500,imaging,3,11,6,4.0,11,some path,0,Jet_Empty,0,-1,IVL_Plate_v3_96cassettes_ABformat_0001,11,IVL_Plate_v3_96cassettes_ABformat_0001,11.0,imaging,,imaging
+imaging,24,0.0,0.0,ivl_tip0_imaging_JetEmpty,1500,imaging,3,12,6,4.0,12,some path,0,Jet_Empty,0,-1,IVL_Plate_v3_96cassettes_ABformat_0001,12,IVL_Plate_v3_96cassettes_ABformat_0001,12.0,imaging,,imaging
+imaging,24,0.0,0.0,ivl_tip0_imaging_JetEmpty,1500,imaging,3,13,6,4.0,13,some path,0,Jet_Empty,0,-1,IVL_Plate_v3_96cassettes_ABformat_0001,13,IVL_Plate_v3_96cassettes_ABformat_0001,13.0,imaging,,imaging
+imaging,24,0.0,0.0,ivl_tip0_imaging_JetEmpty,1500,imaging,3,14,6,4.0,14,some path,0,Jet_Empty,0,-1,IVL_Plate_v3_96cassettes_ABformat_0001,14,IVL_Plate_v3_96cassettes_ABformat_0001,14.0,imaging,,imaging
+imaging,24,0.0,0.0,ivl_tip0_imaging_JetEmpty,1500,imaging,3,15,6,4.0,15,some path,0,Jet_Empty,0,-1,IVL_Plate_v3_96cassettes_ABformat_0001,15,IVL_Plate_v3_96cassettes_ABformat_0001,15.0,imaging,,imaging
+imaging,24,0.0,0.0,ivl_tip0_imaging_JetEmpty,1500,imaging,3,16,6,4.0,16,some path,0,Jet_Empty,0,-1,IVL_Plate_v3_96cassettes_ABformat_0001,16,IVL_Plate_v3_96cassettes_ABformat_0001,16.0,imaging,,imaging

@@ -1,0 +1,5 @@
+from_plate,from_well,source,volume_ul,plate,volume_well,nrow,ncol,volume_holdover,volume_usable,volume_user_input
+ivl_384_flat_v1_0001,1.0,conjugate_1,16.0,ivl_384_flat_v1,90,16,24,40,50,56.0
+ivl_384_flat_v1_0001,3.0,conjugate_2,16.0,ivl_384_flat_v1,90,16,24,40,50,56.0
+ivl_96_dw_v1_0001,1.0,Neg,600.0,ivl_96_dw_v1,1000,8,12,60,940,660.0
+ivl_96_dw_v1_0001,2.0,Pos,600.0,ivl_96_dw_v1,1000,8,12,60,940,660.0

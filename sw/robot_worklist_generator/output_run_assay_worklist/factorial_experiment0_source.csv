@@ -1,0 +1,5 @@
+source,volume_total,from_plate,from_well,step,step_index,volume_ul
+Neg,660.0,ivl_96_dw_v1_0001,1,sample,2,600.0
+Pos,660.0,ivl_96_dw_v1_0001,2,sample,2,600.0
+conjugate_1,56.0,ivl_384_flat_v1_0001,1,Conjugate addition,1,16.0
+conjugate_2,56.0,ivl_384_flat_v1_0001,3,Conjugate addition,1,16.0
