@@ -10,18 +10,17 @@
 ## Files required for installation 
 
 - DROP Method and Layout Files 
-    - [DROP_NAAT.pkg]()
-    - [DROP_LFA.pkg]()
-- [DROP Liquid Classes]() 
+    - :material-folder-download: [DROP LFA Package File (contains Method and Layout file)](./Installation Files/DROP_NAAT_v2.pkg)
+    - :material-folder-download: [DROP LFA Package File (contains Method and Layout file)](./Installation Files/DROP_LFA_v2.pkg)
+- :material-folder-download: [DROP Liquid Classes](./Installation Files/DROP_Liquid_Classes.mdb) 
 - Test Worklists 
-    - [Test_mastermix_worklist.csv]() 
-    - [Test_sample_worklist.csv]()
-    - [Test_LFA_cartridge_worklist.csv]() 
-    - [Test_LFA_strip_worklist.csv]()
+    - :fontawesome-solid-file-csv: [Test Mastermix Worklist](./Installation Files/Test_mastermix_worklist.csv) 
+    - :fontawesome-solid-file-csv: [Test sample worklist](./Installation Files/Test_sample_worklist.csv)
+    - :fontawesome-solid-file-csv: [Test LFA cartridge worklist](./Installation Files/Test_LFA_cassette_worklist.csv) 
+    - :fontawesome-solid-file-csv: [Test LFA strip worklist](./Installation Files/Test_LFA_strip_worklist.csv)
 - Support packages
-    - [STAR Animations]()
-    - [Shortcuts Import]()
-    - [EasyPickII Library]()
+    - :material-folder-download: [Shortcuts Import](./Installation Files/VENUS-Export.zip)
+    - :material-folder-download: [EasyPickII Library](./Installation Files/easyPickIIApplication.zip)
 
 ## VENUS installation
 1.	Download VENUS onto local machine. Also download the following supporting files that are required as described above.
