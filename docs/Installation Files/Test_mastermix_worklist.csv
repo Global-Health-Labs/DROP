@@ -1,0 +1,80 @@
+step,dx,dz,volume_uL,liquid_class,timer_delta,source,step_index,destination,group_number,timer_group_check,guid,from_path,asp_mixing,dispense_type,tip_type,touchoff_dis,to_plate,to_well,from_plate,from_well
+Base recipe,0,0,170.8,RoboNAAT_tip1000_water_JetEmpty,0,water,0,0,1,0,1,some path,0,Jet_Empty,1000,-1,dw_96_0002,1,dw_96_0001,1
+Mastermix-A,0,0,157.8,RoboNAAT_tip1000_water_JetEmpty,0,water,0,0,1,0,1,some path,0,Jet_Empty,1000,-1,dw_96_0002,2,dw_96_0001,2
+Mastermix-B,0,0,144.8,RoboNAAT_tip1000_water_JetEmpty,0,water,0,0,1,0,1,some path,0,Jet_Empty,1000,-1,dw_96_0002,3,dw_96_0001,1
+Mastermix-C,0,0,157.8,RoboNAAT_tip1000_water_JetEmpty,0,water,0,0,1,0,1,some path,0,Jet_Empty,1000,-1,dw_96_0002,4,dw_96_0001,2
+Mastermix-D,0,0,144.8,RoboNAAT_tip1000_water_JetEmpty,0,water,0,0,1,0,1,some path,0,Jet_Empty,1000,-1,dw_96_0002,5,dw_96_0001,1
+Base recipe,0,0,26,RoboNAAT_tip50_buffer_SurfaceEmpty,0,buffer,0,0,2,0,1,some path,0,Surface_Empty,50,-1,dw_96_0002,1,flat_96_0001,2
+Mastermix-A,0,0,26,RoboNAAT_tip50_buffer_SurfaceEmpty,0,buffer,0,0,2,0,1,some path,0,Surface_Empty,50,-1,dw_96_0002,2,flat_96_0001,3
+Mastermix-B,0,0,26,RoboNAAT_tip50_buffer_SurfaceEmpty,0,buffer,0,0,2,0,1,some path,0,Surface_Empty,50,-1,dw_96_0002,3,flat_96_0001,2
+Mastermix-C,0,0,26,RoboNAAT_tip50_buffer_SurfaceEmpty,0,buffer,0,0,2,0,1,some path,0,Surface_Empty,50,-1,dw_96_0002,4,flat_96_0001,3
+Mastermix-D,0,0,26,RoboNAAT_tip50_buffer_SurfaceEmpty,0,buffer,0,0,2,0,1,some path,0,Surface_Empty,50,-1,dw_96_0002,5,flat_96_0001,2
+Base recipe,0,0,26,RoboNAAT_tip50_primers_SurfaceEmpty,0,dNTPs,0,0,3,0,1,some path,0,Surface_Empty,50,-1,dw_96_0002,1,flat_96_0001,4
+Mastermix-A,0,0,26,RoboNAAT_tip50_primers_SurfaceEmpty,0,dNTPs,0,0,3,0,1,some path,0,Surface_Empty,50,-1,dw_96_0002,2,flat_96_0001,5
+Mastermix-B,0,0,26,RoboNAAT_tip50_primers_SurfaceEmpty,0,dNTPs,0,0,3,0,1,some path,0,Surface_Empty,50,-1,dw_96_0002,3,flat_96_0001,4
+Mastermix-C,0,0,26,RoboNAAT_tip50_primers_SurfaceEmpty,0,dNTPs,0,0,3,0,1,some path,0,Surface_Empty,50,-1,dw_96_0002,4,flat_96_0001,5
+Mastermix-D,0,0,26,RoboNAAT_tip50_primers_SurfaceEmpty,0,dNTPs,0,0,3,0,1,some path,0,Surface_Empty,50,-1,dw_96_0002,5,flat_96_0001,4
+Base recipe,0,0,5.2,RoboNAAT_tip50_buffer_SurfaceEmpty,0,MgCl2,0,0,4,0,1,some path,0,Surface_Empty,50,-1,dw_96_0002,1,flat_96_0001,6
+Mastermix-A,0,0,5.2,RoboNAAT_tip50_buffer_SurfaceEmpty,0,MgCl2,0,0,4,0,1,some path,0,Surface_Empty,50,-1,dw_96_0002,2,flat_96_0001,6
+Mastermix-B,0,0,5.2,RoboNAAT_tip50_buffer_SurfaceEmpty,0,MgCl2,0,0,4,0,1,some path,0,Surface_Empty,50,-1,dw_96_0002,3,flat_96_0001,6
+Mastermix-C,0,0,5.2,RoboNAAT_tip50_buffer_SurfaceEmpty,0,MgCl2,0,0,4,0,1,some path,0,Surface_Empty,50,-1,dw_96_0002,4,flat_96_0001,6
+Mastermix-D,0,0,5.2,RoboNAAT_tip50_buffer_SurfaceEmpty,0,MgCl2,0,0,4,0,1,some path,0,Surface_Empty,50,-1,dw_96_0002,5,flat_96_0001,6
+Base recipe,0,0,0.8,RoboNAAT_tip50_primers_SurfaceEmpty,0,primer/probe mix A,0,0,5,0,1,some path,0,Surface_Empty,50,-1,dw_96_0002,1,flat_96_0001,7
+Mastermix-A,0,0,0.8,RoboNAAT_tip50_primers_SurfaceEmpty,0,primer/probe mix A,0,0,5,0,1,some path,0,Surface_Empty,50,-1,dw_96_0002,2,flat_96_0001,7
+Mastermix-B,0,0,0.8,RoboNAAT_tip50_primers_SurfaceEmpty,0,primer/probe mix A,0,0,5,0,1,some path,0,Surface_Empty,50,-1,dw_96_0002,3,flat_96_0001,7
+Mastermix-C,0,0,0.8,RoboNAAT_tip50_primers_SurfaceEmpty,0,primer/probe mix A,0,0,5,0,1,some path,0,Surface_Empty,50,-1,dw_96_0002,4,flat_96_0001,7
+Mastermix-D,0,0,0.8,RoboNAAT_tip50_primers_SurfaceEmpty,0,primer/probe mix A,0,0,5,0,1,some path,0,Surface_Empty,50,-1,dw_96_0002,5,flat_96_0001,7
+Base recipe,0,0,10.4,RoboNAAT_tip50_enzymes_SurfaceEmpty,0,polymerase,0,0,6,0,1,some path,3,Surface_Empty,50,-1,dw_96_0002,1,flat_96_0001,8
+Mastermix-A,0,0,10.4,RoboNAAT_tip50_enzymes_SurfaceEmpty,0,polymerase,0,0,6,0,1,some path,3,Surface_Empty,50,-1,dw_96_0002,2,flat_96_0001,8
+Mastermix-B,0,0,10.4,RoboNAAT_tip50_enzymes_SurfaceEmpty,0,polymerase,0,0,6,0,1,some path,3,Surface_Empty,50,-1,dw_96_0002,3,flat_96_0001,8
+Mastermix-C,0,0,10.4,RoboNAAT_tip50_enzymes_SurfaceEmpty,0,polymerase,0,0,6,0,1,some path,3,Surface_Empty,50,-1,dw_96_0002,4,flat_96_0001,8
+Mastermix-D,0,0,10.4,RoboNAAT_tip50_enzymes_SurfaceEmpty,0,polymerase,0,0,6,0,1,some path,3,Surface_Empty,50,-1,dw_96_0002,5,flat_96_0001,8
+Mastermix-A,0,0,13,RoboNAAT_tip50_enzymes_SurfaceEmpty,0,sucrose,0,0,7,0,1,some path,3,Surface_Empty,50,-1,dw_96_0002,1,flat_96_0001,9
+Mastermix-B,0,0,26,RoboNAAT_tip50_enzymes_SurfaceEmpty,0,sucrose,0,0,7,0,1,some path,3,Surface_Empty,50,-1,dw_96_0002,2,flat_96_0001,9
+Mastermix-C,0,0,13,RoboNAAT_tip50_enzymes_SurfaceEmpty,0,trehalose,0,0,8,0,1,some path,3,Surface_Empty,50,-1,dw_96_0002,3,flat_96_0001,10
+Mastermix-D,0,0,26,RoboNAAT_tip50_enzymes_SurfaceEmpty,0,trehalose,0,0,8,0,1,some path,3,Surface_Empty,50,-1,dw_96_0002,4,flat_96_0001,10
+mix_Base recipe,0,0,192,RoboNAAT_HighVolume_Water_DispenseSurface_Empty,0,mixing,0,0,9,0,1,some path,10,Surface_Empty,1000,-1,dw_96_0002,1,dw_96_0002,1
+mix_Mastermix-A,0,0,192,RoboNAAT_HighVolume_Water_DispenseSurface_Empty,0,mixing,0,0,9,0,1,some path,10,Surface_Empty,1000,-1,dw_96_0002,2,dw_96_0002,2
+mix_Mastermix-B,0,0,192,RoboNAAT_HighVolume_Water_DispenseSurface_Empty,0,mixing,0,0,9,0,1,some path,10,Surface_Empty,1000,-1,dw_96_0002,3,dw_96_0002,3
+mix_Mastermix-C,0,0,192,RoboNAAT_HighVolume_Water_DispenseSurface_Empty,0,mixing,0,0,9,0,1,some path,10,Surface_Empty,1000,-1,dw_96_0002,4,dw_96_0002,4
+mix_Mastermix-D,0,0,192,RoboNAAT_HighVolume_Water_DispenseSurface_Empty,0,mixing,0,0,9,0,1,some path,10,Surface_Empty,1000,-1,dw_96_0002,5,dw_96_0002,5
+aq_Base recipe,0,0,23,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,pcr_96_0001,1,dw_96_0002,1
+aq_Base recipe,0,0,23,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,pcr_96_0001,2,dw_96_0002,1
+aq_Base recipe,0,0,23,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,pcr_96_0001,3,dw_96_0002,1
+aq_Base recipe,0,0,23,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,pcr_96_0001,4,dw_96_0002,1
+aq_Base recipe,0,0,23,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,pcr_96_0001,5,dw_96_0002,1
+aq_Base recipe,0,0,23,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,pcr_96_0001,6,dw_96_0002,1
+aq_Base recipe,0,0,23,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,pcr_96_0001,7,dw_96_0002,1
+aq_Base recipe,0,0,23,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,pcr_96_0001,8,dw_96_0002,1
+aq_Mastermix-A,0,0,23,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,pcr_96_0001,9,dw_96_0002,2
+aq_Mastermix-A,0,0,23,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,pcr_96_0001,10,dw_96_0002,2
+aq_Mastermix-A,0,0,23,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,pcr_96_0001,11,dw_96_0002,2
+aq_Mastermix-A,0,0,23,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,pcr_96_0001,12,dw_96_0002,2
+aq_Mastermix-A,0,0,23,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,pcr_96_0001,13,dw_96_0002,2
+aq_Mastermix-A,0,0,23,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,pcr_96_0001,14,dw_96_0002,2
+aq_Mastermix-A,0,0,23,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,pcr_96_0001,15,dw_96_0002,2
+aq_Mastermix-A,0,0,23,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,pcr_96_0001,16,dw_96_0002,2
+aq_Mastermix-B,0,0,23,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,pcr_96_0001,17,dw_96_0002,3
+aq_Mastermix-B,0,0,23,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,pcr_96_0001,18,dw_96_0002,3
+aq_Mastermix-B,0,0,23,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,pcr_96_0001,19,dw_96_0002,3
+aq_Mastermix-B,0,0,23,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,pcr_96_0001,20,dw_96_0002,3
+aq_Mastermix-B,0,0,23,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,pcr_96_0001,21,dw_96_0002,3
+aq_Mastermix-B,0,0,23,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,pcr_96_0001,22,dw_96_0002,3
+aq_Mastermix-B,0,0,23,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,pcr_96_0001,23,dw_96_0002,3
+aq_Mastermix-B,0,0,23,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,pcr_96_0001,24,dw_96_0002,3
+aq_Mastermix-C,0,0,23,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,pcr_96_0001,25,dw_96_0002,4
+aq_Mastermix-C,0,0,23,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,pcr_96_0001,26,dw_96_0002,4
+aq_Mastermix-C,0,0,23,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,pcr_96_0001,27,dw_96_0002,4
+aq_Mastermix-C,0,0,23,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,pcr_96_0001,28,dw_96_0002,4
+aq_Mastermix-C,0,0,23,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,pcr_96_0001,29,dw_96_0002,4
+aq_Mastermix-C,0,0,23,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,pcr_96_0001,30,dw_96_0002,4
+aq_Mastermix-C,0,0,23,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,pcr_96_0001,31,dw_96_0002,4
+aq_Mastermix-C,0,0,23,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,pcr_96_0001,32,dw_96_0002,4
+aq_Mastermix-D,0,0,23,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,pcr_96_0001,33,dw_96_0002,5
+aq_Mastermix-D,0,0,23,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,pcr_96_0001,34,dw_96_0002,5
+aq_Mastermix-D,0,0,23,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,pcr_96_0001,35,dw_96_0002,5
+aq_Mastermix-D,0,0,23,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,pcr_96_0001,36,dw_96_0002,5
+aq_Mastermix-D,0,0,23,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,pcr_96_0001,37,dw_96_0002,5
+aq_Mastermix-D,0,0,23,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,pcr_96_0001,38,dw_96_0002,5
+aq_Mastermix-D,0,0,23,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,pcr_96_0001,39,dw_96_0002,5
+aq_Mastermix-D,0,0,23,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,pcr_96_0001,40,dw_96_0002,5

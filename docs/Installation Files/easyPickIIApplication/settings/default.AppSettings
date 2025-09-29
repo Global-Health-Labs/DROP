@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<Settings Application="easyPickII" ModifyDate="2019-09-10T16:19:40" ConfigVersion="1.1" ApplicationVersion="1.1.0">
+ <Name>
+  <Name>default</Name>
+ </Name>
+ <Database>
+  <Type>1</Type>
+  <PicturePath>database/pictures</PicturePath>
+  <AutoDelete>true</AutoDelete>
+  <AutoDeleteMaximum>10000</AutoDeleteMaximum>
+  <MSAccess>
+   <Filename>database/easyPickII.mdb</Filename>
+  </MSAccess>
+  <MSSqlServer>
+   <Servername>localhost\SQLEXPRESS</Servername>
+   <Databasename>easyPickII</Databasename>
+   <SQLServerAuthentication>false</SQLServerAuthentication>
+   <Username>sa</Username>
+   <Password></Password>
+  </MSSqlServer>
+  <SQLite3>
+   <Filename>database/easyPickII.db3</Filename>
+  </SQLite3>
+ </Database>
+</Settings>
