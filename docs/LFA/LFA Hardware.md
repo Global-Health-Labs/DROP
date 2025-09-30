@@ -7,6 +7,8 @@ The objective of this document is to describe the pieces of hardware that might 
 
 ### Custom Deck Modifications
 
+The CAD files required for the custom deck modifications are broken into individual assemblies. These modifications assume that the carrier is an older version of the Hamilton Carrier. Newer version of the Hamilton Carrier are plastic and have slightly different dimensions. Additional development to add the alignment posts would be required if using a newer Hamilton Carrier for LFA applications. 
+
 ![Hamilton Deck Modifications](./images/STAR Deck with Spacers.png) <br>
 <small>Figure 2. Hamilton base carriers that have pegs and spacers added in their desired locations.  Associated parts are described in Tables 1 and 2.</small>
 
@@ -24,14 +26,14 @@ The objective of this document is to describe the pieces of hardware that might 
 | 8  | 047275.SLDPRT   | Leg            | Hamilton Robotics  | 2     | No       | 6    |
 | 9  | 047282.SLDASM   | Hamilton stand | Hamilton Robotics  | 1     | No       | 1    |
 | 10 | 047277.SLDPRT   | Top plate      | Hamilton Robotics  | 1     | No       | 9    |
-| 11 | 047275.SLDPRT   | Leg            | Hamilton Robotics  | 2     | No       | 9    |
 
 **Table 2.** Alignment posts and spacers to enable correct assembly. 
 
 | No.| File Name       | Description    | Vendor            | Qty  | Modified | Link  |
 | :- | :-------------- | :------------- | :---------------- | :--: |:-------- |:-----: |
-| 12 | 047288.SLDPRT   | Alignment posts| Custom            | 2    |          | 1 + 16 |
-| 13 | Hamilton_spacer.SLDPRT | Spacers | Custom            | 2    |          | 1 + 16 |
+| 11 | 047288.SLDPRT   | Alignment posts| Custom            | 2    |          | 1 + 16 |
+| 12 | Hamilton_spacer.SLDPRT | Spacer with top hat | Custom| 2    |          | 1 + 16 |
+| 13 | Hamilton_spacer.SLDPRT | Flat spacer | Custom        | 2    |          | 1 + 16 |
 
 Note: Hamilton_spacer.SLDPRT doesn’t correctly account for tolerances, there is a need for us to improve the file to account for tolerances if this part is 3D printed.
 

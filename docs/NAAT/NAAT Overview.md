@@ -16,7 +16,7 @@ While an PCR is a highly well characterized chemistry, the same cannot be said f
 To address the time and monetary cost involved in NAAT research and development, GH Labs developed a development platform utilizing an automated liquid handling system. This system, termed RoboNAAT, is a subcategory of the DROP platform. RoboNAAT consists of NAAT specific software and protocols to enable large optimization or characterization expriments with limited hands-on time required. Additional information on how to implement and/or modify this system is found in the respective sections for Hardware, Software, Protocols, and Example Efforts. 
 
 ## References
-
+<small>
 [1]  Oliveira, B., Veigas, B. Baptista, P. (2021). Isothermal Amplification of Nucleic Acids: The Race for the Next "Gold Standard". Fronteirs in Sensors, 2. https://doi.org/10.3389/fsens.2021.752600
-[2]  Notomi, T., Okayama, H., Masubuchi, H., et al. (2000). Loop-mediated isothermal amplification of DNA. Nucleic Acids Research, 28(12), e63. https://doi.org/10.1093/nar/28.12.e63
+[2]  Notomi, T., Okayama, H., Masubuchi, H., et al. (2000). Loop-mediated isothermal amplification of DNA. Nucleic Acids Research, 28(12), e63. https://doi.org/10.1093/nar/28.12.e63 </small>
 
