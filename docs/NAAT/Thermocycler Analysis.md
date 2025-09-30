@@ -1,8 +1,8 @@
-This document describes how to analyze thermocycler data of a nucleic acid amplification test (NAAT). This code applies to large batch thermocycler data, typically generated from the NAAT system. This code has been developed and validated with data exported from Biorad software. Additional development may be required for other thermocyclers. Application of the software described here can be used for thermocycler data made outside of the context of RoboNAAT. 
+This document outlines the process for analyzing thermocycler data generated from nucleic acid amplification tests (NAAT). The provided code is optimized for handling large batch datasets, typically produced by the NAAT system. It has been developed and validated using data exported from Bio-Rad software. While the current implementation is tailored to Bio-Rad outputs, additional development may be necessary to support data from other thermocycler platforms. Importantly, the software described here can also be applied to thermocycler data generated outside the context of RoboNAAT.
 
 Traditional analysis for thermocycler data analyzes one 96 or 384 well plate at a time. Background subtraction and amplification threshholds are deteremined automatically using the software associated with the machine. 
 
-We sought out to develop code that can analyze many plates at once. This presented unique challenges, as the automatically set threshold does not always apply to experiments where many variables are changing at once. Therefore, this code takes the raw fluorescence data from the thermocycler, generates a sigmoidal logistic function fit to the data, and outputs the variables of interest for analysis. The sigmoidal logistic function is based on [Goll et al 2006](https://link.springer.com/article/10.1186/1471-2105-7-107)
+We sought to develop code that can analyze many plates at once. This presented unique challenges, as the automatically set threshold does not always apply to experiments where many variables are changing at once. Therefore, this code takes the raw fluorescence data from the thermocycler, generates a sigmoidal logistic function fit to the data, and outputs the variables of interest for analysis. The sigmoidal logistic function is based on [Goll et al 2006](https://link.springer.com/article/10.1186/1471-2105-7-107)
 
 ## :fontawesome-solid-computer: **Software requirements**
 
@@ -30,13 +30,14 @@ Python file(s): Python files that the Jupyter notebook refers to in order to ana
 
 ## :material-chart-bell-curve-cumulative: **Fitting Model and Quantities of Interest (QOI)**
 
-This section contains background information regarding the fitting model and the quantities of interest calculations carried out by the Plate Analyzer code. 
+This section provides background on the fitting model and the key quantities calculated by the Plate Analyzer Code.
 
 **Input:**
 
-- Raw fluorescence data from thermocycler 
+- Raw fluorescence data from a thermocycler 
+
     !!! note
-        Recommendation to use data that is not background subtracted
+        Use data that has not been background-subtracted to preserve the integrity of the fitting process.
 
 **Outputs:**
 

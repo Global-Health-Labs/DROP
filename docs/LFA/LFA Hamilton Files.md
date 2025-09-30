@@ -1,10 +1,10 @@
 :fontawesome-brands-github: [RoboLFA Hamilton Method and Layout File](RoboLFA.pkg) 
 
-The Hamilton Method designed by GH Labs was built with the goal of ultimate flexibility when it came to running LFA or NAAT experiment. The Method consists of 10+ Submethods that enable the user to input a worklist where every row is a single command being sent to the robot. These commands can include liquid movement, imaging, and plate movement (iSWAP specific) steps with the option to fix timing and grouping as needed. The LFA and NAAT methods are identical, but their layout files are different. Each implementation of the DROP system may require reconfiguration of the Layout file depending on the system. 
+The Hamilton Method designed by GH Labs was built with the goal of ultimate flexibility when it came to running LFA or NAAT experiment. The Method consists of 10+ Submethods that enable the user to input a worklist where every row is a single command being sent to the robot. These commands can include liquid transfer, imaging, and plate movement (iSWAP specific) steps with the option to fix timing and grouping as needed. The LFA and NAAT methods are identical, but their associated layout files, which specify the hardware to be used for a given experiment, are different. Each implementation of the DROP system may require reconfiguration of the Layout file depending on the system. 
 
 This deck layout was designed for running lateral flow assays and rapid diagnostic tests. These assay/tests can be in either strip or cassette form. There are specific holders for each so that their locations are consistent. For most LFAs, nesting tip racks (NTRs) can be used to maximize the available space on the deck for cassettes or strips. 
 
-![LFA Deck Layout](./images/LFA_Deck_Layout.png) <br>
+![LFA Deck Layout](./images/LFA_Deck_Layout_v2.png) <br>
 <small> Figure 1. Deck layout for RoboLFA. Specific information about each deck location can be found in the tables below. Modifications can be made to the deck layout in VENUS software. </small> <br><br>
 
 ### Plate Locations
@@ -58,6 +58,6 @@ The deck layout has been defined with space for one of the following LFA or RDT 
 
 | LFa or RDT Holders                                   | Position      | # wells       |
 | :--------------------------------------------------- | :-----------: | :---------------: |
-| IVL_Plate_v2a_16strips_plastic_col_first_0001 to 012 | LFA Bay       | Increments of 8   |
+| IVL_Plate_v2a_16strips_plastic_col_first_0001 to 012 | LFA Bay       | Increments of 8 or 16   |
 | IVL_Plate_v3_96cassettes_ABformat_0001               | LFA Bay       | 96                |
-| 038379_v2.SLDPRT                                     | LFA Bay       | 80                |
+| Plate_v3_80cassettes_0001                            | LFA Bay       | 80                |

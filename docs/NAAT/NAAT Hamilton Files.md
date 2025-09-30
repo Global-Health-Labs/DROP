@@ -1,8 +1,10 @@
 :fontawesome-brands-github: [RoboNAAT Hamilton Method and Layout File](RoboNAAT.pkg) 
 
-The Hamilton Method designed by GH Labs was built with the goal of ultimate flexibility when it came to running LFA or NAAT experiment. The Method consists of 10+ Submethods that enable the user to input a worklist where every row is a single command being sent to the robot. These commands can include liquid movement, imaging, and plate movement (iSWAP specific) steps with the option to fix timing and grouping as needed. The LFA and NAAT methods are identical, but their layout files are different. Each implementation of the DROP system may require reconfiguration of the Layout file depending on the system. 
+The Hamilton Method, developed by GH Labs, was designed to offer maximum flexibility for executing LFA and NAAT experiments. It comprises over ten modular submethods, allowing users to input a worklist where each row represents a discrete command sent to the robot. These commands may include liquid handling, imaging, and plate movement steps (specific to iSWAP), with configurable options for timing and grouping.
 
-This deck layout was designed for running NAAT and other well based assays. For most NAATs, it is important that filter tips are used to reduce the risk for contamination. 
+While the core method remains identical for both LFA and NAAT workflows, they differ in their layout files. Each implementation of the DROP system may require customization of the layout file to accommodate system-specific configurations.
+
+This deck layout was specifically designed to support NAAT and other well-based assays. For most NAAT workflows, the use of filter tips is critical to minimize the risk of cross-contamination and ensure assay integrity.
 
 ![NAAT Deck Layout](./images/NAAT_Deck_Layout.png) <br>
 <small> Figure 1. Deck layout for RoboNAAT. Specific information about each deck location can be found in the tables below. Modifications can be made to the deck layout in VENUS software. </small> <br><br>
@@ -30,7 +32,7 @@ The deck layout has been defined with the following labware in their respective 
 
 ### Plate Information
 
-The deck layout has been defined with specific plates. More information about each plate type is included below. 
+The deck layout includes a defined set of plate types, each assigned to specific positions. Detailed information about each plate type is provided below to support proper setup and execution of assays.
 
 | Plate ID    | Description      | # wells       | Example Part #s     |
 | :---------- | :---------------------------------- | :-----------: | :---------------------------- |
@@ -40,7 +42,7 @@ The deck layout has been defined with specific plates. More information about ea
 | pcr_384     | PCR plate with 384 wells.| 384 | Hamilton #814305 or Biorad HSP3801|
 | template_96 | PCR plate with 96 wells (for template ONLY)| 96 | Same as pcr_96|
 
-The product information is for examples of plates and reservoirs that have been used previously. If the plate follows SBS plate format it should be functional in this plate layout. 
+The product information includes examples of plates and reservoirs that have been successfully used in previous experiments. As long as the plate conforms to the SBS (Society for Biomolecular Screening) format, it should be compatible with this deck layout.
 
 ### Pipette Tips 
 The deck layout has been defined with the following pipette tips on the deck. 

@@ -1,8 +1,8 @@
-The DROP system can provide utility for a range of efforts in research and development for NAAT assays. RoboNAAT, as it has been affectionately named, has been built out to enable large scale experiments for PCR as well as isothermal amplification methods. An example effort for a SARS-CoV-2 loop mediated isothermal amplification (LAMP) assay is described in this document. 
+The DROP system offers broad utility for research and development efforts focused on NAAT assays. Its specialized module, affectionately named RoboNAAT, has been designed to support large-scale experiments for both PCR and isothermal amplification methods. This document includes an example effort involving a SARS-CoV-2 Loop-Mediated Isothermal Amplification (LAMP) assay, demonstrating the platform’s capabilities in streamlining assay optimization and characterization.
 
-LAMP is an isothermal amplification method that relies on 4-6 primers to amplify a DNA or RNA target at a steady temperature, usually between 60-65C. The chemistry also utilizes a DNA polymerase with strand-displacing properties to allow for effective amplification. Different from PCR, which produces a predictable amplicon, LAMP amplicons can form many different structures. This provides both an advantage, for example in the probability, as well as a challenge, such as the possibility of off-target amplification. 
+Loop-Mediated Isothermal Amplification (LAMP) is an isothermal amplification technique that uses 4 to 6 primers to target and amplify DNA or RNA at a constant temperature, typically between 60–65°C. The method employs a strand-displacing DNA polymerase, which enables efficient amplification without the need for thermal cycling. Unlike PCR, which generates a predictable and uniform amplicon, LAMP produces a variety of complex amplicon structures. This structural diversity offers advantages—such as increased amplification probability—but also presents challenges, including a higher risk of off-target amplification.
 
-Therefore, this chemistry was ideal for optimization on the RoboNAAT system as traditional one factor at a time (OFAT) optimization may not capture the full picture of a given LAMP assay. In this example, (1) Mastermix optimization, (2) additive screening, and (3) assay evaluation are all demonstrated with their example worklists and results. 
+Given the complexity of LAMP chemistry, it is well-suited for optimization using the RoboNAAT system. Traditional one-factor-at-a-time (OFAT) approaches may not fully capture the intricate interactions within a LAMP assay. In this example, the RoboNAAT platform is used to demonstrate: (1) Mastermix optimization, (2) additive screening, and (3) assay evaluation are all demonstrated with their example worklists and results. 
 
 ![SARS-CoV-2 LAMP Optimization Summary](./images/Example%20NAAT%20Efforts.png) <br>
 <small>Figure 1. High level overview of the NAAT optimization efforts described in this page. The efforts were broken into (1) mastermix optimization, (2) additive screening and (3) performance evaluation. </small>
@@ -18,9 +18,9 @@ The first step in the optimization process for the SARS-CoV-2 LAMP assay was to 
 - Primer sets (L1, L3, and L5)
 - Magnesium 
 
-A definitive screening design (DSD) was used to determine the reagent conditions that gave the fastest time to positive without increasing off-target amplification. Using JMP software, the anticipated power for all variables tested was estimated to be between 0.99 and 1. 
+A Definitive Screening Design (DSD) was employed to identify reagent conditions that yielded the fastest time-to-positive without increasing off-target amplification. Using JMP software, the estimated statistical power for all tested variables ranged between 0.99 - 1, indicating high confidence in the results.
 
-The starting mastermix conditions (as informed by NEB) were used as the control and was included on every plate. A total of 84 mastermixes were run including the control mastermix included across six PCR plates. For each mastermix, four technica replicates were run for both negative and positive (1000 copies/uL). 
+The starting mastermix conditions, based on recommendations from New England Biolabs (NEB), were used as a control and included on every plate. In total, 84 mastermix formulations were tested—including the control—across six PCR plates. For each mastermix, four technical replicates were run for both negative controls and positive samples (1,000 copies/µL).
 
 ### Reagent Preparation
 
@@ -71,30 +71,33 @@ All reagent plates were prepared with the reagents detailed in the worklist view
 
 ### Results and Conclusions
 
-From this screening effort, 31 formulations were found to have better performance than the control mastermix. 
+From this screening effort, 31 master mix formulations demonstrated improved performance compared to the control. 
 
 ![DSD Screening Results](./images/DSD_Results.png) <br>
 <small>Figure 4. Snapshot of the data generated from the Definitive Screening Design to identify optimized conditions for the SARS-CoV-2 LAMP assay. </small>
 
-There were three larger trends that were identified from this screening effort:
+Three key trends emerged:
 
-- Increasing the reverse transcriptase concentration has little impact on time to result for all three primer sets tested
-- BST 3.0 polymerase helps with reaction speed for primers set 1, but not 3 or 5. 
-- Primer sets 1 and 3 amplify faster at 7mM Mg, where set 5 does not have as strong of a response. 
+- Increasing reverse transcriptase concentration had minimal impact on time-to-result across all three primer sets tested.
+- Bst 3.0 polymerase enhanced reaction speed for primer set 1, but showed no significant benefit for sets 3 or 5.
+- Primer sets 1 and 3 amplified more efficiently at 7 mM Mg²⁺, whereas set 5 did not exhibit a strong response to this condition.
 
-From this effort, the 80+ mastermixes allowed an increased understanding of the LAMP chemistry. The two top performing assay conditions were selected and used for additional testing. 
+This comprehensive evaluation of over 80 master mix formulations provided deeper insight into LAMP assay behavior. The two top-performing assay conditions were selected for further testing and validation.
 
 ## :material-graph: **LAMP Additive Screening Effort**
 
 ### Experimental Design
 
-The Additive Screening round had a few goals, specifically to identify the impact of a list of additives on the speed, tolerance to inhibihors, or stability of the assay. Most additives included in this screen fall into three categories:
+The Additive Screening round aimed to evaluate the impact of various additives on assay speed, inhibitor tolerance, and stability. Most additives tested fell into one of three functional categories:
 
-1. Stability and blocking 
-2. Crowding agents 
-3. Melting temperature (Tm) and secondary structure reducers 
+1. Stability and blocking agents
+2. Crowding agents
+3. Melting temperature (Tm) and secondary structure reducers
 
-Because of the differing nature of each of these categories, the experimental design included mastermixes tested with one additive at a time at two concentrations, as well as a DSD design testing combinations of the additives in the stability and blocking category. 
+Due to the distinct roles of each category, the experimental design included two approaches:
+
+- Each additive was evaluated individually at two concentrations.
+- A Definitive Screening Design (DSD) was used to assess combinations of additives within the stability and blocking category. 
 
 ### Reagent Preparation
 
@@ -139,7 +142,7 @@ The additive screening was split into three robot runs, preparing two 96 well pl
 
 ### Results and Conclusions
 
-The additive screening was highly informative to understand what factors impacted time to amplification, the presence of off target amplification, and the tolerance to stability agents that may be required for lyophilization. 
+The additive screening approach provided valuable insights into factors that influence time to amplification, off-target amplification, and tolerance to stability agents—particularly those relevant for lyophilization. 
 
 ![Additive Screening Results](./images/RoboNAAT%20Additive%20Screening.png) <br>
 <small>Figure 5. Snapshot of the data generated from the Additive Screening to identify optimized conditions for the SARS-CoV-2 LAMP assay. </small>

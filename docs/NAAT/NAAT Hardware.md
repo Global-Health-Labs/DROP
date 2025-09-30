@@ -1,8 +1,4 @@
-Custom hardware is not required for running NAAT assays, as the Hamilton star is designed to run tube and plate based assays. Below we have included CAD files to modify commercially available cooling blocks for 0.5 to 2 mL tubes that are compatible with the Hamilton cooling deck. 
-
-### Heating and cooling block modifications
-
-To enable cooling of a range of tube volumes and dimensions, we generated CAD files to describe how to modify a cooling block to be compatible with the cooling deck containing pins for thermocycler plates. 
+Custom hardware is not required to run NAAT assays, as the Hamilton STAR system is already equipped to handle both tube- and plate-based workflows. For enhanced flexibility, we’ve included CAD files below that allow for the modification of commercially available cooling blocks to accommodate 0.5–2 mL tubes. These modified blocks are compatible with the Hamilton cooling deck, enabling efficient temperature control without the need for proprietary components.
 
 **Table 1.** Modifications to heating/cooling blocks to enable alignment on cooling deck. 
 

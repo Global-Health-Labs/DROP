@@ -6,13 +6,13 @@ The rational behind the need for high-throughput screening of antibodies for LFA
 
 ### Experimental Design 
 
-For this effort, we have 10 antibodies against TB LAM that have been identified to enter the screen. These antibodies are labeled TBL-001 to 010. There is a control pair that is established as the best performing pair for clinical LAM, which is TBL-001 as detector and TBL-002 as capture. This will be identified by a yellow square in the figures below. 
+For this effort, we have 10 antibodies against TB LAM that have been identified to enter the screen. These antibodies are labeled TBL-001 to 010. There is a control pair that is established as the best performing pair for clinical LAM, which is TBL-001 as detector and TBL-002 as capture.
 
 In this screening effort, there was a push to run all antibodies in both the capture and detection formats. This is considered a full factorial design of experiments (DOE). For other types of optimization efforts, such as conjugation chemistry or running buffer optimization, other DOE approaches may be recommended. 
 
 The antigen used in this screening is cultured LAM (BEI). 
 
-The format for the selected LFA consists of a streptavidin test line and a donkey anti-chicken control line striped onto the nitrocellulose membrane. Each antibody in the screen will be (1) biotinylated and (2) conjugated to a 400nm latex nanoparticle. Something important to understand is that the stack format can make a big difference on the screening results, an antibody that performs very well as a biotinylated antibody capture may not have the same performance when striped directly onto the test line. Therefore, it is recommended to screen antibodies in the final format for the assay. 
+The format for the selected LFA consists of a streptavidin test line and a donkey anti-chicken control line striped onto the nitrocellulose membrane. This format was seelcted for this effort as it eliminated the need to manufacture custom LFAs for each antibody pair. Each antibody in the screen will be (1) biotinylated and (2) conjugated to a 400nm latex nanoparticle. Something important to understand is that the stack format can make a big difference on the screening results, an antibody that performs very well as a biotinylated antibody capture may not have the same performance when striped directly onto the test line. Therefore, it is recommended to screen antibodies in the final format for the assay. 
 
 ### Reagent Preparation 
 
@@ -58,7 +58,7 @@ In this antibody screening effort, a total 672 LFAs were split across 7 robot ru
 
 LFA data is often presented as either S/N or S-N. Both analyses are informative in different ways for an LFA screening or optimization effort. Where S-N provides information about the magnitude of the dynamic range between a negative and positive, S/N  provides information about the ratio between the negative and positive. Depending on the end goals of the screen, it can be more useful to do one analysis over the other. We have presented S/N for this example experiment as it puts more weight on antibody pairs without non-specific binding in the negative control. 
 
-This is an example of how to use the RoboLFA system to do antibody screening. Every assay comes with it's own differences that may lead to changes in the hardware, software, and protocols. These differences must be considered and the adjustments validated before starting a new LFA effort on the drop system. 
+This is an example of how to use the RoboLFA system to do antibody screening. Every assay comes with it's own differences that may lead to changes in the hardware, software, and protocols. These differences must be considered and the adjustments validated before starting a new LFA effort on the DROP system. 
 
 ## :simple-graphql: **Other example efforts**
 

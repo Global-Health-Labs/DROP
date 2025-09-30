@@ -16,8 +16,7 @@ While an LFA is designed to be an quick and easy to use diagnostic, there are a 
 7. Running buffer components 
 8. Assay timing 
 
-To address the time and monetary cost involved in LFA research and development, GH Labs developed a development platform utilizing an automated liquid handling system. This system, termed RoboLFA, is a subcategory of the DROP platform. RoboLFA consists of LFA specific hardware, software, and protocols to enable large optimization or characterization expriments with limited hands-on time required. The system is described in detail in a paper by Anderson et al<sup>[1](https://link.springer.com/article/10.1007/s00216-022-03897-9)</sup>. Additional information on how to implement and/or modify this system is found in the respective sections for Hardware, Software, Protocols, and Example Efforts. 
-
+To address the time and monetary cost involved in LFA research and development, GH Labs developed a platform utilizing an automated liquid handling system. This system, termed RoboLFA, is a subcategory of the DROP platform. RoboLFA consists of LFA specific hardware, software, and protocols to enable large optimization or characterization expriments with limited hands-on time required. The system is described in detail in a paper by Anderson et al<sup>[1](https://link.springer.com/article/10.1007/s00216-022-03897-9)</sup>. Two applications using the roboLFA system are discussed in papers by Cate et al<sup>[2](https://pubs.acs.org/doi/10.1021/acsomega.1c01253)</sup> and Cantera et al<sup>[3](https://pmc.ncbi.nlm.nih.gov/articles/PMC8340086/)</sup>. Additional information on how to implement and/or modify this system is found in the respective sections for Hardware, Software, Protocols, and Example Efforts. 
 
 ## References
 <small>

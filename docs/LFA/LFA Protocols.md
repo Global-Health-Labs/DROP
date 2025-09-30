@@ -72,7 +72,7 @@ The cassette holder is made from laser cut acrylic that has a grid to consistent
 
 ### :fontawesome-solid-droplet: **Optimizing liquid classes**
 
-The DROP system has a library of liquid classes that can be used to run experiments. These liquid classes are modified to have the precise pipetting protocol to enable consistent pipetting for a given liquid class. It is important to precisely tune a liquid class for the liquids that will be pipetted during an experiment on the DROP system. Some of the parameters that are included are flow rate, air transport volume, blowout volume, settling time, and more. More information can be found in the CO-RE Liquid Editor Help section. Liquid classes can be made using the Hamilton Liquid Verification Kit (LVK). When more liquid classes are made, or when an existing liquid class is validated for a new liquid, they will undergo performance qualification. The list below includes liquid classes used commonly for the LFA system. 
+The DROP system has a library of liquid classes that can be used to run experiments. These liquid classes are modified to have the precise pipetting protocol to enable consistent pipetting for a given liquid class. It is important to precisely tune a liquid class for the liquids that will be pipetted during an experiment on the DROP system. Some of the parameters that are included are flow rate, air transport volume, blowout volume, settling time, and more. More information can be found in the CO-RE Liquid Editor Help section. Liquid classes can defined using the Hamilton Liquid Verification Kit (LVK). When more liquid classes are made, or when an existing liquid class is validated for a new liquid, they will undergo performance qualification. The list below includes liquid classes used commonly for the LFA system. 
 
 | Liquid Class           | Tip size | Dispense Type     | Recommended validation for: |
 | :-------------- | :-------------------- | :------------------- | :------------------- |
@@ -99,7 +99,7 @@ Worklists can be generated using the Robotic Assay Development Application (RADA
 
     - Verify run by watching the deck layout.
     - Optional: verify run using the trace file.
-    - Optional and recommended: add animation in the method. The animation provides realistic virtual x, y, z visualization.
+    - Optional and recommended: add animation in the method. The animation provides realistic virtual x, y, z visualization. Animation only applies for VENUS 4, and not for VENUS 6.
 
 1. To validate the worklist(s) generated for the experiment, first launch VENUS software 
 2. Using the three dots on the right-hand side of the relevant shortcut to access the menu, in either the “Frequently Used” portion of the window or the “Shortcuts” section, select “Simulate Method”. Once selected, Run Control will open and prepare to run the method in simulation mode.  
