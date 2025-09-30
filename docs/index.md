@@ -46,7 +46,7 @@ RoboNAAT is the DROP module that was designed to run NAAT on the Hamilton STAR. 
 
 + RoboNAAT and RoboLFA designs locked and available on Github
 + RADA web application for simplified use of Hamilton STAR completed and available for deployment
-+ Technology has been transferred to partners in India (C-CAMP/InDx) and the UK (GADx) 
++ Technology has been transferred to partners in India and the UK
 + Continued development is needed in the following areas:
     + Application of DROP in India to accelerate bringing diagnostic products to market
     + Experimental design for NAAT experiments – finding optimal DOE for different amplification chemistries 
