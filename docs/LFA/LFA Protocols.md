@@ -57,18 +57,52 @@ The cassette holder is made from laser cut acrylic that has a grid to consistent
 
 #### Strip holder adjustments 
 
+The strip holder is made 3D printed parts and holds either 8 or 16-qty LFAs of various lengths and sizes. To modify for a given LFA, measure the width and length of the strip and adjust the posts on the base CAD file accordingly. Next, measure the distances where LFA components overlap and modify the bars on the top part CAD file to ensure that they apply pressure in the appropriate locations and allow for proper liquid flow. 
+
+When moving the bars of the top piece, ensure that the imaging area (i.e., where test and control lines are striped on the analytical membrane) is unobstructed and available for imaging. Make sure to keep the spacing between the strips consistent in both the x and y dimensions, as this will be important when making labware adjustments.
+
+![Labware Editor Step 1](./images/Labware%20Editor%20step%201.png) <br>
+<small>Figure 4. Screenshot of the first dialog window in Hamilton Labware Editor where key parameters for hardware are specified. </small>
+
+![Labware Editor Step 2](./images/Labware%20Editor%20step%202.png) <br>
+<small>Figure 5. Screenshot of the second dialog window in Hamilton Labware Editor where key parameters for hardware are specified. </small>
+
+Following the creation of a new labware definition, it is important to perform a verification of the location of the first position, using the Hamilton teaching needle. To do so:
+
+1. Open the relevant layout file
+2. Add the labware to the deck layout if needed
+3. Right click the labware on the deck. Select "Adjust Location" from the drop down menu. 
+4. Make the necessary adjustments to the x, y, and z locations as appropriate. More detailed training on this process can be found inn VENUS Basic and Advanced Training Courses (https://hamilton.trainingplus.ch/en/page/hamilton-training). 
+
+![Labware Editor Step 2.5](./images/Labware%20location%20nagivation.PNG) <br>
+<small>Figure 7. Screenshot depicting navigation to Labware Position adjustment. </small>
+
+![Labware Editor Step 3](./images/Labware%20Editor%20step%203.png) <br>
+<small>Figure 7. Screenshot detailing adjustment of Labware Position in the Hamilton Layout File. </small>
 
 ### :simple-opensourcehardware:  **Adjusting labware definition for LFA**
 
+It is generally advised to maintain the x and y spacings of the LFA cassette and strip holders to avoid having to generate a new hardware definition. A hardware definition for custom 80- and 96-cassette holders, as well as for a 16-qty LFA strip holder plate already exist and are fully described in other locations of this document. 
 
+If a new holder configuration is needed, due to incompatible dimensions with existing hardware, a new hardware labware layout can be created on the Hamilton Method Editor software (Tools>Labware Editor…>Create New Labware). An example screenshot of a strip holder layout can be found below (Figure 4). Some important parameters that need to be defined are the offset distance of the front left most pipetting location (e.g., sample well), the spacing between strips in the x and y direction, the location of the first strip, and the order sequence of strips on the holder. Ensure that the newly created labware definition is saved.  
 
 ### :material-image-auto-adjust: **Adjusting RADA for strip**
 
+New LFA strip hardware requires the creation of a new assay plate configuration on the RADA application. Important variables to document based on the custom dimensions of the new hardware are: the number of rows and columns of cassettes or strips that fit on the plate, and the location corresponding to specific spots where pipetting (i.e., sample addition, conjugate addition, etc.) and imaging steps take place. 
 
+The locations are generally represented as the offset distance (i.e., dx, dz) from the first position of the strip, as specified in the labware definition. More detailed information on this process can be accessed in the admin capabilities section of the RADA documentation.  
 
 ### :material-camera: **Adjusting imaging for strip** 
 
+The LFA image analysis code relies on input variables identified by the user to guide analysis of the lines, such as:
 
+- Rough region of interest (ROI) to guide the code on specific locations and dimensions of the read window
+- Color channel for analysis 
+- Signal type: line or spot
+- Number of spots or lines
+- Locations of spots or lines in relation to one another
+
+Once the dimensions and spacing of the LFA inside the strip holder or cassette have been finalized, the LFA analysis code should be modified so More detailed information on the process of modifying these variables can be found [here](./LFA%20Analysis.md).
 
 ### :fontawesome-solid-droplet: **Optimizing liquid classes**
 
