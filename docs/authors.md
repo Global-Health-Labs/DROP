@@ -17,15 +17,3 @@
 + Shyam Prakash 
 + Rajeev Kumar
 + Rahul Sadafule
-
-## Centre for Cellular and Molecular 
-
-+ Sunil Govekar
-+ Urvashi Chandola
-+ Mayoor Rajankar
-+ Richa Bohra
-+ Lalith Kishore
-+ Mitali Samaddar
-+ Taslimarif Saiyed
-
-
