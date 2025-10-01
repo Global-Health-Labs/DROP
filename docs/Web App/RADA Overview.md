@@ -15,9 +15,9 @@ The Robotic Assay Development Application (RADA) was developed to reduce the bar
 + Quality assurance tested
 
 ### Deployment instructions
-:fontawesome-brands-github: - RADA App Frontend  <br>
-:fontawesome-brands-github: - RADA App Backend <br>
-:fontawesome-brands-github: - RADA App Deployment <br>
+:fontawesome-brands-github: - [RADA App Frontend](https://github.com/Global-Health-Labs/Robotic-Assay-Development-Application-RADA-)  <br>
+:fontawesome-brands-github: - [RADA App Backend](https://github.com/Global-Health-Labs/RADA-Backend) <br>
+:fontawesome-brands-github: - [RADA App Deployment](https://github.com/Global-Health-Labs/RADA-Deployment) <br>
 
 There are three different Github repositories (repos) associated with RADA, the frontend, backend, and deployment. All three are required to deploy the web application. The Deployment Repo contains all necessary information to deploy the RADA web app. 
 
@@ -47,4 +47,7 @@ There are three different Github repositories (repos) associated with RADA, the 
 6. Modifications to Reagent Plates (LFA only)
 
 
-Older versions of the web application and related code can be found here: **ADD LINK TO LOCATION IN REPO HERE**
+Older versions of the web application and related code can be found at these links:
+
++ [Original Web Application](/sw/RADA_v0/)
++ [Python code to generate LFA worklists](/sw/robot_worklist_generator/)

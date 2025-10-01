@@ -5,6 +5,8 @@ LFAs can come in many different forms. We have developed holders to address two 
 
 The objective of this document is to describe the pieces of hardware that might be required to operate the DROP system. This includes modifications to the base assembly from Hamilton, machined aluminum trays, laser cut acrylic sheets and 3D printed strip holders. This document has been prepared such that the entire assembly can be understood, as many parts relate to one another in the final deck layout.  
 
+:simple-opensourcehardware: - [CAD Files](https://github.com/Global-Health-Labs/DROP/tree/main/hw)
+
 ### Custom Deck Modifications
 
 The CAD files required for the custom deck modifications are broken into individual assemblies. These modifications assume that the carrier is an older version of the Hamilton Carrier. Newer version of the Hamilton Carrier are plastic and have slightly different dimensions. Additional development to add the alignment posts would be required if using a newer Hamilton Carrier for LFA applications. 
@@ -33,7 +35,7 @@ The CAD files required for the custom deck modifications are broken into individ
 | :- | :-------------- | :------------- | :---------------- | :--: |:-------- |:-----: |
 | 11 | 047288.SLDPRT   | Alignment posts| Custom            | 2    |          | 1 + 16 |
 | 12 | Hamilton_spacer.SLDPRT | Spacer with top hat | Custom| 2    |          | 1 + 16 |
-| 13 | Hamilton_spacer.SLDPRT | Flat spacer | Custom        | 2    |          | 1 + 16 |
+| 13 | Hamilton_spacer_2.SLDPRT | Flat spacer | Custom        | 2    |          | 1 + 16 |
 
 Note: Hamilton_spacer.SLDPRT doesn’t correctly account for tolerances, there is a need for us to improve the file to account for tolerances if this part is 3D printed.
 
@@ -45,7 +47,7 @@ An LFA strip holder is helpful when a cassette has not yet been designed or the 
 - 3D printed top plate designed with necessary pinch points, wells for reagent addition, and read window   
 - 6 Screws (6/32 x 1/2")
 
-When starting a new RoboLFA effort, it is critical to understand the requirements for a strip holder. This includes the length and width of the strip, the location and thickness of pinch points, the location and volume required for reagent addition, and the location and size of the read window. Each of these factors can be modified in the CAD files linked below. More detailed instructions can be found [here](NEED TO ADD A LINK HERE). 
+When starting a new RoboLFA effort, it is critical to understand the requirements for a strip holder. This includes the length and width of the strip, the location and thickness of pinch points, the location and volume required for reagent addition, and the location and size of the read window. Each of these factors can be modified in the CAD files linked below. More detailed instructions can be found [here](./LFA%20Protocols.md). 
 
 ![LFA Strip Holders](./images/LFA_strip_holder.png) <br>
 <small>Figure 2. Strip holder to hold non-cassetted LFAs. The designed holder consists of three parts, (1) an aluminum base plate, (2) 3D brinted base plate and (3) 3D printed top plate. The bottom plate is designed with guide posts for consistent placement of a strip, while the top plate is designed to have pinch points and wells where required. Image from https://doi.org/10.1007/s00216-022-03897-9</small>
@@ -56,8 +58,6 @@ When starting a new RoboLFA effort, it is critical to understand the requirement
 | :- | :-------------- | :------------- | :---------------- | :--: |:-------- |:-----: |
 | 14 | 047286.SLDPRT   | LFA strip holder base | Custom            | 1-5  |          | 1 |
 | 15 | 056923.SLDPRT (LFA Holder 3)| LFA strip top+bottom frame|Custom| 1-5  |          | 14|
-
-CAD files can be found here: 
 
 We have two other versions of the strip holder that have some usability issues that need to be addressed. The other two strip holders are either challenging to set up reproducibly or require additional engineering on the clamping mechanism. More details about both of these holders can be found in the [supplemental material](https://doi.org/10.1007/s00216-022-03897-9). 
 If we were to get additional time to further improve the strip holders, the most promising holder is the lego inspired assembly that allows for different 3D printed cross bars to be added interchangeably in 0.5mm increments along the length of the holder. This design allows for the manual adjustment of holder components (wells, pinch points, etc) without the need to manufacture additional parts.
@@ -81,8 +81,6 @@ The cassette holder consists of:
 | :- | :-------------- | :------------- | :---------------- | :--: |:-------- |:-----: |
 | 16 | 047287.SLDPRT   | LFA cassette deck| Custom            | 1    |Holes for alignment posts and posts for cassette holder| 12 + 13 |
 | 17 | 038379_v1.SLDPRT or  038379_v2.SLDPRT (LFA Holder 4) | LFA cassette holder | Custom            | 1    |Holes for posts and cassettes (LFA cassette dependent)| 16 |
-
-:simple-opensourcehardware: 
 
 ## Deck build 
 

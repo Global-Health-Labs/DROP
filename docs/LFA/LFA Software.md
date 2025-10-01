@@ -2,7 +2,7 @@
 
 ### Method and Layout Files
 
-:fontawesome-brands-github: - RoboLFA Files 
+:fontawesome-brands-github: - [RoboLFA Files](/docs/Installation%20Files/DROP_LFA_v2.pkg)
 
 The Hamilton Method designed by GH Labs was built with the goal of ultimate flexibility when it came to running LFA or NAAT experiment. The Method consists of 10+ Submethods that enable the user to input a worklist where every row is a single command being sent to the robot. These commands can include liquid movement, imaging, and plate movement (iSWAP specific) steps with the option to fix timing and grouping as needed. The LFA and NAAT methods are identical, but their layout files are different. Each implementation of the DROP system may require reconfiguration of the Layout file depending on the system. 
 
@@ -64,36 +64,4 @@ The deck layout has been defined with space for one of the following LFA or RDT 
 | :--------------------------------------------------- | :-----------: | :---------------: |
 | IVL_Plate_v2a_16strips_plastic_col_first_0001 to 012 | LFA Bay       | Increments of 8   |
 | IVL_Plate_v3_96cassettes_ABformat_0001               | LFA Bay       | 96                |
-| 038379_v2.SLDPRT                                     | LFA Bay       | 80                |
-
-### RADA
-
-:fontawesome-brands-github: - RADA App Frontend  <br>
-:fontawesome-brands-github: - RADA App Backend <br>
-:fontawesome-brands-github: - RADA App Deployment <br>
-
-The RADA Web Application was designed to improve the user experience with generating worklists. For this web application, the user inputs their experimental details at a higher level, and the software outputs the corresponding worklist file(s) and instructions on how to load the deck with the appropriate reagents. 
-
-There are three different Github repos associated with RADA, the frontend, backend, and deployment. All three are required to deploy the web application. The Deployment Repo contains all necessary information to deploy the RADA web app. 
-
-![RADA Architecture](./images/RADA_architecture.PNG) <br>
-<small> Figure 1. Description </small> <br><br>
-
-#### Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
-
-### LFA image analysis 
-
-:fontawesome-brands-github: - LFA Image Analysis 
-
-#### Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
-
+| Plate_v3_80cassettes_0001                            | LFA Bay       | 80                |

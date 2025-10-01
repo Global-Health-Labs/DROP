@@ -222,4 +222,5 @@ If you suspect contamination in your Hamilton Star liquid handling robot:
 
 If the contamination persists or unsure about any steps, contact Hamilton’s technical support for further assistance.
 
-[1] https://www.jmp.com/en/statistics-knowledge-portal/design-of-experiments
+<small>
+[1] https://www.jmp.com/en/statistics-knowledge-portal/design-of-experiments </small>
