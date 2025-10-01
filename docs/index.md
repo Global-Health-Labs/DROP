@@ -12,7 +12,7 @@ Assay development can be a largely manual process that requires a large amount o
 
 * **Accelerate Timelines** - reduces both total development time and total hands-on time required
 * **Improve Scalability** - enables performance of large scale experiments without the limitation of manual handling
-* **Enhance Reproducibility** - Automation minimizes variability, ensuring greater accuraccy and consistency 
+* **Enhance Reproducibility** - Automation minimizes variability, ensuring greater accuracy and consistency 
 
 Applications of this system can include, but are not limited to: 
 

@@ -10,7 +10,7 @@ To operate the thermocycler data analysis code, Python and Jupyter notebook are 
 
 ## :material-file-edit: **Files included in Github Repo**
 
-:fontawesome-brands-github: [Thermocycler Analysis Code](https://github.com/Global-Health-Labs/DROP/tree/main/sw/thermocycler_analysis)
+:fontawesome-brands-github: - [Thermocycler Analysis Code](https://github.com/Global-Health-Labs/DROP/tree/main/sw/thermocycler_analysis)
 
 Jupyter Notebooks: these are the files that the operator will open to run the analysis code
 
