@@ -75,7 +75,7 @@ Following the creation of a new labware definition, it is important to perform a
 4. Make the necessary adjustments to the x, y, and z locations as appropriate. More detailed training on this process can be found inn VENUS Basic and Advanced Training Courses (https://hamilton.trainingplus.ch/en/page/hamilton-training). 
 
 ![Labware Editor Step 2.5](./images/Labware%20location%20nagivation.PNG) <br>
-<small>Figure 7. Screenshot depicting navigation to Labware Position adjustment. </small>
+<small>Figure 6. Screenshot depicting navigation to Labware Position adjustment. </small>
 
 ![Labware Editor Step 3](./images/Labware%20Editor%20step%203.png) <br>
 <small>Figure 7. Screenshot detailing adjustment of Labware Position in the Hamilton Layout File. </small>
