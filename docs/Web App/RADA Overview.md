@@ -49,5 +49,5 @@ There are three different Github repositories (repos) associated with RADA, the 
 
 Older versions of the web application and related code can be found at these links:
 
-+ [Original Web Application](/sw/RADA_v0/)
-+ [Python code to generate LFA worklists](/sw/robot_worklist_generator/)
++ [Original Web Application](https://github.com/Global-Health-Labs/DROP/tree/main/sw/RADA_v0)
++ [Python code to generate LFA worklists](https://github.com/Global-Health-Labs/DROP/tree/main/sw/robot_worklist_generator)

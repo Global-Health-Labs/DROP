@@ -1,4 +1,4 @@
-:fontawesome-brands-github: [RoboLFA Hamilton Method and Layout File](RoboLFA.pkg) 
+:fontawesome-brands-github: - [RoboLFA Hamilton Method and Layout File](./Hamilton%20files/DROP_LFA_v2.pkg) 
 
 The Hamilton Method designed by GH Labs was built with the goal of ultimate flexibility when it came to running LFA or NAAT experiment. The Method consists of 10+ Submethods that enable the user to input a worklist where every row is a single command being sent to the robot. These commands can include liquid transfer, imaging, and plate movement (iSWAP specific) steps with the option to fix timing and grouping as needed. The LFA and NAAT methods are identical, but their associated layout files, which specify the hardware to be used for a given experiment, are different. Each implementation of the DROP system may require reconfiguration of the Layout file depending on the system. 
 
