@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<InstrumentSettings Application="easyPickII" ModifyDate="2012-09-28T15:14:23" ConfigVersion="1.0" ApplicationVersion="0.0.1">
+ <Name>
+  <Name>Instrument</Name>
+ </Name>
+ <ChannelOffset>
+  <ChannelOffsetX_1>0</ChannelOffsetX_1>
+  <ChannelOffsetY_1>0</ChannelOffsetY_1>
+  <ChannelOffsetX_2>0</ChannelOffsetX_2>
+  <ChannelOffsetY_2>0</ChannelOffsetY_2>
+  <ChannelOffsetX_3>0</ChannelOffsetX_3>
+  <ChannelOffsetY_3>0</ChannelOffsetY_3>
+  <ChannelOffsetX_4>0</ChannelOffsetX_4>
+  <ChannelOffsetY_4>0</ChannelOffsetY_4>
+  <ChannelOffsetX_5>0</ChannelOffsetX_5>
+  <ChannelOffsetY_5>0</ChannelOffsetY_5>
+  <ChannelOffsetX_6>0</ChannelOffsetX_6>
+  <ChannelOffsetY_6>0</ChannelOffsetY_6>
+  <ChannelOffsetX_7>0</ChannelOffsetX_7>
+  <ChannelOffsetY_7>0</ChannelOffsetY_7>
+  <ChannelOffsetX_8>0</ChannelOffsetX_8>
+  <ChannelOffsetY_8>0</ChannelOffsetY_8>
+  <ChannelOffsetX_9>0</ChannelOffsetX_9>
+  <ChannelOffsetY_9>0</ChannelOffsetY_9>
+  <ChannelOffsetX_10>0</ChannelOffsetX_10>
+  <ChannelOffsetY_10>0</ChannelOffsetY_10>
+  <ChannelOffsetX_11>0</ChannelOffsetX_11>
+  <ChannelOffsetY_11>0</ChannelOffsetY_11>
+  <ChannelOffsetX_12>0</ChannelOffsetX_12>
+  <ChannelOffsetY_12>0</ChannelOffsetY_12>
+  <ChannelOffsetX_13>0</ChannelOffsetX_13>
+  <ChannelOffsetY_13>0</ChannelOffsetY_13>
+  <ChannelOffsetX_14>0</ChannelOffsetX_14>
+  <ChannelOffsetY_14>0</ChannelOffsetY_14>
+  <ChannelOffsetX_15>0</ChannelOffsetX_15>
+  <ChannelOffsetY_15>0</ChannelOffsetY_15>
+  <ChannelOffsetX_16>0</ChannelOffsetX_16>
+  <ChannelOffsetY_16>0</ChannelOffsetY_16>
+ </ChannelOffset>
+</InstrumentSettings>

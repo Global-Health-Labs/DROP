@@ -1,0 +1,217 @@
+step,dx,dz,volume_ul,liquid_class,timer_delta,source,step_index,destination,group_number,timer_group_check,guid,from_path,asp_mixing,dispense_type,tip_type,touchoff_dis,to_plate,to_well,from_plate,from_well
+A1A_073,0,0,57.6,RoboNAAT_tip300_buffer_JetEmpty,0,water,0,0,1,0,1,some path,0,Jet_Empty,300,-1,ivl_96_dw_v1_0001,57,ivl_96_dw_v1_0001,1
+A1A_074,0,0,63.2,RoboNAAT_tip300_buffer_JetEmpty,0,water,0,0,1,0,1,some path,0,Jet_Empty,300,-1,ivl_96_dw_v1_0001,58,ivl_96_dw_v1_0001,2
+A1A_075,0,0,57.2,RoboNAAT_tip300_buffer_JetEmpty,0,water,0,0,1,0,1,some path,0,Jet_Empty,300,-1,ivl_96_dw_v1_0001,59,ivl_96_dw_v1_0001,1
+A1A_076,0,0,57.6,RoboNAAT_tip300_buffer_JetEmpty,0,water,0,0,1,0,1,some path,0,Jet_Empty,300,-1,ivl_96_dw_v1_0001,60,ivl_96_dw_v1_0001,2
+A1A_077,0,0,75.6,RoboNAAT_tip300_buffer_JetEmpty,0,water,0,0,1,0,1,some path,0,Jet_Empty,300,-1,ivl_96_dw_v1_0001,61,ivl_96_dw_v1_0001,1
+A1A_078,0,0,57.2,RoboNAAT_tip300_buffer_JetEmpty,0,water,0,0,1,0,1,some path,0,Jet_Empty,300,-1,ivl_96_dw_v1_0001,62,ivl_96_dw_v1_0001,2
+A1A_079,0,0,63.2,RoboNAAT_tip300_buffer_JetEmpty,0,water,0,0,1,0,1,some path,0,Jet_Empty,300,-1,ivl_96_dw_v1_0001,63,ivl_96_dw_v1_0001,1
+A1A_080,0,0,72.4,RoboNAAT_tip300_buffer_JetEmpty,0,water,0,0,1,0,1,some path,0,Jet_Empty,300,-1,ivl_96_dw_v1_0001,64,ivl_96_dw_v1_0001,2
+A1A_081,0,0,72.4,RoboNAAT_tip300_buffer_JetEmpty,0,water,0,0,1,0,1,some path,0,Jet_Empty,300,-1,ivl_96_dw_v1_0001,73,ivl_96_dw_v1_0001,1
+A1A_082,0,0,57.2,RoboNAAT_tip300_buffer_JetEmpty,0,water,0,0,1,0,1,some path,0,Jet_Empty,300,-1,ivl_96_dw_v1_0001,74,ivl_96_dw_v1_0001,2
+A1A_083,0,0,57.6,RoboNAAT_tip300_buffer_JetEmpty,0,water,0,0,1,0,1,some path,0,Jet_Empty,300,-1,ivl_96_dw_v1_0001,75,ivl_96_dw_v1_0001,1
+A1A_084,0,0,75.6,RoboNAAT_tip300_buffer_JetEmpty,0,water,0,0,1,0,1,some path,0,Jet_Empty,300,-1,ivl_96_dw_v1_0001,76,ivl_96_dw_v1_0001,2
+A1A_073,0,0,40,RoboNAAT_tip300_buffer_SurfaceEmpty,0,BST 2.0 buffer,0,0,2,0,1,some path,0,Surface_Empty,300,-1,ivl_96_dw_v1_0001,57,ivl_96_dw_v1_0001,9
+A1A_074,0,0,40,RoboNAAT_tip300_buffer_SurfaceEmpty,0,BST 2.0 buffer,0,0,2,0,1,some path,0,Surface_Empty,300,-1,ivl_96_dw_v1_0001,58,ivl_96_dw_v1_0001,10
+A1A_075,0,0,40,RoboNAAT_tip300_buffer_SurfaceEmpty,0,BST 3.0 buffer,0,0,2,0,1,some path,0,Surface_Empty,300,-1,ivl_96_dw_v1_0001,59,ivl_96_dw_v1_0001,12
+A1A_076,0,0,40,RoboNAAT_tip300_buffer_SurfaceEmpty,0,BST 3.0 buffer,0,0,2,0,1,some path,0,Surface_Empty,300,-1,ivl_96_dw_v1_0001,60,ivl_96_dw_v1_0001,13
+A1A_077,0,0,40,RoboNAAT_tip300_buffer_SurfaceEmpty,0,BST 2.0 buffer,0,0,2,0,1,some path,0,Surface_Empty,300,-1,ivl_96_dw_v1_0001,61,ivl_96_dw_v1_0001,9
+A1A_078,0,0,40,RoboNAAT_tip300_buffer_SurfaceEmpty,0,BST 2.0 buffer,0,0,2,0,1,some path,0,Surface_Empty,300,-1,ivl_96_dw_v1_0001,62,ivl_96_dw_v1_0001,10
+A1A_079,0,0,40,RoboNAAT_tip300_buffer_SurfaceEmpty,0,BST 3.0 buffer,0,0,2,0,1,some path,0,Surface_Empty,300,-1,ivl_96_dw_v1_0001,63,ivl_96_dw_v1_0001,12
+A1A_080,0,0,40,RoboNAAT_tip300_buffer_SurfaceEmpty,0,BST 2.0 buffer,0,0,2,0,1,some path,0,Surface_Empty,300,-1,ivl_96_dw_v1_0001,64,ivl_96_dw_v1_0001,9
+A1A_081,0,0,40,RoboNAAT_tip300_buffer_SurfaceEmpty,0,BST 2.0 buffer,0,0,2,0,1,some path,0,Surface_Empty,300,-1,ivl_96_dw_v1_0001,73,ivl_96_dw_v1_0001,10
+A1A_082,0,0,40,RoboNAAT_tip300_buffer_SurfaceEmpty,0,BST 2.0 buffer,0,0,2,0,1,some path,0,Surface_Empty,300,-1,ivl_96_dw_v1_0001,74,ivl_96_dw_v1_0001,9
+A1A_083,0,0,40,RoboNAAT_tip300_buffer_SurfaceEmpty,0,BST 2.0 buffer,0,0,2,0,1,some path,0,Surface_Empty,300,-1,ivl_96_dw_v1_0001,75,ivl_96_dw_v1_0001,10
+A1A_084,0,0,40,RoboNAAT_tip300_buffer_SurfaceEmpty,0,BST 3.0 buffer,0,0,2,0,1,some path,0,Surface_Empty,300,-1,ivl_96_dw_v1_0001,76,ivl_96_dw_v1_0001,13
+A1A_073,0,0,22,RoboNAAT_tip300_buffer_SurfaceEmpty,0,MgSO4,0,0,3,0,1,some path,0,Surface_Empty,300,-1,ivl_96_dw_v1_0001,57,ivl_96_dw_v1_0001,17
+A1A_074,0,0,29,RoboNAAT_tip300_buffer_SurfaceEmpty,0,MgSO4,0,0,3,0,1,some path,0,Surface_Empty,300,-1,ivl_96_dw_v1_0001,58,ivl_96_dw_v1_0001,18
+A1A_075,0,0,29,RoboNAAT_tip300_buffer_SurfaceEmpty,0,MgSO4,0,0,3,0,1,some path,0,Surface_Empty,300,-1,ivl_96_dw_v1_0001,59,ivl_96_dw_v1_0001,17
+A1A_076,0,0,22,RoboNAAT_tip300_buffer_SurfaceEmpty,0,MgSO4,0,0,3,0,1,some path,0,Surface_Empty,300,-1,ivl_96_dw_v1_0001,60,ivl_96_dw_v1_0001,18
+A1A_077,0,0,22,RoboNAAT_tip300_buffer_SurfaceEmpty,0,MgSO4,0,0,3,0,1,some path,0,Surface_Empty,300,-1,ivl_96_dw_v1_0001,61,ivl_96_dw_v1_0001,17
+A1A_078,0,0,29,RoboNAAT_tip300_buffer_SurfaceEmpty,0,MgSO4,0,0,3,0,1,some path,0,Surface_Empty,300,-1,ivl_96_dw_v1_0001,62,ivl_96_dw_v1_0001,18
+A1A_079,0,0,29,RoboNAAT_tip300_buffer_SurfaceEmpty,0,MgSO4,0,0,3,0,1,some path,0,Surface_Empty,300,-1,ivl_96_dw_v1_0001,63,ivl_96_dw_v1_0001,17
+A1A_080,0,0,26,RoboNAAT_tip300_buffer_SurfaceEmpty,0,MgSO4,0,0,3,0,1,some path,0,Surface_Empty,300,-1,ivl_96_dw_v1_0001,64,ivl_96_dw_v1_0001,18
+A1A_081,0,0,26,RoboNAAT_tip300_buffer_SurfaceEmpty,0,MgSO4,0,0,3,0,1,some path,0,Surface_Empty,300,-1,ivl_96_dw_v1_0001,73,ivl_96_dw_v1_0001,17
+A1A_082,0,0,29,RoboNAAT_tip300_buffer_SurfaceEmpty,0,MgSO4,0,0,3,0,1,some path,0,Surface_Empty,300,-1,ivl_96_dw_v1_0001,74,ivl_96_dw_v1_0001,18
+A1A_083,0,0,22,RoboNAAT_tip300_buffer_SurfaceEmpty,0,MgSO4,0,0,3,0,1,some path,0,Surface_Empty,300,-1,ivl_96_dw_v1_0001,75,ivl_96_dw_v1_0001,17
+A1A_084,0,0,22,RoboNAAT_tip300_buffer_SurfaceEmpty,0,MgSO4,0,0,3,0,1,some path,0,Surface_Empty,300,-1,ivl_96_dw_v1_0001,76,ivl_96_dw_v1_0001,18
+A1A_073,0,0,56,RoboNAAT_tip300_primers_SurfaceEmpty,0,dNTPs,0,0,4,0,1,some path,0,Surface_Empty,300,-1,ivl_96_dw_v1_0001,57,ivl_96_dw_v1_0001,25
+A1A_074,0,0,56,RoboNAAT_tip300_primers_SurfaceEmpty,0,dNTPs,0,0,4,0,1,some path,0,Surface_Empty,300,-1,ivl_96_dw_v1_0001,58,ivl_96_dw_v1_0001,26
+A1A_075,0,0,56,RoboNAAT_tip300_primers_SurfaceEmpty,0,dNTPs,0,0,4,0,1,some path,0,Surface_Empty,300,-1,ivl_96_dw_v1_0001,59,ivl_96_dw_v1_0001,25
+A1A_076,0,0,56,RoboNAAT_tip300_primers_SurfaceEmpty,0,dNTPs,0,0,4,0,1,some path,0,Surface_Empty,300,-1,ivl_96_dw_v1_0001,60,ivl_96_dw_v1_0001,26
+A1A_077,0,0,56,RoboNAAT_tip300_primers_SurfaceEmpty,0,dNTPs,0,0,4,0,1,some path,0,Surface_Empty,300,-1,ivl_96_dw_v1_0001,61,ivl_96_dw_v1_0001,25
+A1A_078,0,0,56,RoboNAAT_tip300_primers_SurfaceEmpty,0,dNTPs,0,0,4,0,1,some path,0,Surface_Empty,300,-1,ivl_96_dw_v1_0001,62,ivl_96_dw_v1_0001,26
+A1A_079,0,0,56,RoboNAAT_tip300_primers_SurfaceEmpty,0,dNTPs,0,0,4,0,1,some path,0,Surface_Empty,300,-1,ivl_96_dw_v1_0001,63,ivl_96_dw_v1_0001,25
+A1A_080,0,0,56,RoboNAAT_tip300_primers_SurfaceEmpty,0,dNTPs,0,0,4,0,1,some path,0,Surface_Empty,300,-1,ivl_96_dw_v1_0001,64,ivl_96_dw_v1_0001,26
+A1A_081,0,0,56,RoboNAAT_tip300_primers_SurfaceEmpty,0,dNTPs,0,0,4,0,1,some path,0,Surface_Empty,300,-1,ivl_96_dw_v1_0001,73,ivl_96_dw_v1_0001,25
+A1A_082,0,0,56,RoboNAAT_tip300_primers_SurfaceEmpty,0,dNTPs,0,0,4,0,1,some path,0,Surface_Empty,300,-1,ivl_96_dw_v1_0001,74,ivl_96_dw_v1_0001,26
+A1A_083,0,0,56,RoboNAAT_tip300_primers_SurfaceEmpty,0,dNTPs,0,0,4,0,1,some path,0,Surface_Empty,300,-1,ivl_96_dw_v1_0001,75,ivl_96_dw_v1_0001,25
+A1A_084,0,0,56,RoboNAAT_tip300_primers_SurfaceEmpty,0,dNTPs,0,0,4,0,1,some path,0,Surface_Empty,300,-1,ivl_96_dw_v1_0001,76,ivl_96_dw_v1_0001,26
+A1A_073,0,0,20,RoboNAAT_tip50_primers_SurfaceEmpty,0,evagreen,0,0,5,0,1,some path,0,Surface_Empty,50,-1,ivl_96_dw_v1_0001,57,ivl_96_dw_v1_0001,33
+A1A_074,0,0,20,RoboNAAT_tip50_primers_SurfaceEmpty,0,evagreen,0,0,5,0,1,some path,0,Surface_Empty,50,-1,ivl_96_dw_v1_0001,58,ivl_96_dw_v1_0001,34
+A1A_075,0,0,20,RoboNAAT_tip50_primers_SurfaceEmpty,0,evagreen,0,0,5,0,1,some path,0,Surface_Empty,50,-1,ivl_96_dw_v1_0001,59,ivl_96_dw_v1_0001,33
+A1A_076,0,0,20,RoboNAAT_tip50_primers_SurfaceEmpty,0,evagreen,0,0,5,0,1,some path,0,Surface_Empty,50,-1,ivl_96_dw_v1_0001,60,ivl_96_dw_v1_0001,34
+A1A_077,0,0,20,RoboNAAT_tip50_primers_SurfaceEmpty,0,evagreen,0,0,5,0,1,some path,0,Surface_Empty,50,-1,ivl_96_dw_v1_0001,61,ivl_96_dw_v1_0001,33
+A1A_078,0,0,20,RoboNAAT_tip50_primers_SurfaceEmpty,0,evagreen,0,0,5,0,1,some path,0,Surface_Empty,50,-1,ivl_96_dw_v1_0001,62,ivl_96_dw_v1_0001,34
+A1A_079,0,0,20,RoboNAAT_tip50_primers_SurfaceEmpty,0,evagreen,0,0,5,0,1,some path,0,Surface_Empty,50,-1,ivl_96_dw_v1_0001,63,ivl_96_dw_v1_0001,33
+A1A_080,0,0,20,RoboNAAT_tip50_primers_SurfaceEmpty,0,evagreen,0,0,5,0,1,some path,0,Surface_Empty,50,-1,ivl_96_dw_v1_0001,64,ivl_96_dw_v1_0001,34
+A1A_081,0,0,20,RoboNAAT_tip50_primers_SurfaceEmpty,0,evagreen,0,0,5,0,1,some path,0,Surface_Empty,50,-1,ivl_96_dw_v1_0001,73,ivl_96_dw_v1_0001,33
+A1A_082,0,0,20,RoboNAAT_tip50_primers_SurfaceEmpty,0,evagreen,0,0,5,0,1,some path,0,Surface_Empty,50,-1,ivl_96_dw_v1_0001,74,ivl_96_dw_v1_0001,34
+A1A_083,0,0,20,RoboNAAT_tip50_primers_SurfaceEmpty,0,evagreen,0,0,5,0,1,some path,0,Surface_Empty,50,-1,ivl_96_dw_v1_0001,75,ivl_96_dw_v1_0001,33
+A1A_084,0,0,20,RoboNAAT_tip50_primers_SurfaceEmpty,0,evagreen,0,0,5,0,1,some path,0,Surface_Empty,50,-1,ivl_96_dw_v1_0001,76,ivl_96_dw_v1_0001,34
+A1A_073,0,0,40,RoboNAAT_tip300_primers_SurfaceEmpty,0,primers L1,0,0,6,0,1,some path,0,Surface_Empty,300,-1,ivl_96_dw_v1_0001,57,ivl_96_dw_v1_0001,41
+A1A_074,0,0,40,RoboNAAT_tip300_primers_SurfaceEmpty,0,primers L1,0,0,6,0,1,some path,0,Surface_Empty,300,-1,ivl_96_dw_v1_0001,58,ivl_96_dw_v1_0001,42
+A1A_075,0,0,40,RoboNAAT_tip300_primers_SurfaceEmpty,0,primers L1,0,0,6,0,1,some path,0,Surface_Empty,300,-1,ivl_96_dw_v1_0001,59,ivl_96_dw_v1_0001,41
+A1A_076,0,0,40,RoboNAAT_tip300_primers_SurfaceEmpty,0,primers L1,0,0,6,0,1,some path,0,Surface_Empty,300,-1,ivl_96_dw_v1_0001,60,ivl_96_dw_v1_0001,42
+A1A_077,0,0,40,RoboNAAT_tip300_primers_SurfaceEmpty,0,primers L1,0,0,6,0,1,some path,0,Surface_Empty,300,-1,ivl_96_dw_v1_0001,61,ivl_96_dw_v1_0001,41
+A1A_078,0,0,40,RoboNAAT_tip300_primers_SurfaceEmpty,0,primers L1,0,0,6,0,1,some path,0,Surface_Empty,300,-1,ivl_96_dw_v1_0001,62,ivl_96_dw_v1_0001,42
+A1A_079,0,0,40,RoboNAAT_tip300_primers_SurfaceEmpty,0,primers L1,0,0,6,0,1,some path,0,Surface_Empty,300,-1,ivl_96_dw_v1_0001,63,ivl_96_dw_v1_0001,41
+A1A_080,0,0,40,RoboNAAT_tip300_primers_SurfaceEmpty,0,primers L3,0,0,6,0,1,some path,0,Surface_Empty,300,-1,ivl_96_dw_v1_0001,64,ivl_96_dw_v1_0001,44
+A1A_081,0,0,40,RoboNAAT_tip300_primers_SurfaceEmpty,0,primers L1,0,0,6,0,1,some path,0,Surface_Empty,300,-1,ivl_96_dw_v1_0001,73,ivl_96_dw_v1_0001,41
+A1A_082,0,0,40,RoboNAAT_tip300_primers_SurfaceEmpty,0,primers L1,0,0,6,0,1,some path,0,Surface_Empty,300,-1,ivl_96_dw_v1_0001,74,ivl_96_dw_v1_0001,42
+A1A_083,0,0,40,RoboNAAT_tip300_primers_SurfaceEmpty,0,primers L1,0,0,6,0,1,some path,0,Surface_Empty,300,-1,ivl_96_dw_v1_0001,75,ivl_96_dw_v1_0001,41
+A1A_084,0,0,40,RoboNAAT_tip300_primers_SurfaceEmpty,0,primers L1,0,0,6,0,1,some path,0,Surface_Empty,300,-1,ivl_96_dw_v1_0001,76,ivl_96_dw_v1_0001,42
+A1A_073,0,0,30,RoboNAAT_tip50_enzymes_SurfaceEmpty,0,BST 2.0,0,0,7,0,1,some path,3,Surface_Empty,50,-1,ivl_96_dw_v1_0001,57,ivl_96_flat_v1_0001,1
+A1A_074,0,0,24,RoboNAAT_tip50_enzymes_SurfaceEmpty,0,BST 2.0,0,0,7,0,1,some path,3,Surface_Empty,50,-1,ivl_96_dw_v1_0001,58,ivl_96_flat_v1_0001,2
+A1A_075,0,0,30,RoboNAAT_tip50_enzymes_SurfaceEmpty,0,BST 3.0,0,0,7,0,1,some path,3,Surface_Empty,50,-1,ivl_96_dw_v1_0001,59,ivl_96_flat_v1_0001,17
+A1A_076,0,0,30,RoboNAAT_tip50_enzymes_SurfaceEmpty,0,BST 3.0,0,0,7,0,1,some path,3,Surface_Empty,50,-1,ivl_96_dw_v1_0001,60,ivl_96_flat_v1_0001,18
+A1A_077,0,0,24,RoboNAAT_tip50_enzymes_SurfaceEmpty,0,BST 2.0,0,0,7,0,1,some path,3,Surface_Empty,50,-1,ivl_96_dw_v1_0001,61,ivl_96_flat_v1_0001,3
+A1A_078,0,0,30,RoboNAAT_tip50_enzymes_SurfaceEmpty,0,BST 2.0,0,0,7,0,1,some path,3,Surface_Empty,50,-1,ivl_96_dw_v1_0001,62,ivl_96_flat_v1_0001,4
+A1A_079,0,0,24,RoboNAAT_tip50_enzymes_SurfaceEmpty,0,BST 3.0,0,0,7,0,1,some path,3,Surface_Empty,50,-1,ivl_96_dw_v1_0001,63,ivl_96_flat_v1_0001,19
+A1A_080,0,0,24,RoboNAAT_tip50_enzymes_SurfaceEmpty,0,BST 2.0,0,0,7,0,1,some path,3,Surface_Empty,50,-1,ivl_96_dw_v1_0001,64,ivl_96_flat_v1_0001,2
+A1A_081,0,0,24,RoboNAAT_tip50_enzymes_SurfaceEmpty,0,BST 2.0,0,0,7,0,1,some path,3,Surface_Empty,50,-1,ivl_96_dw_v1_0001,73,ivl_96_flat_v1_0001,3
+A1A_082,0,0,30,RoboNAAT_tip50_enzymes_SurfaceEmpty,0,BST 2.0,0,0,7,0,1,some path,3,Surface_Empty,50,-1,ivl_96_dw_v1_0001,74,ivl_96_flat_v1_0001,4
+A1A_083,0,0,30,RoboNAAT_tip50_enzymes_SurfaceEmpty,0,BST 2.0,0,0,7,0,1,some path,3,Surface_Empty,50,-1,ivl_96_dw_v1_0001,75,ivl_96_flat_v1_0001,1
+A1A_084,0,0,24,RoboNAAT_tip50_enzymes_SurfaceEmpty,0,BST 3.0,0,0,7,0,1,some path,3,Surface_Empty,50,-1,ivl_96_dw_v1_0001,76,ivl_96_flat_v1_0001,20
+A1A_073,0,0,30,RoboNAAT_tip50_enzymes_SurfaceEmpty,0,BST 2.0,0,0,7,0,1,some path,3,Surface_Empty,50,-1,ivl_96_dw_v1_0001,57,ivl_96_flat_v1_0001,2
+A1A_074,0,0,24,RoboNAAT_tip50_enzymes_SurfaceEmpty,0,BST 2.0,0,0,7,0,1,some path,3,Surface_Empty,50,-1,ivl_96_dw_v1_0001,58,ivl_96_flat_v1_0001,3
+A1A_075,0,0,30,RoboNAAT_tip50_enzymes_SurfaceEmpty,0,BST 3.0,0,0,7,0,1,some path,3,Surface_Empty,50,-1,ivl_96_dw_v1_0001,59,ivl_96_flat_v1_0001,17
+A1A_076,0,0,30,RoboNAAT_tip50_enzymes_SurfaceEmpty,0,BST 3.0,0,0,7,0,1,some path,3,Surface_Empty,50,-1,ivl_96_dw_v1_0001,60,ivl_96_flat_v1_0001,18
+A1A_077,0,0,24,RoboNAAT_tip50_enzymes_SurfaceEmpty,0,BST 2.0,0,0,7,0,1,some path,3,Surface_Empty,50,-1,ivl_96_dw_v1_0001,61,ivl_96_flat_v1_0001,4
+A1A_078,0,0,30,RoboNAAT_tip50_enzymes_SurfaceEmpty,0,BST 2.0,0,0,7,0,1,some path,3,Surface_Empty,50,-1,ivl_96_dw_v1_0001,62,ivl_96_flat_v1_0001,1
+A1A_079,0,0,24,RoboNAAT_tip50_enzymes_SurfaceEmpty,0,BST 3.0,0,0,7,0,1,some path,3,Surface_Empty,50,-1,ivl_96_dw_v1_0001,63,ivl_96_flat_v1_0001,19
+A1A_080,0,0,24,RoboNAAT_tip50_enzymes_SurfaceEmpty,0,BST 2.0,0,0,7,0,1,some path,3,Surface_Empty,50,-1,ivl_96_dw_v1_0001,64,ivl_96_flat_v1_0001,1
+A1A_081,0,0,24,RoboNAAT_tip50_enzymes_SurfaceEmpty,0,BST 2.0,0,0,7,0,1,some path,3,Surface_Empty,50,-1,ivl_96_dw_v1_0001,73,ivl_96_flat_v1_0001,2
+A1A_082,0,0,30,RoboNAAT_tip50_enzymes_SurfaceEmpty,0,BST 2.0,0,0,7,0,1,some path,3,Surface_Empty,50,-1,ivl_96_dw_v1_0001,74,ivl_96_flat_v1_0001,3
+A1A_083,0,0,30,RoboNAAT_tip50_enzymes_SurfaceEmpty,0,BST 2.0,0,0,7,0,1,some path,3,Surface_Empty,50,-1,ivl_96_dw_v1_0001,75,ivl_96_flat_v1_0001,4
+A1A_084,0,0,24,RoboNAAT_tip50_enzymes_SurfaceEmpty,0,BST 3.0,0,0,7,0,1,some path,3,Surface_Empty,50,-1,ivl_96_dw_v1_0001,76,ivl_96_flat_v1_0001,20
+A1A_073,0,0,24,RoboNAAT_tip50_enzymes_SurfaceEmpty,0,RT,0,0,8,0,1,some path,3,Surface_Empty,50,-1,ivl_96_dw_v1_0001,57,ivl_96_flat_v1_0001,33
+A1A_074,0,0,24,RoboNAAT_tip50_enzymes_SurfaceEmpty,0,RT,0,0,8,0,1,some path,3,Surface_Empty,50,-1,ivl_96_dw_v1_0001,58,ivl_96_flat_v1_0001,34
+A1A_075,0,0,18,RoboNAAT_tip50_enzymes_SurfaceEmpty,0,RT,0,0,8,0,1,some path,3,Surface_Empty,50,-1,ivl_96_dw_v1_0001,59,ivl_96_flat_v1_0001,35
+A1A_076,0,0,24,RoboNAAT_tip50_enzymes_SurfaceEmpty,0,RT,0,0,8,0,1,some path,3,Surface_Empty,50,-1,ivl_96_dw_v1_0001,60,ivl_96_flat_v1_0001,36
+A1A_077,0,0,18,RoboNAAT_tip50_enzymes_SurfaceEmpty,0,RT,0,0,8,0,1,some path,3,Surface_Empty,50,-1,ivl_96_dw_v1_0001,61,ivl_96_flat_v1_0001,33
+A1A_078,0,0,18,RoboNAAT_tip50_enzymes_SurfaceEmpty,0,RT,0,0,8,0,1,some path,3,Surface_Empty,50,-1,ivl_96_dw_v1_0001,62,ivl_96_flat_v1_0001,34
+A1A_079,0,0,24,RoboNAAT_tip50_enzymes_SurfaceEmpty,0,RT,0,0,8,0,1,some path,3,Surface_Empty,50,-1,ivl_96_dw_v1_0001,63,ivl_96_flat_v1_0001,35
+A1A_080,0,0,18,RoboNAAT_tip50_enzymes_SurfaceEmpty,0,RT,0,0,8,0,1,some path,3,Surface_Empty,50,-1,ivl_96_dw_v1_0001,64,ivl_96_flat_v1_0001,49
+A1A_081,0,0,18,RoboNAAT_tip50_enzymes_SurfaceEmpty,0,RT,0,0,8,0,1,some path,3,Surface_Empty,50,-1,ivl_96_dw_v1_0001,73,ivl_96_flat_v1_0001,33
+A1A_082,0,0,18,RoboNAAT_tip50_enzymes_SurfaceEmpty,0,RT,0,0,8,0,1,some path,3,Surface_Empty,50,-1,ivl_96_dw_v1_0001,74,ivl_96_flat_v1_0001,34
+A1A_083,0,0,24,RoboNAAT_tip50_enzymes_SurfaceEmpty,0,RT,0,0,8,0,1,some path,3,Surface_Empty,50,-1,ivl_96_dw_v1_0001,75,ivl_96_flat_v1_0001,35
+A1A_084,0,0,18,RoboNAAT_tip50_enzymes_SurfaceEmpty,0,RT,0,0,8,0,1,some path,3,Surface_Empty,50,-1,ivl_96_dw_v1_0001,76,ivl_96_flat_v1_0001,36
+A1A_073,0,0,250,RoboNAAT_HighVolume_Water_DispenseSurface_Empty,0,mixing,0,0,9,0,1,some path,10,Surface_Empty,1000,-1,ivl_96_dw_v1_0001,57,ivl_96_dw_v1_0001,57
+A1A_074,0,0,250,RoboNAAT_HighVolume_Water_DispenseSurface_Empty,0,mixing,0,0,9,0,1,some path,10,Surface_Empty,1000,-1,ivl_96_dw_v1_0001,58,ivl_96_dw_v1_0001,58
+A1A_075,0,0,250,RoboNAAT_HighVolume_Water_DispenseSurface_Empty,0,mixing,0,0,9,0,1,some path,10,Surface_Empty,1000,-1,ivl_96_dw_v1_0001,59,ivl_96_dw_v1_0001,59
+A1A_076,0,0,250,RoboNAAT_HighVolume_Water_DispenseSurface_Empty,0,mixing,0,0,9,0,1,some path,10,Surface_Empty,1000,-1,ivl_96_dw_v1_0001,60,ivl_96_dw_v1_0001,60
+A1A_077,0,0,250,RoboNAAT_HighVolume_Water_DispenseSurface_Empty,0,mixing,0,0,9,0,1,some path,10,Surface_Empty,1000,-1,ivl_96_dw_v1_0001,61,ivl_96_dw_v1_0001,61
+A1A_078,0,0,250,RoboNAAT_HighVolume_Water_DispenseSurface_Empty,0,mixing,0,0,9,0,1,some path,10,Surface_Empty,1000,-1,ivl_96_dw_v1_0001,62,ivl_96_dw_v1_0001,62
+A1A_079,0,0,250,RoboNAAT_HighVolume_Water_DispenseSurface_Empty,0,mixing,0,0,9,0,1,some path,10,Surface_Empty,1000,-1,ivl_96_dw_v1_0001,63,ivl_96_dw_v1_0001,63
+A1A_080,0,0,250,RoboNAAT_HighVolume_Water_DispenseSurface_Empty,0,mixing,0,0,9,0,1,some path,10,Surface_Empty,1000,-1,ivl_96_dw_v1_0001,64,ivl_96_dw_v1_0001,64
+A1A_081,0,0,250,RoboNAAT_HighVolume_Water_DispenseSurface_Empty,0,mixing,0,0,9,0,1,some path,10,Surface_Empty,1000,-1,ivl_96_dw_v1_0001,73,ivl_96_dw_v1_0001,73
+A1A_082,0,0,250,RoboNAAT_HighVolume_Water_DispenseSurface_Empty,0,mixing,0,0,9,0,1,some path,10,Surface_Empty,1000,-1,ivl_96_dw_v1_0001,74,ivl_96_dw_v1_0001,74
+A1A_083,0,0,250,RoboNAAT_HighVolume_Water_DispenseSurface_Empty,0,mixing,0,0,9,0,1,some path,10,Surface_Empty,1000,-1,ivl_96_dw_v1_0001,75,ivl_96_dw_v1_0001,75
+A1A_084,0,0,250,RoboNAAT_HighVolume_Water_DispenseSurface_Empty,0,mixing,0,0,9,0,1,some path,10,Surface_Empty,1000,-1,ivl_96_dw_v1_0001,76,ivl_96_dw_v1_0001,76
+A1A_073,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,1,ivl_96_dw_v1_0001,57
+A1A_074,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,2,ivl_96_dw_v1_0001,58
+A1A_075,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,3,ivl_96_dw_v1_0001,59
+A1A_076,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,4,ivl_96_dw_v1_0001,60
+A1A_077,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,5,ivl_96_dw_v1_0001,61
+A1A_078,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,6,ivl_96_dw_v1_0001,62
+A1A_079,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,7,ivl_96_dw_v1_0001,63
+A1A_080,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,8,ivl_96_dw_v1_0001,64
+A1A_073,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,9,ivl_96_dw_v1_0001,57
+A1A_074,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,10,ivl_96_dw_v1_0001,58
+A1A_075,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,11,ivl_96_dw_v1_0001,59
+A1A_076,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,12,ivl_96_dw_v1_0001,60
+A1A_077,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,13,ivl_96_dw_v1_0001,61
+A1A_078,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,14,ivl_96_dw_v1_0001,62
+A1A_079,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,15,ivl_96_dw_v1_0001,63
+A1A_080,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,16,ivl_96_dw_v1_0001,64
+A1A_073,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,17,ivl_96_dw_v1_0001,57
+A1A_074,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,18,ivl_96_dw_v1_0001,58
+A1A_075,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,19,ivl_96_dw_v1_0001,59
+A1A_076,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,20,ivl_96_dw_v1_0001,60
+A1A_077,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,21,ivl_96_dw_v1_0001,61
+A1A_078,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,22,ivl_96_dw_v1_0001,62
+A1A_079,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,23,ivl_96_dw_v1_0001,63
+A1A_080,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,24,ivl_96_dw_v1_0001,64
+A1A_073,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,25,ivl_96_dw_v1_0001,57
+A1A_074,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,26,ivl_96_dw_v1_0001,58
+A1A_075,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,27,ivl_96_dw_v1_0001,59
+A1A_076,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,28,ivl_96_dw_v1_0001,60
+A1A_077,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,29,ivl_96_dw_v1_0001,61
+A1A_078,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,30,ivl_96_dw_v1_0001,62
+A1A_079,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,31,ivl_96_dw_v1_0001,63
+A1A_080,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,32,ivl_96_dw_v1_0001,64
+A1A_073,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,33,ivl_96_dw_v1_0001,57
+A1A_074,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,34,ivl_96_dw_v1_0001,58
+A1A_075,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,35,ivl_96_dw_v1_0001,59
+A1A_076,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,36,ivl_96_dw_v1_0001,60
+A1A_077,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,37,ivl_96_dw_v1_0001,61
+A1A_078,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,38,ivl_96_dw_v1_0001,62
+A1A_079,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,39,ivl_96_dw_v1_0001,63
+A1A_080,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,40,ivl_96_dw_v1_0001,64
+A1A_073,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,41,ivl_96_dw_v1_0001,57
+A1A_074,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,42,ivl_96_dw_v1_0001,58
+A1A_075,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,43,ivl_96_dw_v1_0001,59
+A1A_076,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,44,ivl_96_dw_v1_0001,60
+A1A_077,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,45,ivl_96_dw_v1_0001,61
+A1A_078,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,46,ivl_96_dw_v1_0001,62
+A1A_079,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,47,ivl_96_dw_v1_0001,63
+A1A_080,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,48,ivl_96_dw_v1_0001,64
+A1A_073,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,49,ivl_96_dw_v1_0001,57
+A1A_074,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,50,ivl_96_dw_v1_0001,58
+A1A_075,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,51,ivl_96_dw_v1_0001,59
+A1A_076,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,52,ivl_96_dw_v1_0001,60
+A1A_077,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,53,ivl_96_dw_v1_0001,61
+A1A_078,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,54,ivl_96_dw_v1_0001,62
+A1A_079,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,55,ivl_96_dw_v1_0001,63
+A1A_080,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,56,ivl_96_dw_v1_0001,64
+A1A_073,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,57,ivl_96_dw_v1_0001,57
+A1A_074,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,58,ivl_96_dw_v1_0001,58
+A1A_075,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,59,ivl_96_dw_v1_0001,59
+A1A_076,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,60,ivl_96_dw_v1_0001,60
+A1A_077,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,61,ivl_96_dw_v1_0001,61
+A1A_078,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,62,ivl_96_dw_v1_0001,62
+A1A_079,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,63,ivl_96_dw_v1_0001,63
+A1A_080,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,64,ivl_96_dw_v1_0001,64
+A1A_081,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,65,ivl_96_dw_v1_0001,73
+A1A_082,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,66,ivl_96_dw_v1_0001,74
+A1A_083,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,67,ivl_96_dw_v1_0001,75
+A1A_084,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,68,ivl_96_dw_v1_0001,76
+A1A_081,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,69,ivl_96_dw_v1_0001,73
+A1A_082,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,70,ivl_96_dw_v1_0001,74
+A1A_083,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,71,ivl_96_dw_v1_0001,75
+A1A_084,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,72,ivl_96_dw_v1_0001,76
+A1A_081,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,73,ivl_96_dw_v1_0001,73
+A1A_082,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,74,ivl_96_dw_v1_0001,74
+A1A_083,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,75,ivl_96_dw_v1_0001,75
+A1A_084,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,76,ivl_96_dw_v1_0001,76
+A1A_081,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,77,ivl_96_dw_v1_0001,73
+A1A_082,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,78,ivl_96_dw_v1_0001,74
+A1A_083,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,79,ivl_96_dw_v1_0001,75
+A1A_084,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,80,ivl_96_dw_v1_0001,76
+A1A_081,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,81,ivl_96_dw_v1_0001,73
+A1A_082,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,82,ivl_96_dw_v1_0001,74
+A1A_083,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,83,ivl_96_dw_v1_0001,75
+A1A_084,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,84,ivl_96_dw_v1_0001,76
+A1A_081,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,85,ivl_96_dw_v1_0001,73
+A1A_082,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,86,ivl_96_dw_v1_0001,74
+A1A_083,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,87,ivl_96_dw_v1_0001,75
+A1A_084,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,88,ivl_96_dw_v1_0001,76
+A1A_081,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,89,ivl_96_dw_v1_0001,73
+A1A_082,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,90,ivl_96_dw_v1_0001,74
+A1A_083,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,91,ivl_96_dw_v1_0001,75
+A1A_084,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,92,ivl_96_dw_v1_0001,76
+A1A_081,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,93,ivl_96_dw_v1_0001,73
+A1A_082,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,94,ivl_96_dw_v1_0001,74
+A1A_083,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,95,ivl_96_dw_v1_0001,75
+A1A_084,0,0,30,RoboNAAT_tip300_20uL_MM__JetEmpty_Part,0,MM_aq,0,0,10,0,1,some path,0,Jet_Empty,300,-1,ivl_96_flat_v1_0002,96,ivl_96_dw_v1_0001,76
