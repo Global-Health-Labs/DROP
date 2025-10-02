@@ -84,7 +84,7 @@ Following the creation of a new labware definition, it is important to perform a
 
 It is generally advised to maintain the x and y spacings of the LFA cassette and strip holders to avoid having to generate a new hardware definition. A hardware definition for custom 80- and 96-cassette holders, as well as for a 16-qty LFA strip holder plate already exist and are fully described in other locations of this document. 
 
-If a new holder configuration is needed, due to incompatible dimensions with existing hardware, a new hardware labware layout can be created on the Hamilton Method Editor software (Tools>Labware Editor…>Create New Labware). An example screenshot of a strip holder layout can be found below (Figure 4). Some important parameters that need to be defined are the offset distance of the front left most pipetting location (e.g., sample well), the spacing between strips in the x and y direction, the location of the first strip, and the order sequence of strips on the holder. Ensure that the newly created labware definition is saved.  
+If a new holder configuration is needed, due to incompatible dimensions with existing hardware, a new hardware labware layout can be created on the Hamilton Method Editor software (Tools>Labware Editor…>Create New Labware). An example screenshot of a strip holder layout can be found below. Some important parameters that need to be defined are the offset distance of the front left most pipetting location (e.g., sample well), the spacing between strips in the x and y direction, the location of the first strip, and the order sequence of strips on the holder. Ensure that the newly created labware definition is saved.  
 
 ### :material-image-auto-adjust: **Adjusting RADA for strip**
 
@@ -139,12 +139,12 @@ Worklists can be generated using the Robotic Assay Development Application (RADA
 2. Using the three dots on the right-hand side of the relevant shortcut to access the menu, in either the “Frequently Used” portion of the window or the “Shortcuts” section, select “Simulate Method”. Once selected, Run Control will open and prepare to run the method in simulation mode.  
 
     ![Simulation Mode](./images/Simulate%20Method%20Nav.png) <br>
-    <small>Figure 4. Navigation to enter Simulation Mode in VENUS 6 software. </small>
+    <small>Figure 8. Navigation to enter Simulation Mode in VENUS 6 software. </small>
 
 3. Confirm that the system is in simulation mode in the upper left corner of the window. Once confirmed, click the blue play button to begin the simulation. 
 
     ![Simulate Method Run Control](./images/Simulate%20Method%20Run%20Control.png) <br>
-    <small>Figure 5. In Run Control, the mode can be viewed by noting the name listed next to “Instrument”.  In simulation mode, the programmed steps will not be sent to the machine itself. Instead they are sent to a virtual machine that simulates the entire method. In instrument mode, the programmed steps will be sent to the machine. All worklists should first be validated in simulation mode. </small>
+    <small>Figure 9. In Run Control, the mode can be viewed by noting the name listed next to “Instrument”.  In simulation mode, the programmed steps will not be sent to the machine itself. Instead they are sent to a virtual machine that simulates the entire method. In instrument mode, the programmed steps will be sent to the machine. All worklists should first be validated in simulation mode. </small>
 
 4. The following setup pop-up will appear. Select the worklist file for this experiment by clicking on the “…” button and navigating to the specific file. Once the worklist is loaded, the “Run” button will become active. Click “Run”. 
     
@@ -155,12 +155,12 @@ Worklists can be generated using the Robotic Assay Development Application (RADA
 
 
     ![Run Pop Up](./images/Run%20Method%20Pop%20Up.png) <br>
-    <small>Figure 6. Pop-up window once the method is started. Load the worklist file from a location on the local machine. Animation can be selected or deselected depending on operator preference. Click the “Run” button to start the operation.</small>
+    <small>Figure 10. Pop-up window once the method is started. Load the worklist file from a location on the local machine. Animation can be selected or deselected depending on operator preference. Click the “Run” button to start the operation.</small>
 
 5. Tip counters will appear. Update the tip count for all tip types by clicking on the first available tip in each rack. Make sure to be precise. If there are not enough virtual tips, the Method will error.  For simulation, the best practice is to fill all locations of each tip type. This will inform the total number of tips that must be loaded onto the instrument when running the experiment. Click “OK” when done. 
 
     ![Tip Counters](./images/Tip%20Counters.png) <br>
-    <small>Figure 7. Example pop-up windows that appear to indicate what tips are present on the deck. Make sure enough tips are loaded virtually to cover the steps written in the worklist. This can be checked in Simulation Mode.</small>
+    <small>Figure 11. Example pop-up windows that appear to indicate what tips are present on the deck. Make sure enough tips are loaded virtually to cover the steps written in the worklist. This can be checked in Simulation Mode.</small>
 
 6.  Run simulation and observe for any potential errors. 
      
@@ -174,7 +174,7 @@ Worklists can be generated using the Robotic Assay Development Application (RADA
         - The length of the simulation will depend on the type and number of steps included in the worklist. 
 
     ![VENUS Method Running](./images/VENUS%20Method%20Running.png) <br>
-    <small>Figure 8. Run Control when the method is running.</small>
+    <small>Figure 12. Run Control when the method is running.</small>
 
 7. Verification and troubleshooting: 
     - If everything ran correctly, a “Method Complete” message will appear. If not, an error message will pop up. 
@@ -184,7 +184,7 @@ Worklists can be generated using the Robotic Assay Development Application (RADA
     - It is recommended to take a screenshot and save it into a virtual laboratory notebook to assist with experimental set up. 
 
 ![Deck after simulation](./images/Deck%20after%20simulation.png) <br>
-<small>Figure 9. Example screenshots of methods run on the Hamilton Method. An ideal screenshot will show both the number of tips used and the plate locations that are required.</small>
+<small>Figure 13. Example screenshots of methods run on the Hamilton Method. An ideal screenshot will show both the number of tips used and the plate locations that are required.</small>
 
 ## :material-robot-industrial: **Run Experiment**
 
@@ -201,10 +201,13 @@ Worklists can be generated using the Robotic Assay Development Application (RADA
 11. Confirm that VENUS software is in insturment mode by noting the name listed next to "Instrument" in the Run Control Window. 
 
     ![Run Control Experiment](./images/Run%20Control%20Experiment.png) <br>
-    <small>Figure 10. The view in Run Control when an experiment has been started in instrument mode. Note the machine’s ID to ensure that the system is connected to the Hamilton STAR.</small>
+    <small>Figure 14. The view in Run Control when an experiment has been started in instrument mode. Note the machine’s ID to ensure that the system is connected to the Hamilton STAR.</small>
 
 12. Select the blue play button to begin the run. 
-13. The pop up shown in figure X will appear. Attach the worklist file that corresponds to the experiment and select "Run". 
+13. The pop up shown in figure 15 will appear. Attach the worklist file that corresponds to the experiment and select "Run". 
+
+    ![Run Control Experiment](./images/Worklist%20loading%20screen.png) <br>
+    <small>Figure 15. Pop up to prompt loading of worklist file. </small>
 
     !!! note 
         The method can be run with or without animation when in instrument mode. 

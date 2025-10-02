@@ -60,4 +60,4 @@ The deck layout has been defined with space for one of the following LFA or RDT 
 | :--------------------------------------------------- | :-----------: | :---------------: |
 | IVL_Plate_v2a_16strips_plastic_col_first_0001 to 012 | LFA Bay       | Increments of 8 or 16   |
 | IVL_Plate_v3_96cassettes_ABformat_0001               | LFA Bay       | 96                |
-| Plate_v3_80cassettes_0001                            | LFA Bay       | 80                |
+| 038379_v3.SLDPRT                                       | LFA Bay       | 80                |
