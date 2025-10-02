@@ -171,10 +171,7 @@ Note that insufficient virtual tips will cause the method to error. For simulati
     <small>Figure 10. The view in Run Control when an experiment has been started in instrument mode. Note the machine’s ID to ensure that the system is connected to the Hamilton STAR.</small>
 
 12. Select the blue play button to begin the run. 
-13. The pop up shown in figure 11 will appear. Select the worklist file that corresponds to the experiment and select "Run". 
-
-    ![Run Control Experiment](./images/Run%20Method%20Pop%20Up.png) <br>
-    <small>Figure 11. Pop up to prompt loading of worklist file. </small>
+13. The pop up shown in figure 6 will appear. Select the worklist file that corresponds to the experiment and select "Run". 
 
     !!! note 
         The method can be run with or without animation when in instrument mode. 

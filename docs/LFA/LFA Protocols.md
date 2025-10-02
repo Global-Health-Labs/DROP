@@ -204,10 +204,7 @@ Worklists can be generated using the Robotic Assay Development Application (RADA
     <small>Figure 14. The view in Run Control when an experiment has been started in instrument mode. Note the machine’s ID to ensure that the system is connected to the Hamilton STAR.</small>
 
 12. Select the blue play button to begin the run. 
-13. The pop up shown in figure 15 will appear. Attach the worklist file that corresponds to the experiment and select "Run". 
-
-    ![Run Control Experiment](./images/Worklist%20loading%20screen.png) <br>
-    <small>Figure 15. Pop up to prompt loading of worklist file. </small>
+13. The pop up shown in figure 10 will appear. Attach the worklist file that corresponds to the experiment and select "Run". 
 
     !!! note 
         The method can be run with or without animation when in instrument mode. 
