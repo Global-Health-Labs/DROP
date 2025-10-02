@@ -16,7 +16,6 @@ Jupyter Notebooks: these are the files that the operator will open to run the an
 
 - Batch Plate Analyzer.ipynb 
 - Single Plate Analyzer.ipynb
-- Partial Plate Analyzer.ipynb
 
 Python file(s): Python files that the Jupyter notebook refers to in order to analyze data. Some additional functions are present in these files beyond what is included in the Jupyter notebook file and can be updated if desired.
 

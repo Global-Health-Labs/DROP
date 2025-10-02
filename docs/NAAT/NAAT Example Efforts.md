@@ -44,20 +44,20 @@ Reagents required for this effort included:
 Worklists were prepared to run the experiment as designed by JMP. This effort was run using 96 well plates and prepared two at a time. The worklists for preparing the mastermix and aliquoting sample were seperated to enable sample preparation to occur while the mastermix is being run. This effort could be accelerated by using a 384 well plate or if there are more thermocyclers available. 
 
 *Run 1*
-:material-microsoft-excel: [Make, mix, and aliquot mastermix](./worklists/A1A_makeandmix_worklist.csv)
-:material-microsoft-excel: [Aliquot Sample](./worklists/A1A_template_aq_worklist.csv)
+:material-microsoft-excel: [Make, mix, and aliquot mastermix](https://github.com/Global-Health-Labs/DROP/blob/main/examples/NAAT/A1A_makeandmix_worklist.csv)
+:material-microsoft-excel: [Aliquot Sample](https://github.com/Global-Health-Labs/DROP/blob/main/examples/NAAT/A1A_template_aq_worklist.csv)
 
 *Run 2*
-:material-microsoft-excel: [Make, mix, and aliquot mastermix](./worklists/A1A2_makeandmix_worklist.csv)
-:material-microsoft-excel: [Aliquot Sample](./worklists/A1A2_template_aq_worklist.csv)
+:material-microsoft-excel: [Make, mix, and aliquot mastermix](https://github.com/Global-Health-Labs/DROP/blob/main/examples/NAAT/A1A2_makeandmix_worklist.csv)
+:material-microsoft-excel: [Aliquot Sample](https://github.com/Global-Health-Labs/DROP/blob/main/examples/NAAT/A1A2_template_aq_worklist.csv)
 
 *Run 3*
-:material-microsoft-excel: [Make, mix, and aliquot mastermix](./worklists/A1A3_makeandmix_worklist.csv)
-:material-microsoft-excel: [Aliquot Sample](./worklists/A1A3_template_aq_worklist.csv)
+:material-microsoft-excel: [Make, mix, and aliquot mastermix](https://github.com/Global-Health-Labs/DROP/blob/main/examples/NAAT/A1A3_makeandmix_worklist.csv)
+:material-microsoft-excel: [Aliquot Sample](https://github.com/Global-Health-Labs/DROP/blob/main/examples/NAAT/A1A3_template_aq_worklist.csv)
 
 *Run 4*
-:material-microsoft-excel: [Make, mix, and aliquot mastermix](./worklists/A1A4_makeandmix_worklist.csv)
-:material-microsoft-excel: [Aliquot Sample](./worklists/A1A4_template_aq_worklist.csv)
+:material-microsoft-excel: [Make, mix, and aliquot mastermix](https://github.com/Global-Health-Labs/DROP/blob/main/examples/NAAT/A1A4_makeandmix_worklist.csv)
+:material-microsoft-excel: [Aliquot Sample](https://github.com/Global-Health-Labs/DROP/blob/main/examples/NAAT/A1A4_template_aq_worklist.csv)
 
 For all four of these runs, they have similar deck layouts. Examples of the wells and plates used for both worklist types are in the images below. 
 
@@ -133,12 +133,12 @@ In addition to the reagent preparation described in the previous effort, a long 
 The additive screening was split into three robot runs, preparing two 96 well plates each run. Examples of the worklists are included below for the first two runs. 
 
 *Run 1*
-:material-microsoft-excel: [Make, mix, and aliquot mastermix](./worklists/2a_makeandmix_worklist.csv)
-:material-microsoft-excel: [Aliquot Sample](./worklists/2a_template_aq_worklist.csv)
+:material-microsoft-excel: [Make, mix, and aliquot mastermix](https://github.com/Global-Health-Labs/DROP/blob/main/examples/NAAT/2a_makeandmix_worklist.csv)
+:material-microsoft-excel: [Aliquot Sample](https://github.com/Global-Health-Labs/DROP/blob/main/examples/NAAT/2a_template_aq_worklist.csv)
 
 *Run 2*
-:material-microsoft-excel: [Make, mix, and aliquot mastermix](./worklists/2b_makeandmix_worklist.csv)
-:material-microsoft-excel: [Aliquot Sample](./worklists/2b_half_template_aq_worklist.csv)
+:material-microsoft-excel: [Make, mix, and aliquot mastermix](https://github.com/Global-Health-Labs/DROP/blob/main/examples/NAAT/2b_makeandmix_worklist.csv)
+:material-microsoft-excel: [Aliquot Sample](https://github.com/Global-Health-Labs/DROP/blob/main/examples/NAAT/2b_half_template_aq_worklist.csv)
 
 ### Results and Conclusions
 
@@ -188,8 +188,8 @@ This effort used the same reagents as the mastermix optimization and additive sc
 
 The performance evaluation was completed with a single robot run. 
 
-:material-microsoft-excel: [Make, mix, and aliquot mastermix](./worklists/NAAT_LOD_makeandmix_worklist.csv)
-:material-microsoft-excel: [Aliquot Sample](./worklists/NAAT_LOD_template_aq_worklist.csv)
+:material-microsoft-excel: [Make, mix, and aliquot mastermix](https://github.com/Global-Health-Labs/DROP/blob/main/examples/NAAT/NAAT_LOD_makeandmix_worklist.csv)
+:material-microsoft-excel: [Aliquot Sample](https://github.com/Global-Health-Labs/DROP/blob/main/examples/NAAT/NAAT_LOD_template_aq_worklist.csv)
 
 ### Results and Conclusions
 
