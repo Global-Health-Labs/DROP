@@ -1,6 +1,6 @@
 The web application has been designed to minimize the need to re-deploy the application whenever smaller experimental or engineering changes are made to the DROP system. Specific variables required to make the worklist can be generated/modified by admin level accounts in the RADA application. 
 
-The web application should be deployed as described here - :simple-github: [Deployment Github](https://github.com/Global-Health-Labs/RADA-Deployment)
+The web application should be deployed as described here - :simple-github: [Deployment Repo](https://github.com/Global-Health-Labs/RADA-Deployment)
 
 ### :fontawesome-solid-user: **Adding, removing, modifying users**
 
