@@ -129,7 +129,7 @@ The list of parameters is below. The ones in **bold** will usually need to be mo
     ![Folder Structure After](./images/LFA%20Analysis%20Folder%20structure%20after.png) <br>
     <small>Figure 6. Folder structure after analysis. For this experiment, there were two robot runs that each generated images. Therefore, the folder contains the necessary pieces of code and two folders of images to be analyzed. The output csv (all_results.csv) contains the analysis from both folders. </small>
 
-7. Save and shut down 
+7. **Save and shut down**
     + Remember to save your work frequently by clicking the save icon or pressing Ctrl + S.
     + When you’re done, you can shut down the notebook by closing the browser tab and stopping the Jupyter server in your terminal by pressing Ctrl + C.
 

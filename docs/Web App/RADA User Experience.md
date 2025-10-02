@@ -156,7 +156,7 @@ This separation ensures precise execution and easier troubleshooting during auto
 
 To enter the Worklist Viewer, select "View Instructions". This viewer contains all the information to correctly load reagents into plates and position the plates on the deck in their designated locations.
 
-![Worklist Viewer](./images/RADA_NAAT_Experiment_page4.PNG) <br>
+![Worklist Viewer](./images/RADA_NAAT_experiment_page4.PNG) <br>
 <small>Figure 14. Page designed to support the set up of the reagents and plates onto the Hamilton Deck. </small>
 
 The worklist viewer has five sections:

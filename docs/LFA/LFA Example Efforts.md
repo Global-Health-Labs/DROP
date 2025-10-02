@@ -25,6 +25,7 @@ Test membranes were prepared using a generic LFA format. This included CN95 nitr
 To break up the 10x10 grid, there are two different worklists required. The worklists are: 
 
 :fontawesome-solid-file-csv: [Worklist A](https://github.com/Global-Health-Labs/DROP/blob/main/examples/LFA/5x3_full_worklist.csv): 3 detection antibodies with 5 capture antibodies (15 total combinations)
+
 :fontawesome-solid-file-csv: [Worklist B](https://github.com/Global-Health-Labs/DROP/blob/main/examples/LFA/15x1_full_worklist.csv): 1 detection antibody with 15 capture antibodies (15 total combinations)
 
 The breakdown of how these worklists will span the 10x10 grid are shown in Figure 1. 

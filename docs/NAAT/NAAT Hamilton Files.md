@@ -1,4 +1,4 @@
-:fontawesome-brands-github: - [RoboNAAT Hamilton Method and Layout File](./Hamilton%20files/DROP_NAAT_v2.pkg) 
+:fontawesome-brands-github: - [RoboNAAT Hamilton Method and Layout File](https://github.com/Global-Health-Labs/DROP/blob/main/sw/Hamilton%20Files/DROP_NAAT_v2.pkg) 
 
 The Hamilton Method, developed by GH Labs, was designed to offer maximum flexibility for executing LFA and NAAT experiments. It comprises over ten modular submethods, allowing users to input a worklist where each row represents a discrete command sent to the robot. These commands may include liquid handling, imaging, and plate movement steps (specific to iSWAP), with configurable options for timing and grouping.
 

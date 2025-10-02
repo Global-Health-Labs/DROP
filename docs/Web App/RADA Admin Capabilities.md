@@ -1,6 +1,6 @@
 The web application has been designed to minimize the need to re-deploy the application whenever smaller experimental or engineering changes are made to the DROP system. Specific variables required to make the worklist can be generated/modified by admin level accounts in the RADA application. 
 
-The web application should be deployed as described here - **GITHUB LINK**
+The web application should be deployed as described here - :simple-github: [Deployment Github](https://github.com/Global-Health-Labs/RADA-Deployment)
 
 ### :fontawesome-solid-user: **Adding, removing, modifying users**
 
@@ -26,7 +26,7 @@ Presets are intended to simplify the workflow for protocols that are run repeate
 
 Liquid types in the RADA application correspond to liquid classes defined in the Hamilton CO-RE Liquid Editor. The web application only needs a few pieces of information, th ename, value (corresponding to the name in the liquid class) and whether the liquid requires tip washing. Tip washing is recommended for liquids that are highly viscous or may otherwise stick to the inside of the pipette. 
 
-![RADA Liquid Types](./images/RADA_settings_Liquid_Types.png) <br>
+![RADA Liquid Types](./images/RADA_settings_Liquid_Types.PNG) <br>
 <small>Figure 3. Page to add, edit, and delete liquid types from RADA application. </small>
 
 The web application will take the "Value" field and make liquid classes for all three pipette size (50, 300, 1000) and both dispense types (Jet Empty and Surface Empty) used on DROP. When adding new liquid types to RADA, ensure that those liquid classes have been made and validated on the Hamilton STAR to ensure pipetting performance. 
@@ -35,14 +35,14 @@ The web application will take the "Value" field and make liquid classes for all 
 
 Volume units are not used by the backend of the RADA application, but can be helpful for documentation and tracing purposes. Some units have been prepopulated in the application, but others can be added as needed. 
 
-![RADA Volume Units](./images/RADA_settings_volume_units.png) <br>
+![RADA Volume Units](./images/RADA_settings_volume_units.PNG) <br>
 <small>Figure 4. Page to add, edit, and delete units from RADA application. </small>
 
 ### :material-view-grid-plus-outline: **Modifications to Deck Layout**
 
 Multiple deck layouts can be loaded for both the NAAT and the LFA worklist generator. For each deck layout, there are 15 deck locations available onto which different plate options can be loaded. 
 
-![RADA Edit Deck Layout](./images/RADA_settings_deck_layout_edit.png) <br>
+![RADA Edit Deck Layout](./images/RADA_settings_deck_layout_edit.PNG) <br>
 <small>Figure 5. Page to add, edit, and delete plates from deck layout in RADA application. </small>
 
 !!! note 
