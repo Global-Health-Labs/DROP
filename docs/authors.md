@@ -14,7 +14,7 @@
 
 ## Neurosynaptic Communications/Appzoy
 
-+ Shyam Prakash [:material-mail-fast:](mailto:shyam.p@appzoy.com){:target="_blank"}
-+ Rajeev Kumar [:material-mail-fast:](mailto:rajeev@neurosynaptic.com){:target="_blank"}
-+ Rahul Sadafule [:material-mail-fast:](mailto:rahul@appzoy.com){:target="_blank"}
-+ Sameer Sawarkar [:material-mail-fast:](mailto:sameer.s@neurosynaptic.com){:target="_blank"}
++ Shyam Prakash [shyam.p@appzoy.com](mailto:shyam.p@appzoy.com){:target="_blank"}
++ Rajeev Kumar [rajeev@neurosynaptic.com](mailto:rajeev@neurosynaptic.com){:target="_blank"}
++ Rahul Sadafule [rahul@appzoy.com](mailto:rahul@appzoy.com){:target="_blank"}
++ Sameer Sawarkar [sameer.s@neurosynaptic.com](mailto:sameer.s@neurosynaptic.com){:target="_blank"}
