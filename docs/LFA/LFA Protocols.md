@@ -35,7 +35,7 @@ The DROP workflow, diagrammed in Figure 1 below, includes experimental design, e
 
 ## :simple-materialdesignicons: **Experimental design**
 
-Experimental design on the RoboLFA system 
+Experimental design on the RoboLFA system can be as simple or complex as needed. The system is designed to be flexible and accommodate a range of experimental designs. Some examples of variables that can be optimized using the RoboLFA system are shown in Figure 2 below.
 
 ![LFA Experimental Design](./images/LFA experimental design.png) <br>
 <small>Figure 2. Examples of variables that can be optimized using the RoboLFA system. </small>
