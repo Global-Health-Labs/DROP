@@ -46,6 +46,7 @@ There are three different Github repositories (repos) associated with RADA, the 
 
 6. Modifications to Reagent Plates (LFA only)
 
+RADA was developed in close partnership with a team from Neurosynaptic Communications. Contact their team for any additional scope of work that may be desired for future versions of RADA. 
 
 Older versions of the web application and related code can be found at these links:
 
