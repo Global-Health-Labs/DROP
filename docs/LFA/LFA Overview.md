@@ -2,7 +2,7 @@ Lateral Flow Assays (LFAs) are a popular diagnostic technology that enables soph
 
 An example of a traditional LFA is shown in Figure 1 below. This is an example of a direct immunoassay, where a capture antibody is immobilized on the test membrane that is specific to the analyte of interest. A control antibody is immobilized on a second line to verify that the test results can be interpreted correctly. Antibodies conjugated to a label, often a gold or latex nanoparticle, are dried into a conjugate pad placed upstream from the test membrane. Before the conjugate pad, a sample pad is placed onto which the sample and/or running buffers are placed when the LFA is run. Downstream from the test membrane is a wicking pad, which helps to drive fluid flow through the test membrane. 
 
-![LFA Background](/images/Figure%201%20revision-01.png) <br>
+![LFA Background](./images/Figure%201%20revision-01.png) <br>
 <small>Figure 1. Schematic of a classic LFA, from https://doi.org/10.1007/s00216-022-03897-9. The image depicts the materials involved in an LFA, which often includes a sample pad, a conjugate pad, a test membrane onto which a test and control ine are striped, and a wicking pad to drive flow (A). Typical use involves the addition of a sample and/or buffer to the sample pad, which flows downstream to rehydrate the conjugate dried into the conjugate pad (B). Liquid then moves into the test membrane onto which a test and/or control line will appear depending on whether analyte is present in the sample. All remaining liquid and unbound proteins then flow into the wicking pad. </small>
 
 While an LFA is designed to be an quick and easy to use diagnostic, there are a lot of components that go into the optimization process. This includes, but is not limited to: 
