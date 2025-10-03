@@ -1,0 +1,1835 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../RADA%20Overview/">
+      
+      
+        <link rel="next" href="../RADA%20Admin%20Capabilities/">
+      
+      
+      <link rel="icon" href="../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.21">
+    
+    
+      
+        <title>User Experience - Diagnostic Robotic Optimization Platform (DROP)</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.2a3383ac.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+  
+  
+    
+      
+      
+    
+  
+  
+  <style>:root{--md-admonition-icon--note:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Cpath%20d%3D%22M1%207.775V2.75C1%201.784%201.784%201%202.75%201h5.025c.464%200%20.91.184%201.238.513l6.25%206.25a1.75%201.75%200%200%201%200%202.474l-5.026%205.026a1.75%201.75%200%200%201-2.474%200l-6.25-6.25A1.75%201.75%200%200%201%201%207.775m1.5%200c0%20.066.026.13.073.177l6.25%206.25a.25.25%200%200%200%20.354%200l5.025-5.025a.25.25%200%200%200%200-.354l-6.25-6.25a.25.25%200%200%200-.177-.073H2.75a.25.25%200%200%200-.25.25ZM6%205a1%201%200%201%201%200%202%201%201%200%200%201%200-2%22/%3E%3C/svg%3E');}</style>
+
+
+  
+  
+  
+  
+  <style>:root{--md-annotation-icon:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M20%202H4c-1.1%200-2%20.9-2%202v18l4-4h14c1.1%200%202-.9%202-2V4c0-1.1-.9-2-2-2m0%2014H5.2L4%2017.2V4h16zM12.2%205.5c-.9%200-1.6.2-2.1.5-.6.4-.9%201-.8%201.7h2q0-.45.3-.6c.2-.1.4-.2.7-.2s.6.1.8.3.3.4.3.7-.1.5-.2.7c-.2.2-.4.4-.6.5-.5.3-.9.6-1.1.8-.4.3-.5.6-.5%201.1h2c0-.3.1-.5.1-.7.1-.2.3-.3.5-.5.5-.2.8-.5%201.1-.9s.4-.8.4-1.2c0-.7-.3-1.3-.8-1.7-.4-.3-1.2-.5-2.1-.5M11%2012v2h2v-2z%22/%3E%3C/svg%3E');}</style>
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="blue-grey" data-md-color-accent="amber">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#user-experience-lfa-experiment" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Diagnostic Robotic Optimization Platform (DROP)" class="md-header__button md-logo" aria-label="Diagnostic Robotic Optimization Platform (DROP)" data-md-component="logo">
+      
+  <img src="../../images/favicon.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Diagnostic Robotic Optimization Platform (DROP)
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              User Experience
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="blue-grey" data-md-color-accent="amber"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="amber"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Global-Health-Labs/DROP_Overview" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../.." class="md-tabs__link">
+          
+  
+  
+    
+  
+  Project Overview
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../LFA/LFA%20Overview/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  roboLFA Module
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../NAAT/NAAT%20Overview/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  roboNAAT Module
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../RADA%20Overview/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  RADA Web Application
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Diagnostic Robotic Optimization Platform (DROP)" class="md-nav__button md-logo" aria-label="Diagnostic Robotic Optimization Platform (DROP)" data-md-component="logo">
+      
+  <img src="../../images/favicon.svg" alt="logo">
+
+    </a>
+    Diagnostic Robotic Optimization Platform (DROP)
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Global-Health-Labs/DROP_Overview" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../.." class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Project Overview
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_1" id="__nav_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            Project Overview
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../DROP_quickstart/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Quick Start Guide
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Installation%20Instructions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    DROP Installation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_1_4" id="__nav_1_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Troubleshooting Support
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1_4">
+            <span class="md-nav__icon md-icon"></span>
+            Troubleshooting Support
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Common%20Errors/LogFile/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    LogFile
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Common%20Errors/Worklist%20Errors/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Worklist Errors
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Common%20Errors/Pipette%20Errors/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Pipette Errors
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Common%20Errors/Camera%20Errors/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Camera Errors
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Common%20Errors/Miscellaneous%20Errors/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Miscellaneous Errors
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../glossary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Glossary
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../authors/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contributors
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    roboLFA Module
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            roboLFA Module
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../LFA/LFA%20Overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../LFA/LFA%20Example%20Efforts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Example Efforts
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../LFA/LFA%20Hardware/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Hardware
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Software
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            Software
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../LFA/LFA%20Hamilton%20Files/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Hamilton Files
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../LFA/LFA%20Analysis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    LFA Analysis
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../LFA/LFA%20Protocols/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Protocols
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    roboNAAT Module
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            roboNAAT Module
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../NAAT/NAAT%20Overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../NAAT/NAAT%20Example%20Efforts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Example Efforts
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../NAAT/NAAT%20Hardware/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Hardware
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Software
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            Software
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../NAAT/NAAT%20Hamilton%20Files/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    NAAT Hamilton Files
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../NAAT/Thermocycler%20Analysis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Thermocycler Analysis
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../NAAT/NAAT%20Protocols/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Protocols
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    RADA Web Application
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            RADA Web Application
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../RADA%20Overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    User Experience
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    User Experience
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#user-experience-lfa-experiment" class="md-nav__link">
+    <span class="md-ellipsis">
+      User Experience - LFA experiment
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="User Experience - LFA experiment">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#input-experimental-details" class="md-nav__link">
+    <span class="md-ellipsis">
+      Input experimental details
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#download-worklist-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      Download worklist file(s)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#view-robot-instructions-to-load-deck" class="md-nav__link">
+    <span class="md-ellipsis">
+      View robot instructions to load deck
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#user-experience-naat-experiment" class="md-nav__link">
+    <span class="md-ellipsis">
+      User Experience - NAAT experiment
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="User Experience - NAAT experiment">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#input-experimental-details_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Input experimental details
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#download-worklist-files_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Download worklist file(s)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#view-robot-instructions-to-load-deck_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      View robot instructions to load deck
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../RADA%20Admin%20Capabilities/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Admin Capabilities
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Manual%20Worklist%20Generation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Manual Worklist Generation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#user-experience-lfa-experiment" class="md-nav__link">
+    <span class="md-ellipsis">
+      User Experience - LFA experiment
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="User Experience - LFA experiment">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#input-experimental-details" class="md-nav__link">
+    <span class="md-ellipsis">
+      Input experimental details
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#download-worklist-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      Download worklist file(s)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#view-robot-instructions-to-load-deck" class="md-nav__link">
+    <span class="md-ellipsis">
+      View robot instructions to load deck
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#user-experience-naat-experiment" class="md-nav__link">
+    <span class="md-ellipsis">
+      User Experience - NAAT experiment
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="User Experience - NAAT experiment">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#input-experimental-details_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Input experimental details
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#download-worklist-files_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Download worklist file(s)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#view-robot-instructions-to-load-deck_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      View robot instructions to load deck
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+  <h1>User Experience</h1>
+
+<p>The RADA application features two distinct experiment tabs, one for LFA experiment and another for NAAT experiments. There are separated due to differences in the experimental design, especially regarding the addition of non-plate based hardware. Modifications can be made to widen the range of protocols that RADA can generate as needed.</p>
+<p><img alt="RADA Main Page" src="../images/RADA_homepage.PNG" /> <br>
+<small>Figure 1. Home page of RADA web application. LFA and NAAT tabs contain experiments for their respective chemistries. </small></p>
+<h2 id="user-experience-lfa-experiment">User Experience - LFA experiment</h2>
+<p>Generated LFA experiments can be found in the LFA tab. A new experiment can be generated by selecting "New Experiment" or by copying an existing experiment. </p>
+<h3 id="input-experimental-details"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 2v2h1v14a4 4 0 0 0 4 4 4 4 0 0 0 4-4V4h1V2zm4 14c-.6 0-1-.4-1-1s.4-1 1-1 1 .4 1 1-.4 1-1 1m2-4c-.6 0-1-.4-1-1s.4-1 1-1 1 .4 1 1-.4 1-1 1m1-5h-4V4h4z"/></svg></span> <strong>Input experimental details</strong></h3>
+<p>Fill out the information required on the "New LFA Experiment" page (Figure 2). </p>
+<p><img alt="LFA new experiment" src="../images/RADA_LFA_experiment_page1.PNG" /> <br>
+<small>Figure 2. Create a new LFA experiment allows the user to input information required for a given experiment. </small></p>
+<p>The items that need to be filled out include:</p>
+<ul>
+<li>Name of experiment </li>
+<li>Deck layout</li>
+<li>Assay plate configuration </li>
+<li>Number of technical replicates</li>
+<li>Option to make an experiment preset that will appear in the "New Experiment" drop down. </li>
+</ul>
+<p>Both the Deck Layout and Assay Plate Configuration dropdown menus are populated with predefined setups created by RADA administrators. These configurations help standardize experiment setup and ensure compatibility with automated workflows.</p>
+<p>Deck Layout refers to the layout of plates and tubes on the Hamilton deck. The deck layout must be consistent between the web application, the Hamilton Layout file, and the physical location of items on the Hamilton STAR.</p>
+<p>Assay Plate Configuration refers to the assay holder (cassette, strip, etc) corresponding to the experiment being run. </p>
+<p>Once the Deck Layout or Assay Plate Configuration have been selected, a preview of the selected configuration will be visible when hovering over the preview icon. </p>
+<p><img alt="LFA Deck Layout" src="../images/RADA_LFA_experiment_layout_info.PNG" /> <br>
+<small>Figure 3. Hover over the icon to preview the selected deck layout. </small></p>
+<p><img alt="LFA Assay Plate Configuration" src="../images/RADA_LFA_experiment_holder_info.PNG" /> <br>
+<small>Figure 4. Hover over the icon to preview the selected assay plate configuration. </small></p>
+<p>Once completed, select "Save and Continue". </p>
+<p>The next page allows the user to Configure the LFA experiment steps. The form will pop up with one step, and more steps can be added by selecting the "Add step" button on the bottom right. </p>
+<p>The information required for each step include:</p>
+<ul>
+<li>Step name.</li>
+<li>Liquid type to be pipetted. Select "Imaging" if the step is an imaging step. </li>
+<li>Volume to be pipetted. Note: Numbers can use decimals and are recommended to be between 1-1000uL for the current configuration. </li>
+<li>Time delay in seconds if a time delay is required between this and the subsequent step. </li>
+<li>Variable conditions for the experiment. The worklist generator will take the input variables and use a full factorial DoE to run all combinations of the input conditions. Keep an eye on the number of conditions and number of replicates to ensure that there are enough spots on the given deck layout to run the desired experiment. </li>
+</ul>
+<p><img alt="Configure LFA Experiment Steps" src="../images/RADA_LFA_experiment_page2.PNG" /> <br>
+<small>Figure 5. Screen to load LFA experiment steps. </small></p>
+<p><img alt="Configure LFA Experiment Steps Example" src="../images/RADA_LFA_experiment_page2_loaded.PNG" /> <br>
+<small>Figure 6. Screen with an example of loaded experiment steps. </small></p>
+<p>The order of the steps can be adjusted by using the icon with six dots on the left of the Step Name. </p>
+<p>Once the experiment details are finalized, select "Save and Continue"</p>
+<h3 id="download-worklist-files"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M96 0C60.7 0 32 28.7 32 64v384c0 35.3 28.7 64 64 64h80V400c0-35.3 28.7-64 64-64h176V170.5c0-17-6.7-33.3-18.7-45.3L290.7 18.7C278.7 6.7 262.5 0 245.5 0zm261.5 176H264c-13.3 0-24-10.7-24-24V58.5zM264 380c-24.3 0-44 19.7-44 44v80c0 24.3 19.7 44 44 44h16c24.3 0 44-19.7 44-44v-8c0-11-9-20-20-20s-20 9-20 20v8c0 2.2-1.8 4-4 4h-16c-2.2 0-4-1.8-4-4v-80c0-2.2 1.8-4 4-4h16c2.2 0 4 1.8 4 4v8c0 11 9 20 20 20s20-9 20-20v-8c0-24.3-19.7-44-44-44zm136 0c-28.7 0-52 23.3-52 52s23.3 52 52 52c6.6 0 12 5.4 12 12s-5.4 12-12 12h-32c-11 0-20 9-20 20s9 20 20 20h32c28.7 0 52-23.3 52-52s-23.3-52-52-52c-6.6 0-12-5.4-12-12s5.4-12 12-12h24c11 0 20-9 20-20s-9-20-20-20zm96 0c-11 0-20 9-20 20v31.6c0 35.5 10.5 70.3 30.2 99.8l5.1 7.7c3.7 5.6 10 8.9 16.6 8.9s12.9-3.3 16.6-8.9l5.1-7.7c19.7-29.6 30.2-64.3 30.2-99.8V400c0-11-9-20-20-20s-20 9-20 20v31.6c0 19.6-4.1 38.9-12 56.7-7.9-17.8-12-37.1-12-56.7V400c0-11-9-20-20-20z"/></svg></span> <strong>Download worklist file(s)</strong></h3>
+<p>Worklist file can be downloaded from the "Export Experiment" page. This file serves as the input for controlling the Hamilton Venus run.</p>
+<p><img alt="Download Worklist Files" src="../images/RADA_LFA_experiment_page3.PNG" /> <br>
+<small>Figure 7. Export Experiment Files Page. </small></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The downloaded file is a CSV UTF-8. The DROP method does not recognize CSV UTF-8; the downloaded worklist must be saved as a plain .csv file. </p>
+</div>
+<h3 id="view-robot-instructions-to-load-deck"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 21h8v-8H3m2 2h4v4H5m-2-8h8V3H3m2 2h4v4H5m8-6v8h8V3m-2 6h-4V5h4m-1 11h3v2h-3v3h-2v-3h-3v-2h3v-3h2Z"/></svg></span> <strong>View robot instructions to load deck</strong></h3>
+<p>To enter the Worklist Viewer, select "View Instructions". This viewer contains all the information to correctly load reagents into plates and position the plates on the deck in their designated locations.</p>
+<p><img alt="Worklist Viewer" src="../images/RADA_LFA_Experiment_page4.PNG" /> <br>
+<small>Figure 8. Page designed to support the set up of the reagents and plates onto the Hamilton Deck. </small></p>
+<p>Once an experiment is created, it is saved in the application's built-in database. Experiments can be referenced at any time after creation and maybe modified or reloaded as needed. Additionally, completed experiments can be loaded with associated LogFiles and experimental data for further analysis or review.</p>
+<p><img alt="Worklist Viewer" src="../images/RADA_LFA_experiment_summary.PNG" /> <br>
+<small>Figure 9. Experiment summary for example LFA experiment. </small></p>
+<h2 id="user-experience-naat-experiment">User Experience - NAAT experiment</h2>
+<p>All generated NAAT experiments can be viewed in the NAAT tab. To create a new experiment, select "New Experiment", or duplicate an existing one using the copy option. Presets for commonly used protocols are also available in this tab to streamline setup.</p>
+<h3 id="input-experimental-details_1"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 2v2h1v14a4 4 0 0 0 4 4 4 4 0 0 0 4-4V4h1V2zm4 14c-.6 0-1-.4-1-1s.4-1 1-1 1 .4 1 1-.4 1-1 1m2-4c-.6 0-1-.4-1-1s.4-1 1-1 1 .4 1 1-.4 1-1 1m1-5h-4V4h4z"/></svg></span> <strong>Input experimental details</strong></h3>
+<p>Fill out the information required on the "New NAAT Experiment" page (Figure 10). </p>
+<p><img alt="NAAT new experiment" src="../images/RADA_NAAT_experiment_page1.PNG" /> <br>
+<small>Figure 10. Create a new NAAT experiment allows the user to input information required for a given experiment. </small></p>
+<p>The items that need to be filled out include:</p>
+<ul>
+<li>Name of experiment </li>
+<li>Deck layout</li>
+<li>Number of samples: this number should include the negative control</li>
+<li>Number of technical replicates </li>
+<li>Mastermix volume: the volume of mastermix only per reaction, not the total reaction volume</li>
+<li>Sample volume</li>
+<li>Liquid type for mastermix liquid</li>
+<li>Liquid type for sample liquid </li>
+<li>Liquid type for mixing step of mastermix (especially important if the mastermix contents are highly viscous or containing detergent)</li>
+<li>PCR plates size: dropdown with options for 96 and 384 wells</li>
+<li>Option to make an experiment preset that will appear in the "New Experiment" drop down. </li>
+</ul>
+<p>The Deck Layout drop down menu displays configurations created by RADA. For more details on how these configurations are managed, refer to the Admin Capabilities section.</p>
+<p>Once the Deck Layout has been selected, a preview of the selected configuration will be visible when hovering over the preview icon. </p>
+<p>Once completed, select "Save and Continue". </p>
+<p>Configure master mix components. On the next page, users can configure the steps of their NAAT experiment. Each master mix is loaded into a dedicated section, which can include as many components as needed.</p>
+<p>The form initially displays one master mix by default. To add additional steps, simply click the "Add Master mix" button located at the bottom right of the page.</p>
+<p>The information required for each step include:</p>
+<ul>
+<li>Master mix name</li>
+<li>Source name: the identity of the reagent (i.e. water, buffer, dNTPs, DNA pol, etc)</li>
+<li>Concentration unit: drop down menu with options for concentration value will apply to both the final and stock concentration inputs</li>
+<li>Final concentration desired in mastermix</li>
+<li>Stock concentration: starting concentration for reagent</li>
+<li>Liquid type to be pipetted: drop down menu that correlates with the respective liquid class</li>
+</ul>
+<p>The order in which reagents are listed determines the sequence in which they will be added by the machine. To adjust the order, use the six-dot handle on the far right of each step to drag and rearrange items as needed. Similarly, master mix sections can be reordered to match your desired workflow or protocol sequence.</p>
+<p><img alt="Configure NAAT Experiment Steps" src="../images/RADA_NAAT_experiment_page2.PNG" /> <br>
+<small>Figure 11. Screen to load NAAT experiment steps, with example information loaded. </small></p>
+<p>To reduce repetitive setup, mastermixes can be copied. This can be done by selecting the three-bar menu located in the upper right corner of the mastermix header. This feature allows for quick duplication and easy modification of existing steps.</p>
+<p><img alt="Configure NAAT Experiment Steps" src="../images/RADA_NAAT_experiment_dropdown.PNG" /> <br>
+<small>Figure 12. Dropdown to allow for addition of reagents to a mastermix, copy or delete the mastermix. </small></p>
+<p>Once the experiment details are finalized, select "Save and Continue"</p>
+<h3 id="download-worklist-files_1"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M96 0C60.7 0 32 28.7 32 64v384c0 35.3 28.7 64 64 64h80V400c0-35.3 28.7-64 64-64h176V170.5c0-17-6.7-33.3-18.7-45.3L290.7 18.7C278.7 6.7 262.5 0 245.5 0zm261.5 176H264c-13.3 0-24-10.7-24-24V58.5zM264 380c-24.3 0-44 19.7-44 44v80c0 24.3 19.7 44 44 44h16c24.3 0 44-19.7 44-44v-8c0-11-9-20-20-20s-20 9-20 20v8c0 2.2-1.8 4-4 4h-16c-2.2 0-4-1.8-4-4v-80c0-2.2 1.8-4 4-4h16c2.2 0 4 1.8 4 4v8c0 11 9 20 20 20s20-9 20-20v-8c0-24.3-19.7-44-44-44zm136 0c-28.7 0-52 23.3-52 52s23.3 52 52 52c6.6 0 12 5.4 12 12s-5.4 12-12 12h-32c-11 0-20 9-20 20s9 20 20 20h32c28.7 0 52-23.3 52-52s-23.3-52-52-52c-6.6 0-12-5.4-12-12s5.4-12 12-12h24c11 0 20-9 20-20s-9-20-20-20zm96 0c-11 0-20 9-20 20v31.6c0 35.5 10.5 70.3 30.2 99.8l5.1 7.7c3.7 5.6 10 8.9 16.6 8.9s12.9-3.3 16.6-8.9l5.1-7.7c19.7-29.6 30.2-64.3 30.2-99.8V400c0-11-9-20-20-20s-20 9-20 20v31.6c0 19.6-4.1 38.9-12 56.7-7.9-17.8-12-37.1-12-56.7V400c0-11-9-20-20-20z"/></svg></span> <strong>Download worklist file(s)</strong></h3>
+<p>Worklist files can be downloaded from the Export Experiment page. These files are used as input for the Hamilton VENUS Run Control system.</p>
+<p>The NAAT worklist generator produces two separate files:
+Master mix Worklist – handles the mixing and aliquoting of the master mix.
+Sample Worklist – manages the aliquoting of the samples.</p>
+<p>This separation ensures precise execution and easier troubleshooting during automated runs.</p>
+<p><img alt="Download Worklist Files" src="../images/RADA_NAAT_experiment_page3.PNG" /> <br>
+<small>Figure 13. Export Experiment Files Page. </small></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The downloaded file is a CSV UTP-8 type. The DROP method does not recognize CSV UTF-8; the downloaded worklist must be saved as a plain .csv file.</p>
+</div>
+<h3 id="view-robot-instructions-to-load-deck_1"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 21h8v-8H3m2 2h4v4H5m-2-8h8V3H3m2 2h4v4H5m8-6v8h8V3m-2 6h-4V5h4m-1 11h3v2h-3v3h-2v-3h-3v-2h3v-3h2Z"/></svg></span> <strong>View robot instructions to load deck</strong></h3>
+<p>To enter the Worklist Viewer, select "View Instructions". This viewer contains all the information to correctly load reagents into plates and position the plates on the deck in their designated locations.</p>
+<p><img alt="Worklist Viewer" src="../images/RADA_NAAT_experiment_page4.PNG" /> <br>
+<small>Figure 14. Page designed to support the set up of the reagents and plates onto the Hamilton Deck. </small></p>
+<p>The worklist viewer has five sections:</p>
+<ol>
+<li>Reagent loading section – This section lists all reagents required for the experiment, including solution name (based on user input), plate name, well number, and a check box to indicate when a reagent has been loaded. Selecting a row will highlight the corresponding locations in both the Plate Layout and Deck Layout. </li>
+<li>Plate Layout – Displays the layout of a given plate, 96 or 384. When selected the corresponding well will be highlighted in black. </li>
+<li>Deck Layout – Shows the robot's deck configuration. When a reagent is selected, the associated plate is highlighted in black, mirroring the Plate Layout behavior. </li>
+<li>Instructions – When a reagent row is selected, this panel provides detailed loading instructions, including: Solution name, volume to be pipetted, well and plate ID. This helps users accurately load reagents with the correct volume and location.</li>
+</ol>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../RADA%20Overview/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Overview">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Overview
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../RADA%20Admin%20Capabilities/" class="md-footer__link md-footer__link--next" aria-label="Next: Admin Capabilities">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Admin Capabilities
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.indexes", "navigation.tracking", "navigation.path", "navigation.tracking", "content.code.copy", "navigation.footer"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+    
+  </body>
+</html>

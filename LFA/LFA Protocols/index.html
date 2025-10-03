@@ -1,0 +1,2109 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../LFA%20Analysis/">
+      
+      
+        <link rel="next" href="../../NAAT/NAAT%20Overview/">
+      
+      
+      <link rel="icon" href="../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.21">
+    
+    
+      
+        <title>Protocols - Diagnostic Robotic Optimization Platform (DROP)</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.2a3383ac.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+  
+  
+    
+      
+      
+    
+  
+  
+  <style>:root{--md-admonition-icon--note:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Cpath%20d%3D%22M1%207.775V2.75C1%201.784%201.784%201%202.75%201h5.025c.464%200%20.91.184%201.238.513l6.25%206.25a1.75%201.75%200%200%201%200%202.474l-5.026%205.026a1.75%201.75%200%200%201-2.474%200l-6.25-6.25A1.75%201.75%200%200%201%201%207.775m1.5%200c0%20.066.026.13.073.177l6.25%206.25a.25.25%200%200%200%20.354%200l5.025-5.025a.25.25%200%200%200%200-.354l-6.25-6.25a.25.25%200%200%200-.177-.073H2.75a.25.25%200%200%200-.25.25ZM6%205a1%201%200%201%201%200%202%201%201%200%200%201%200-2%22/%3E%3C/svg%3E');}</style>
+
+
+  
+  
+  
+  
+  <style>:root{--md-annotation-icon:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M20%202H4c-1.1%200-2%20.9-2%202v18l4-4h14c1.1%200%202-.9%202-2V4c0-1.1-.9-2-2-2m0%2014H5.2L4%2017.2V4h16zM12.2%205.5c-.9%200-1.6.2-2.1.5-.6.4-.9%201-.8%201.7h2q0-.45.3-.6c.2-.1.4-.2.7-.2s.6.1.8.3.3.4.3.7-.1.5-.2.7c-.2.2-.4.4-.6.5-.5.3-.9.6-1.1.8-.4.3-.5.6-.5%201.1h2c0-.3.1-.5.1-.7.1-.2.3-.3.5-.5.5-.2.8-.5%201.1-.9s.4-.8.4-1.2c0-.7-.3-1.3-.8-1.7-.4-.3-1.2-.5-2.1-.5M11%2012v2h2v-2z%22/%3E%3C/svg%3E');}</style>
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="blue-grey" data-md-color-accent="amber">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#experiment-checklist" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Diagnostic Robotic Optimization Platform (DROP)" class="md-header__button md-logo" aria-label="Diagnostic Robotic Optimization Platform (DROP)" data-md-component="logo">
+      
+  <img src="../../images/favicon.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Diagnostic Robotic Optimization Platform (DROP)
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Protocols
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="blue-grey" data-md-color-accent="amber"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="amber"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Global-Health-Labs/DROP_Overview" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../.." class="md-tabs__link">
+          
+  
+  
+    
+  
+  Project Overview
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../LFA%20Overview/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  roboLFA Module
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../NAAT/NAAT%20Overview/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  roboNAAT Module
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Web%20App/RADA%20Overview/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  RADA Web Application
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Diagnostic Robotic Optimization Platform (DROP)" class="md-nav__button md-logo" aria-label="Diagnostic Robotic Optimization Platform (DROP)" data-md-component="logo">
+      
+  <img src="../../images/favicon.svg" alt="logo">
+
+    </a>
+    Diagnostic Robotic Optimization Platform (DROP)
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Global-Health-Labs/DROP_Overview" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../.." class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Project Overview
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_1" id="__nav_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            Project Overview
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../DROP_quickstart/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Quick Start Guide
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Installation%20Instructions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    DROP Installation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_1_4" id="__nav_1_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Troubleshooting Support
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1_4">
+            <span class="md-nav__icon md-icon"></span>
+            Troubleshooting Support
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Common%20Errors/LogFile/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    LogFile
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Common%20Errors/Worklist%20Errors/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Worklist Errors
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Common%20Errors/Pipette%20Errors/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Pipette Errors
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Common%20Errors/Camera%20Errors/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Camera Errors
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Common%20Errors/Miscellaneous%20Errors/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Miscellaneous Errors
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../glossary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Glossary
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../authors/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contributors
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    roboLFA Module
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            roboLFA Module
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../LFA%20Overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../LFA%20Example%20Efforts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Example Efforts
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../LFA%20Hardware/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Hardware
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Software
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            Software
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../LFA%20Hamilton%20Files/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Hamilton Files
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../LFA%20Analysis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    LFA Analysis
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Protocols
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Protocols
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#experiment-checklist" class="md-nav__link">
+    <span class="md-ellipsis">
+      Experiment Checklist
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#experimental-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      Experimental design
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#experiment-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      Experiment Setup
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Experiment Setup">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#adjusting-hardware-for-lfa" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adjusting hardware for LFA
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Adjusting hardware for LFA">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cassette-holder-adjustments" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cassette holder adjustments
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#strip-holder-adjustments" class="md-nav__link">
+    <span class="md-ellipsis">
+      Strip holder adjustments
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adjusting-labware-definition-for-lfa" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adjusting labware definition for LFA
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adjusting-rada-for-strip" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adjusting RADA for strip
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adjusting-imaging-for-strip" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adjusting imaging for strip
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#optimizing-liquid-classes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Optimizing liquid classes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#generate-worklists" class="md-nav__link">
+    <span class="md-ellipsis">
+      Generate worklist(s)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#experiment-validation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Experiment Validation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#run-experiment" class="md-nav__link">
+    <span class="md-ellipsis">
+      Run Experiment
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      Data Analysis
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    roboNAAT Module
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            roboNAAT Module
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../NAAT/NAAT%20Overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../NAAT/NAAT%20Example%20Efforts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Example Efforts
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../NAAT/NAAT%20Hardware/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Hardware
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Software
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            Software
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../NAAT/NAAT%20Hamilton%20Files/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    NAAT Hamilton Files
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../NAAT/Thermocycler%20Analysis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Thermocycler Analysis
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../NAAT/NAAT%20Protocols/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Protocols
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    RADA Web Application
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            RADA Web Application
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Web%20App/RADA%20Overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Web%20App/RADA%20User%20Experience/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    User Experience
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Web%20App/RADA%20Admin%20Capabilities/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Admin Capabilities
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Web%20App/Manual%20Worklist%20Generation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Manual Worklist Generation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#experiment-checklist" class="md-nav__link">
+    <span class="md-ellipsis">
+      Experiment Checklist
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#experimental-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      Experimental design
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#experiment-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      Experiment Setup
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Experiment Setup">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#adjusting-hardware-for-lfa" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adjusting hardware for LFA
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Adjusting hardware for LFA">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cassette-holder-adjustments" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cassette holder adjustments
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#strip-holder-adjustments" class="md-nav__link">
+    <span class="md-ellipsis">
+      Strip holder adjustments
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adjusting-labware-definition-for-lfa" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adjusting labware definition for LFA
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adjusting-rada-for-strip" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adjusting RADA for strip
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adjusting-imaging-for-strip" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adjusting imaging for strip
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#optimizing-liquid-classes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Optimizing liquid classes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#generate-worklists" class="md-nav__link">
+    <span class="md-ellipsis">
+      Generate worklist(s)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#experiment-validation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Experiment Validation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#run-experiment" class="md-nav__link">
+    <span class="md-ellipsis">
+      Run Experiment
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      Data Analysis
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+  <h1>Protocols</h1>
+
+<p>The DROP workflow, diagrammed in Figure 1 below, includes experimental design, experiment setup, experiment validation, running the experiment, and data analysis. This document specifically covers the procedures for Steps 3 and 4: experiment validation and running the experiment. Additional information about assay specific worklist generation and data analysis can be found in their respective pages. </p>
+<p><img alt="DROP Quickstart" src="../images/DROP%20workflow%20overview.png" /> <br>
+<small>Figure 1. High level overview of the DROP workflow. This workflow includes (1) Experimental design (2) Experiment setup (3) Experiment validation (4) Running an experiment and (5) Data analysis. In most applications, futher iteration would continue until product criteria are met.  </small></p>
+<h2 id="experiment-checklist"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M2.5 1.75v11.5c0 .138.112.25.25.25h3.17a.75.75 0 0 1 0 1.5H2.75A1.75 1.75 0 0 1 1 13.25V1.75C1 .784 1.784 0 2.75 0h8.5C12.216 0 13 .784 13 1.75v7.736a.75.75 0 0 1-1.5 0V1.75a.25.25 0 0 0-.25-.25h-8.5a.25.25 0 0 0-.25.25m13.274 9.537zl-4.557 4.45a.75.75 0 0 1-1.055-.008l-1.943-1.95a.75.75 0 0 1 1.062-1.058l1.419 1.425 4.026-3.932a.75.75 0 1 1 1.048 1.074M4.75 4h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5M4 7.75A.75.75 0 0 1 4.75 7h2a.75.75 0 0 1 0 1.5h-2A.75.75 0 0 1 4 7.75"/></svg></span> <strong>Experiment Checklist</strong></h2>
+<p><strong><em>A. Preparing for the experiment:</em></strong>  </p>
+<ol>
+<li>Design experimental protocol </li>
+<li>Design, source, and build LFA components </li>
+<li>Identify and define additional liquid classes or hardware requirements within the Hamilton software, if needed  </li>
+<li>Source appropriate reagents, pipette tips, plates, LFAs, and custom LFA-specific hardware  </li>
+<li>Generate experiment worklist file  </li>
+<li>Validate worklist file in simulation mode within the Hamilton software </li>
+<li>Make modifications to worklist as needed <br />
+<em>Note plate locations and number of tips used</em>  </li>
+</ol>
+<p><strong><em>B. Running the experiment:</em></strong>  </p>
+<ol>
+<li>Prepare Hamilton STAR instrument deck   </li>
+<li>Spray down deck with cleaning solution  </li>
+<li>Complete Daily Maintenance. Skip, if already completed for the day.   </li>
+<li>Load all required tips onto instrument  </li>
+<li>Load reagents and samples into corresponding plates    </li>
+<li>Place all reagent plates, sample plates, LFAs and associated custom LFA-specific hardware onto Hamilton STAR instrument deck  </li>
+<li>Run worklist(s) on Hamilton STAR using Hamilton software  </li>
+</ol>
+<p><strong><em>C. Finalizing experiment:</em></strong>  </p>
+<ol>
+<li>Verify data has been acquired and saved in appropriate folders  </li>
+<li>Clean up Hamilton STAR instrument deck, reusable custom LFA-specific hardware, and dispose of materials appropriately  </li>
+<li>Analyze data using GH Labs image analysis software  </li>
+<li>Prepare documentation of results and analysis   </li>
+</ol>
+<h2 id="experimental-design"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M0 0h7.2v2.4h9.6V0H24v7.2h-2.4v9.6H24V24h-7.2v-2.4H7.2V24H0v-7.2h2.4V7.2H0zm16.8 7.2V4.8H7.2v2.4H4.8v9.6h2.4v2.4h9.6v-2.4h2.4V7.2M2.4 2.4v2.4h2.4V2.4m14.4 0v2.4h2.4V2.4M2.4 19.2v2.4h2.4v-2.4m14.4 0v2.4h2.4v-2.4z"/></svg></span> <strong>Experimental design</strong></h2>
+<p>Experimental design on the RoboLFA system can be as simple or complex as needed. The system is designed to be flexible and accommodate a range of experimental designs. Some examples of variables that can be optimized using the RoboLFA system are shown in Figure 2 below.</p>
+<p><img alt="LFA Experimental Design" src="../images/LFA%20experimental%20design.png" /> <br>
+<small>Figure 2. Examples of variables that can be optimized using the RoboLFA system. </small></p>
+<h2 id="experiment-setup"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 2v2h1v14a4 4 0 0 0 4 4 4 4 0 0 0 4-4V4h1V2zm4 14c-.6 0-1-.4-1-1s.4-1 1-1 1 .4 1 1-.4 1-1 1m2-4c-.6 0-1-.4-1-1s.4-1 1-1 1 .4 1 1-.4 1-1 1m1-5h-4V4h4z"/></svg></span> <strong>Experiment Setup</strong></h2>
+<p>An LFA effort on the DROP system begins by preparing the hardware and software for a given assay. Most often, we'll start with a strip or cassette with specific dimensions that correspond to the overall size of the assay, the pipetting location(s), and the read window. </p>
+<p><img alt="LFA Strip vs Cassette Examples" src="../images/LFA%20dimension%20examples.png" /> <br>
+<small>Figure 3. Examples of a strip LFA (A) and cassetted LFA (B) with some example dimensions that may be required. Not pictured are the height dimensions that are important when programming pipetting steps. It is recommended to measure using a caliper or other highly accurate measurement tool. </small></p>
+<p>For a given LFA, make sure to take note of the important x, y, and z locations that will need to be incorporated for the hardware and software. </p>
+<h3 id="adjusting-hardware-for-lfa"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.87 11.525c.071.013.13.084.13.157v3.033a.166.166 0 0 1-.13.157l-2.875.535a.24.24 0 0 0-.17.151l-.898 2.242a.25.25 0 0 0 .017.229l1.633 2.379a.17.17 0 0 1-.02.204l-2.144 2.144a.17.17 0 0 1-.203.019l-2.338-1.604a.23.23 0 0 0-.224-.008l-1.03.55a.12.12 0 0 1-.17-.062l-2.125-5.135a.16.16 0 0 1 .062-.192l.258-.158c.048-.03.113-.08.163-.125a3.354 3.354 0 1 0-3.612 0c.05.046.115.096.163.125l.258.158a.16.16 0 0 1 .062.192L8.552 21.65a.12.12 0 0 1-.17.063l-1.03-.55a.23.23 0 0 0-.224.007L4.79 22.775a.17.17 0 0 1-.204-.019l-2.145-2.144a.17.17 0 0 1-.019-.204l1.633-2.38a.25.25 0 0 0 .017-.228l-.897-2.242a.24.24 0 0 0-.17-.15L.13 14.871a.166.166 0 0 1-.13-.157v-3.032c0-.073.059-.144.13-.157l2.947-.548a.25.25 0 0 0 .175-.15l.903-2.108a.25.25 0 0 0-.014-.227L2.424 5.989a.17.17 0 0 1 .019-.203L4.587 3.64a.166.166 0 0 1 .204-.019L7.337 5.37c.06.041.163.048.229.016l2.043-.836c.07-.023.137-.1.15-.173l.567-3.047a.17.17 0 0 1 .157-.131h3.034c.073 0 .143.059.157.13l.567 3.048a.25.25 0 0 0 .15.173l2.043.836a.25.25 0 0 0 .23-.016l2.546-1.748a.166.166 0 0 1 .203.02l2.144 2.144c.052.051.06.143.02.203l-1.718 2.503a.25.25 0 0 0-.014.227l.903 2.108a.26.26 0 0 0 .175.15z"/></svg></span>  <strong>Adjusting hardware for LFA</strong></h3>
+<h4 id="cassette-holder-adjustments">Cassette holder adjustments</h4>
+<p>The cassette holder is made from laser cut acrylic that has a grid to consistently space cassettes inside the deck of the Hamilton STAR. To modify for a given LFA, start by measuring the width and the length of the LFA cassette. Make adjustments to the CAD file (link) so that the cassette can fit inside the rectangle cut from the acrylic. Make sure to keep the spacing between rectangles consistent in both the x and y dimensions, as this will be important when making labware adjustments. </p>
+<h4 id="strip-holder-adjustments">Strip holder adjustments</h4>
+<p>The strip holder is made 3D printed parts and holds either 8 or 16-qty LFAs of various lengths and sizes. To modify for a given LFA, measure the width and length of the strip and adjust the posts on the base CAD file accordingly. Next, measure the distances where LFA components overlap and modify the bars on the top part CAD file to ensure that they apply pressure in the appropriate locations and allow for proper liquid flow. </p>
+<p>When moving the bars of the top piece, ensure that the imaging area (i.e., where test and control lines are striped on the analytical membrane) is unobstructed and available for imaging. Make sure to keep the spacing between the strips consistent in both the x and y dimensions, as this will be important when making labware adjustments.</p>
+<p><img alt="Labware Editor Step 1" src="../images/Labware%20Editor%20step%201.png" /> <br>
+<small>Figure 4. Screenshot of the first dialog window in Hamilton Labware Editor where key parameters for hardware are specified. </small></p>
+<p><img alt="Labware Editor Step 2" src="../images/Labware%20Editor%20step%202.png" /> <br>
+<small>Figure 5. Screenshot of the second dialog window in Hamilton Labware Editor where key parameters for hardware are specified. </small></p>
+<p>Following the creation of a new labware definition, it is important to perform a verification of the location of the first position, using the Hamilton teaching needle. To do so:</p>
+<ol>
+<li>Open the relevant layout file</li>
+<li>Add the labware to the deck layout if needed</li>
+<li>Right click the labware on the deck. Select "Adjust Location" from the drop down menu. </li>
+<li>Make the necessary adjustments to the x, y, and z locations as appropriate. More detailed training on this process can be found inn VENUS Basic and Advanced Training Courses (https://hamilton.trainingplus.ch/en/page/hamilton-training). </li>
+</ol>
+<p><img alt="Labware Editor Step 2.5" src="../images/Labware%20location%20nagivation.PNG" /> <br>
+<small>Figure 6. Screenshot depicting navigation to Labware Position adjustment. </small></p>
+<p><img alt="Labware Editor Step 3" src="../images/Labware%20Editor%20step%203.png" /> <br>
+<small>Figure 7. Screenshot detailing adjustment of Labware Position in the Hamilton Layout File. </small></p>
+<h3 id="adjusting-labware-definition-for-lfa"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.87 11.525c.071.013.13.084.13.157v3.033a.166.166 0 0 1-.13.157l-2.875.535a.24.24 0 0 0-.17.151l-.898 2.242a.25.25 0 0 0 .017.229l1.633 2.379a.17.17 0 0 1-.02.204l-2.144 2.144a.17.17 0 0 1-.203.019l-2.338-1.604a.23.23 0 0 0-.224-.008l-1.03.55a.12.12 0 0 1-.17-.062l-2.125-5.135a.16.16 0 0 1 .062-.192l.258-.158c.048-.03.113-.08.163-.125a3.354 3.354 0 1 0-3.612 0c.05.046.115.096.163.125l.258.158a.16.16 0 0 1 .062.192L8.552 21.65a.12.12 0 0 1-.17.063l-1.03-.55a.23.23 0 0 0-.224.007L4.79 22.775a.17.17 0 0 1-.204-.019l-2.145-2.144a.17.17 0 0 1-.019-.204l1.633-2.38a.25.25 0 0 0 .017-.228l-.897-2.242a.24.24 0 0 0-.17-.15L.13 14.871a.166.166 0 0 1-.13-.157v-3.032c0-.073.059-.144.13-.157l2.947-.548a.25.25 0 0 0 .175-.15l.903-2.108a.25.25 0 0 0-.014-.227L2.424 5.989a.17.17 0 0 1 .019-.203L4.587 3.64a.166.166 0 0 1 .204-.019L7.337 5.37c.06.041.163.048.229.016l2.043-.836c.07-.023.137-.1.15-.173l.567-3.047a.17.17 0 0 1 .157-.131h3.034c.073 0 .143.059.157.13l.567 3.048a.25.25 0 0 0 .15.173l2.043.836a.25.25 0 0 0 .23-.016l2.546-1.748a.166.166 0 0 1 .203.02l2.144 2.144c.052.051.06.143.02.203l-1.718 2.503a.25.25 0 0 0-.014.227l.903 2.108a.26.26 0 0 0 .175.15z"/></svg></span>  <strong>Adjusting labware definition for LFA</strong></h3>
+<p>It is generally advised to maintain the x and y spacings of the LFA cassette and strip holders to avoid having to generate a new hardware definition. A hardware definition for custom 80- and 96-cassette holders, as well as for a 16-qty LFA strip holder plate already exist and are fully described in other locations of this document. </p>
+<p>If a new holder configuration is needed, due to incompatible dimensions with existing hardware, a new hardware labware layout can be created on the Hamilton Method Editor software (Tools&gt;Labware Editor…&gt;Create New Labware). An example screenshot of a strip holder layout can be found below. Some important parameters that need to be defined are the offset distance of the front left most pipetting location (e.g., sample well), the spacing between strips in the x and y direction, the location of the first strip, and the order sequence of strips on the holder. Ensure that the newly created labware definition is saved.  </p>
+<h3 id="adjusting-rada-for-strip"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 10v9H5V5h9V3H5c-1.08 0-2 .9-2 2v14c0 1.1.92 2 2 2h14c1.12 0 2-.9 2-2v-9zm-2 0 .94-2.06L20 7l-2.06-.94L17 4l-.94 2.06L14 7l2.06.94zm-3.75.75L12 8l-1.25 2.75L8 12l2.75 1.25L12 16l1.25-2.75L16 12z"/></svg></span> <strong>Adjusting RADA for strip</strong></h3>
+<p>New LFA strip hardware requires the creation of a new assay plate configuration on the RADA application. Important variables to document based on the custom dimensions of the new hardware are: the number of rows and columns of cassettes or strips that fit on the plate, and the location corresponding to specific spots where pipetting (i.e., sample addition, conjugate addition, etc.) and imaging steps take place. </p>
+<p>The locations are generally represented as the offset distance (i.e., dx, dz) from the first position of the strip, as specified in the labware definition. More detailed information on this process can be accessed in the admin capabilities section of the RADA documentation.  </p>
+<h3 id="adjusting-imaging-for-strip"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 4h3l2-2h6l2 2h3a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2m8 3a5 5 0 0 0-5 5 5 5 0 0 0 5 5 5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 2a3 3 0 0 1 3 3 3 3 0 0 1-3 3 3 3 0 0 1-3-3 3 3 0 0 1 3-3"/></svg></span> <strong>Adjusting imaging for strip</strong></h3>
+<p>The LFA image analysis code relies on input variables identified by the user to guide analysis of the lines, such as:</p>
+<ul>
+<li>Rough region of interest (ROI) to guide the code on specific locations and dimensions of the read window</li>
+<li>Color channel for analysis </li>
+<li>Signal type: line or spot</li>
+<li>Number of spots or lines</li>
+<li>Locations of spots or lines in relation to one another</li>
+</ul>
+<p>Once the dimensions and spacing of the LFA inside the strip holder or cassette have been finalized, the LFA analysis code should be modified so More detailed information on the process of modifying these variables can be found <a href="../LFA%20Analysis/">here</a>.</p>
+<h3 id="optimizing-liquid-classes"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M192 512C86 512 0 426 0 320 0 228.8 130.2 45.9 166.6-3.5c5.9-8 15.2-12.5 25.2-12.5h.4c10 0 19.3 4.5 25.2 12.5C253.8 45.9 384 228.8 384 320c0 106-86 192-192 192m-80-200c0-13.3-10.7-24-24-24s-24 10.7-24 24c0 75.1 60.9 136 136 136 13.3 0 24-10.7 24-24s-10.7-24-24-24c-48.6 0-88-39.4-88-88"/></svg></span> <strong>Optimizing liquid classes</strong></h3>
+<p>The DROP system has a library of liquid classes that can be used to run experiments. These liquid classes are modified to have the precise pipetting protocol to enable consistent pipetting for a given liquid class. It is important to precisely tune a liquid class for the liquids that will be pipetted during an experiment on the DROP system. Some of the parameters that are included are flow rate, air transport volume, blowout volume, settling time, and more. More information can be found in the CO-RE Liquid Editor Help section. Liquid classes can defined using the Hamilton Liquid Verification Kit (LVK). When more liquid classes are made, or when an existing liquid class is validated for a new liquid, they will undergo performance qualification. The list below includes liquid classes used commonly for the LFA system. </p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Liquid Class</th>
+<th style="text-align: left;">Tip size</th>
+<th style="text-align: left;">Dispense Type</th>
+<th style="text-align: left;">Recommended validation for:</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">RoboLFA_tip50_spot_JetEmpty</td>
+<td style="text-align: left;">50</td>
+<td style="text-align: left;">Jet Empty</td>
+<td style="text-align: left;">Antibody and conjugate solutions</td>
+</tr>
+<tr>
+<td style="text-align: left;">RoboLFA_tip300_buffer_JetEmpty</td>
+<td style="text-align: left;">300</td>
+<td style="text-align: left;">Jet Empty</td>
+<td style="text-align: left;">LFA running buffer</td>
+</tr>
+<tr>
+<td style="text-align: left;">RoboLFA_tip300_buffer_SurfaceEmpty</td>
+<td style="text-align: left;">300</td>
+<td style="text-align: left;">Surface Empty</td>
+<td style="text-align: left;">LFA running buffer</td>
+</tr>
+<tr>
+<td style="text-align: left;">RoboLFA_tip50_buffer_JetEmpty</td>
+<td style="text-align: left;">50</td>
+<td style="text-align: left;">Jet Empty</td>
+<td style="text-align: left;">LFA running buffer</td>
+</tr>
+<tr>
+<td style="text-align: left;">RoboLFA_tip50_buffer_SurfaceEmpty</td>
+<td style="text-align: left;">50</td>
+<td style="text-align: left;">Surface Empty</td>
+<td style="text-align: left;">LFA running buffer</td>
+</tr>
+<tr>
+<td style="text-align: left;">RoboLFA_tip50_plasma_JetEmpty</td>
+<td style="text-align: left;">50</td>
+<td style="text-align: left;">Jet Empty</td>
+<td style="text-align: left;">Plasma or similar</td>
+</tr>
+<tr>
+<td style="text-align: left;">RoboLFA_tip50_plasma_SurfaceEmpty</td>
+<td style="text-align: left;">50</td>
+<td style="text-align: left;">Surface Empty</td>
+<td style="text-align: left;">Plasma or similar</td>
+</tr>
+<tr>
+<td style="text-align: left;">RoboLFA_tip50_water_JetEmpty</td>
+<td style="text-align: left;">50</td>
+<td style="text-align: left;">Jet Empty</td>
+<td style="text-align: left;">Water</td>
+</tr>
+<tr>
+<td style="text-align: left;">RoboLFA_tip50_water_SurfaceEmpty</td>
+<td style="text-align: left;">50</td>
+<td style="text-align: left;">Surface Empty</td>
+<td style="text-align: left;">Water</td>
+</tr>
+</tbody>
+</table>
+<p>Once all of the above activities have been completed, the system is ready to run an LFA effort. An example checklist is shown below to step through the process from beginning to end. </p>
+<h3 id="generate-worklists"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21.17 3.25q.33 0 .59.25.24.24.24.58v15.84q0 .34-.24.58-.26.25-.59.25H7.83q-.33 0-.59-.25-.24-.24-.24-.58V17H2.83q-.33 0-.59-.24Q2 16.5 2 16.17V7.83q0-.33.24-.59Q2.5 7 2.83 7H7V4.08q0-.34.24-.58.26-.25.59-.25M7 13.06l1.18 2.22h1.79L8 12.06l1.93-3.17H8.22L7.13 10.9l-.04.06-.03.07q-.26-.53-.56-1.07-.25-.53-.53-1.07H4.16l1.89 3.19L4 15.28h1.78m8.1 4.22V17H8.25v2.5m5.63-3.75v-3.12H12v3.12m1.88-4.37V8.25H12v3.13M13.88 7V4.5H8.25V7m12.5 12.5V17h-5.62v2.5m5.62-3.75v-3.12h-5.62v3.12m5.62-4.37V8.25h-5.62v3.13M20.75 7V4.5h-5.62V7Z"/></svg></span> <strong>Generate worklist(s)</strong></h3>
+<p>Worklists can be generated using the Robotic Assay Development Application (RADA) or through manual methods. An explanation on how to make a worklist using either method can be found in the RADA tab. </p>
+<h2 id="experiment-validation"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12 12 2.33 4H9.68zm0-4L6.21 18H17.8zm0-6L1 21h22zm0 4 7.53 13H4.47z"/></svg></span> <strong>Experiment Validation</strong></h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>All worklists must first be run in simulation mode to identify any potential problems before running the actual experiment. Use simulation mode to do the following: </p>
+<ul>
+<li>Verify run by watching the deck layout.</li>
+<li>Optional: verify run using the trace file.</li>
+<li>Optional and recommended: add animation in the method. The animation provides realistic virtual x, y, z visualization. Animation only applies for VENUS 4, and not for VENUS 6.</li>
+</ul>
+</div>
+<ol>
+<li>To validate the worklist(s) generated for the experiment, first launch VENUS software </li>
+<li>
+<p>Using the three dots on the right-hand side of the relevant shortcut to access the menu, in either the “Frequently Used” portion of the window or the “Shortcuts” section, select “Simulate Method”. Once selected, Run Control will open and prepare to run the method in simulation mode.  </p>
+<p><img alt="Simulation Mode" src="../images/Simulate%20Method%20Nav.png" /> <br>
+<small>Figure 8. Navigation to enter Simulation Mode in VENUS 6 software. </small></p>
+</li>
+<li>
+<p>Confirm that the system is in simulation mode in the upper left corner of the window. Once confirmed, click the blue play button to begin the simulation. </p>
+<p><img alt="Simulate Method Run Control" src="../images/Simulate%20Method%20Run%20Control.png" /> <br>
+<small>Figure 9. In Run Control, the mode can be viewed by noting the name listed next to “Instrument”.  In simulation mode, the programmed steps will not be sent to the machine itself. Instead they are sent to a virtual machine that simulates the entire method. In instrument mode, the programmed steps will be sent to the machine. All worklists should first be validated in simulation mode. </small></p>
+</li>
+<li>
+<p>The following setup pop-up will appear. Select the worklist file for this experiment by clicking on the “…” button and navigating to the specific file. Once the worklist is loaded, the “Run” button will become active. Click “Run”. </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The worklist file must be a .csv file that ends with worklist.csv. If the file is of another type, the Hamilton software will not recognize it. </p>
+<p><strong>Developer notes:</strong> The Hamilton Method was developed in collaboration with the Hamilton Apps team. It inputs a *worklist.csv file where each row in the document corresponds to one robot step. The method file is intended to be flexible for a range of experimental designs. More information about this document, called a “worklist” can be found in the RADA tab.</p>
+</div>
+<p><img alt="Run Pop Up" src="../images/Run%20Method%20Pop%20Up.png" /> <br>
+<small>Figure 10. Pop-up window once the method is started. Load the worklist file from a location on the local machine. Animation can be selected or deselected depending on operator preference. Click the “Run” button to start the operation.</small></p>
+</li>
+<li>
+<p>Tip counters will appear. Update the tip count for all tip types by clicking on the first available tip in each rack. Make sure to be precise. If there are not enough virtual tips, the Method will error.  For simulation, the best practice is to fill all locations of each tip type. This will inform the total number of tips that must be loaded onto the instrument when running the experiment. Click “OK” when done. </p>
+<p><img alt="Tip Counters" src="../images/Tip%20Counters.png" /> <br>
+<small>Figure 11. Example pop-up windows that appear to indicate what tips are present on the deck. Make sure enough tips are loaded virtually to cover the steps written in the worklist. This can be checked in Simulation Mode.</small></p>
+</li>
+<li>
+<p>Run simulation and observe for any potential errors. </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li>Errors in the worklist can prevent the method from running to completion, and a notification will appear with information to fix the error. </li>
+<li>Common errors include having the wrong liquid class for the volume or dispense type selected, choosing a location that doesn’t exist on the deck, or having incorrect group numbering. Other errors will allow the worklist to run without errors but still indicate a problem with the worklist. These errors are typically due to incorrectly noting the plate or well number on the deck. More information about these errors can be found in the Troubleshooting section.</li>
+<li>There are a few different windows that can be present during simulation.  It is recommended to focus on the “Instrument” window and the “Traces” window. These two windows will allow the operator to see what is happening and identify the cause of any potential error.  </li>
+</ul>
+<p><em>Note: The other optional windows that can be included in the simulation view are the “Activities” and “Scheduler” windows, however these are not useful for the current methods.</em></p>
+<ul>
+<li>The length of the simulation will depend on the type and number of steps included in the worklist. </li>
+</ul>
+</div>
+<p><img alt="VENUS Method Running" src="../images/VENUS%20Method%20Running.png" /> <br>
+<small>Figure 12. Run Control when the method is running.</small></p>
+</li>
+<li>
+<p>Verification and troubleshooting: </p>
+<ul>
+<li>If everything ran correctly, a “Method Complete” message will appear. If not, an error message will pop up. </li>
+<li>Note the error and open the logfile to get more information. Once the issue has been identified, refer to the DROP Troubleshooting: Quick Guide document for common problems and how to fix them. </li>
+</ul>
+</li>
+<li>Note the plate and tip locations. <ul>
+<li>If the run is completed successfully, note the location of the plates and tips used. </li>
+<li>It is recommended to take a screenshot and save it into a virtual laboratory notebook to assist with experimental set up. </li>
+</ul>
+</li>
+</ol>
+<p><img alt="Deck after simulation" src="../images/Deck%20after%20simulation.png" /> <br>
+<small>Figure 13. Example screenshots of methods run on the Hamilton Method. An ideal screenshot will show both the number of tips used and the plate locations that are required.</small></p>
+<h2 id="run-experiment"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.41 4 16 6.41v.18L18.41 9H22v2h-4.41L16 9.41V12h-1a2 2 0 0 1-2-2V7.5H9.86c-.09.37-.24.72-.44 1.05L15.18 19H20a2 2 0 0 1 2 2v1H2v-1a2 2 0 0 1 2-2h6.61l-4.69-8.5a4.006 4.006 0 0 1-3.81-3A4 4 0 0 1 5 2.63c2.13-.55 4.31.73 4.86 2.87H13V3a2 2 0 0 1 2-2h1v2.59L17.59 2H22v2zM6 4.5a2 2 0 0 0-2 2 2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2"/></svg></span> <strong>Run Experiment</strong></h2>
+<ol>
+<li>Run daily maintenance. Before running an experiment. To do so, launch the Instrument Maintenence Program and follow the step by step instructions provided. </li>
+<li>If required, turn on the cooling pump at least 1 hour before the experiment to ensure that the carreirs have reached the required temperature. Make sure there is enough liquid in the chiller. </li>
+<li>Wipe down the deck with an appropriate cleaning solution. </li>
+<li>Add a new biohazard bag intot he waste container. </li>
+<li>Ensure there are no potential obstructions to the movement of the channels. </li>
+<li>Set up labware according to the deck layout as required by the corresponding Layout and Worklist files. </li>
+<li>Load pipette tips into their respective locations. The number of tips required can be determined from the simulation run. </li>
+<li>Load all reagents and materials onto the deck. Verify that each piece of labware fits correctly. </li>
+<li>Close the front shield of the instrument and verify there is no interference nearby. </li>
+<li>Open VENUS software and return to the Home Page in the Navigation Bar. Load the method by selecting the shortcut or by choosing from "Run History". </li>
+<li>
+<p>Confirm that VENUS software is in insturment mode by noting the name listed next to "Instrument" in the Run Control Window. </p>
+<p><img alt="Run Control Experiment" src="../images/Run%20Control%20Experiment.png" /> <br>
+<small>Figure 14. The view in Run Control when an experiment has been started in instrument mode. Note the machine’s ID to ensure that the system is connected to the Hamilton STAR.</small></p>
+</li>
+<li>
+<p>Select the blue play button to begin the run. </p>
+</li>
+<li>
+<p>The pop up shown in figure 10 will appear. Attach the worklist file that corresponds to the experiment and select "Run". </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The method can be run with or without animation when in instrument mode. </p>
+</div>
+</li>
+<li>
+<p>Using the information gained from simulation mode, verify the number of tips loaded for the experiment. Update tip count for all tip types by selecting the first available tip in each rack. Make sure to be precise. Select "ok" when done. </p>
+</li>
+<li>
+<p>Run the method, watching the instrument and/or the trace for any potential errors. The first time a new worklist is run, stay by the instrument in case of an incident. Should a problem arise, select either the “Pause” or “Abort” buttons in the run control window. </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Make sure there are enough pipette tips on the deck for the experiment programmed. The system will not notice that there are not enough tips until it runs out.   </p>
+</div>
+</li>
+<li>
+<p>If an error message appears, refer to the Troubleshooting section for assistance. </p>
+</li>
+<li>Clean up:<ul>
+<li>Remove all consumables except for tips from the deck. </li>
+<li>Seal all plates (especially any plates containing template) and place immediately in biohazard. </li>
+<li>Remove biohazard bag, tie, and place immediately in biohazard bin. </li>
+<li>Spray down deck with ethanol and/or bleach (experiment/sample dependent)</li>
+<li>Clean up any spills and debris, as necessary. </li>
+<li>Turn off the cooling pump if used. </li>
+</ul>
+</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">General Precautions</p>
+<ul>
+<li>Do not insert arms and hands when the robot is running. </li>
+<li>Do not switch tubes around once processing has begun. </li>
+<li>Do not reuse tips that have been discarded into the waste.</li>
+<li>Do not empty the tip waste while the instrument is running. </li>
+<li>Do not leave tips on the pipetting channels for extended periods (such as overnight).</li>
+<li>Shield the instrument from direct sunlight or intense artificial light. </li>
+<li>Do not place anything on the deck higher than 145mm above the deck’s surface.</li>
+<li>Close the front cover during the run. The front cover is monitored by software and will abort the method if left open. </li>
+<li>Low volume (10µL) tips do not reach the deck or the bottom of sample tubes in standard sample carriers</li>
+<li>Load tips correctly. 50µL and 300µL tips have the same shoulder height and cannot be used interchangeably.</li>
+<li>Depending on the assay, certain chemistries are more stable on the deck when stored at 4°C than others. Additional chemistry specific testing may be required. </li>
+</ul>
+</div>
+<h2 id="data-analysis"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M1.5 1.75V13.5h13.75a.75.75 0 0 1 0 1.5H.75a.75.75 0 0 1-.75-.75V1.75a.75.75 0 0 1 1.5 0m14.28 2.53-5.25 5.25a.75.75 0 0 1-1.06 0L7 7.06 4.28 9.78a.75.75 0 0 1-1.042-.018.75.75 0 0 1-.018-1.042l3.25-3.25a.75.75 0 0 1 1.06 0L10 7.94l4.72-4.72a.75.75 0 0 1 1.042.018.75.75 0 0 1 .018 1.042"/></svg></span> <strong>Data Analysis</strong></h2>
+<p>Analyze data as described in the LFA Software tab. Repeat process as required. </p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../LFA%20Analysis/" class="md-footer__link md-footer__link--prev" aria-label="Previous: LFA Analysis">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                LFA Analysis
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../../NAAT/NAAT%20Overview/" class="md-footer__link md-footer__link--next" aria-label="Next: Overview">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Overview
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.indexes", "navigation.tracking", "navigation.path", "navigation.tracking", "content.code.copy", "navigation.footer"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+    
+  </body>
+</html>
