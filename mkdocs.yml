@@ -1,5 +1,5 @@
 site_name: Diagnostic Robotic Optimization Platform (DROP)
-repo_url: https://github.com/Global-Health-Labs/DROP_Overview
+repo_url: https://github.com/Global-Health-Labs/DROP
 #site_url: 
 theme:
   name: material
